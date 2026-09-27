@@ -1,405 +1,405 @@
 {
-  "label": "Character Options",
+  "label": "Opções de Personagem",
   "folders": {
-    "Species": "Species",
-    "Backgrounds": "Backgrounds",
-    "Light Domain": "Light Domain",
+    "Species": "Espécies",
+    "Backgrounds": "Antecedentes",
+    "Light Domain": "Domínio da Luz",
     "Subclasses": "Subclasses",
-    "Features": "Features",
-    "Spells": "Spells",
-    "Human Features": "Human Features",
-    "Eldritch Knight": "Eldritch Knight",
-    "Abjurer": "Abjurer",
-    "Assassin": "Assassin",
-    "Elf Features": "Elf Features"
+    "Features": "Características",
+    "Spells": "Magias",
+    "Human Features": "Características do Humano",
+    "Eldritch Knight": "Cavaleiro Místico",
+    "Abjurer": "Abjurador",
+    "Assassin": "Assassino",
+    "Elf Features": "Características do Elfo"
   },
   "entries": {
     "Acolyte": {
-      "name": "Acolyte",
-      "description": "<p>You devoted yourself to service in a temple. There you performed rites and learned how to channel divine power in service to your place of worship and the people who prayed there.</p><p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Guidance} and @UUID[Compendium.dnd5e.spells24.Item.phbsplSparetheDy]{Spare the Dying} cantrips. You can also cast the ­@UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detect Evil and Good} spell once per Long Rest without expending a spell slot.</p>",
+      "name": "Acólito",
+      "description": "<p>Você se dedicou ao serviço em um templo. Lá, realizou rituais e aprendeu a canalizar poder divino a serviço do seu local de adoração e das pessoas que oravam ali.</p><p>Você conhece os truques @UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Orientação} e @UUID[Compendium.dnd5e.spells24.Item.phbsplSparetheDy]{Poupar os Moribundos}. Você também pode conjurar a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplDetectEvil]{Detectar o Bem e o Mal} uma vez por Descanso Longo sem gastar um espaço de magia.</p>",
       "advancement": {
         "Acolyte Cantrips": {
-          "name": "Acolyte Cantrips"
+          "name": "Truques do Acólito"
         },
         "Acolyte Spells": {
-          "name": "Acolyte Spells"
+          "name": "Magias do Acólito"
         }
       }
     },
     "Criminal": {
-      "name": "Criminal",
-      "description": "<p><strong>Fast Initiative.</strong> When you roll Initiative, you can add your Proficiency Bonus to the roll.</p><p><strong>Initiative Swap.</strong> Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can’t make this swap if you or the ally has the &amp;Reference[Incapacitated] condition.</p><section class=\"secret\" id=\"secret-yzfXk3D5M1jv9ixH\"><p><strong>Foundry Note</strong></p><p>This feature automatically includes the bonus to your Initiative.</p></section>",
+      "name": "Criminoso",
+      "description": "<p><strong>Iniciativa Rápida.</strong> Quando você rolar Iniciativa, pode adicionar seu Bônus de Proficiência à rolagem.</p><p><strong>Troca de Iniciativa.</strong> Imediatamente após rolar Iniciativa, você pode trocar sua Iniciativa pela Iniciativa de um aliado disposto no mesmo combate. Você não pode fazer essa troca se você ou o aliado estiver com a condição &Reference[Incapacitated].</p><section class=\"secret\" id=\"secret-yzfXk3D5M1jv9ixH\"><p><strong>Nota do Foundry</strong></p><p>Esta característica inclui automaticamente o bônus à sua Iniciativa.</p></section>",
       "effects": {
         "Alert": {
-          "name": "Alert"
+          "name": "Alerta"
         }
       }
     },
     "hotbCriminal0000": {
-      "name": "Criminal",
-      "description": "<p>You eked out a living in dark alleyways, cutting purses or burgling shops. Your criminal past might be behind you—or maybe not—but a lifetime of staying alert gives you these benefits:</p><p><strong>Fast Initiative:</strong> When you roll Initiative, you can add 2 to the roll.</p><p><strong>Initiative Swap:</strong> Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can’t make this swap if you or the ally has the Incapacitated condition.</p>"
+      "name": "Criminoso",
+      "description": "<p>Você ganhava a vida em becos escuros, furtando bolsas ou arrombando lojas. Seu passado criminoso pode ter ficado para trás — ou talvez não —, mas uma vida inteira mantendo-se alerta lhe concede estes benefícios:</p><p><strong>Iniciativa Rápida:</strong> Quando você rolar Iniciativa, pode adicionar 2 à rolagem.</p><p><strong>Troca de Iniciativa:</strong> Imediatamente após rolar Iniciativa, você pode trocar sua Iniciativa pela Iniciativa de um aliado disposto no mesmo combate. Você não pode fazer essa troca se você ou o aliado estiver com a condição Incapacitado.</p>"
     },
     "Elf": {
-      "name": "Elf",
-      "description": "<p><strong>Size:</strong> Your size is Medium.</p><p><strong>Darkvision:</strong> You have Darkvision with a range of 60 feet.</p><p><strong>Elf Magic:</strong> You know the Druidcraft Cantrip. At level 3, also take the Longstrider Spell.</p><p><strong>Fey Ancestry:</strong> You have Advantage on saving throws you make to avoid or end the &amp;Reference[Charmed apply=false] condition.</p><p><strong>Fleet:</strong> Your Speed increases to 35 feet.</p><p><strong>Sharp Senses:</strong> You have a +2 bonus to Wisdom (Survival) checks.</p>",
+      "name": "Elfo",
+      "description": "<p><strong>Tamanho:</strong> Seu tamanho é Médio.</p><p><strong>Visão no Escuro:</strong> Você possui Visão no Escuro com alcance de 18 metros.</p><p><strong>Magia Élfica:</strong> Você conhece o Truque Arte Druídica. No 3º nível, também adquire a magia Passos Longos.</p><p><strong>Ancestralidade Feérica:</strong> Você tem Vantagem nos testes de resistência que fizer para evitar ou encerrar a condição &Reference[Charmed apply=false].</p><p><strong>Ágil:</strong> Seu Deslocamento aumenta para 10,5 metros.</p><p><strong>Sentidos Aguçados:</strong> Você recebe um bônus de +2 em testes de Sabedoria (Sobrevivência).</p>",
       "advancement": {
         "5w2FaHXRKiN7v1rE": {
-          "hint": "Medium (about 5–6 feet tall)"
+          "hint": "Médio (cerca de 1,5–1,8 metro de altura)"
         },
         "Elf Traits": {
-          "name": "Elf Traits"
+          "name": "Características do Elfo"
         }
       }
     },
     "Elf Magic": {
-      "name": "Elf Magic",
-      "description": "<p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Druidcraft} Cantrip. At level 3, also take the @UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Longstrider} Spell and can use it once without expending a spell slot.</p>",
+      "name": "Magia Élfica",
+      "description": "<p>Você conhece o Truque @UUID[Compendium.dnd5e.spells24.Item.phbsplDruidcraft]{Arte Druídica}. No 3º nível, também adquire a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplLongstride]{Passos Longos} e pode usá-la uma vez sem gastar um espaço de magia.</p>",
       "advancement": {
         "Elf Magic": {
-          "name": "Elf Magic"
+          "name": "Magia Élfica"
         },
         "Elf Traits": {
-          "name": "Elf Traits",
-          "hint": "Intelligence, Wisdom, or Charisma can be chosen for your spellcasting ability."
+          "name": "Características do Elfo",
+          "hint": "Inteligência, Sabedoria ou Carisma pode ser escolhido como seu atributo de conjuração."
         }
       }
     },
     "Entertainer": {
-      "name": "Entertainer",
-      "description": "<p>You followed roving fairs and carnivals, performing odd jobs for acrobats and musicians in exchange for lessons. To this day, you thrive on applause and long for the stage.</p><p>After you finish a Short or Long Rest, you can perform an uplifting song and give &amp;Reference[inspiration] to up to two allies who hear the song.</p>"
+      "name": "Artista",
+      "description": "<p>Você acompanhava feiras e carnavais itinerantes, realizando trabalhos diversos para acrobatas e músicos em troca de aulas. Até hoje, você prospera com aplausos e anseia pelo palco.</p><p>Após terminar um Descanso Curto ou Longo, você pode executar uma canção inspiradora e conceder &Reference[inspiration] a até dois aliados que ouçam a canção.</p>"
     },
     "Farmer": {
-      "name": "Farmer",
-      "description": "<p>You grew up close to the land. Years tending animals and cultivating the earth rewarded you with patience and good health.</p><p>Increase your Hit Point maximum by 2. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points. The additional Hit Points are added automatically.</p>"
+      "name": "Fazendeiro",
+      "description": "<p>Você cresceu próximo à terra. Anos cuidando de animais e cultivando a terra lhe concederam paciência e boa saúde.</p><p>Aumente seu máximo de Pontos de Vida em 2. Sempre que adquirir um nível de personagem posteriormente, seu máximo de Pontos de Vida aumenta em 2 Pontos de Vida adicionais. Os Pontos de Vida adicionais são adicionados automaticamente.</p>"
     },
     "hotbFarmerFeatur": {
-      "name": "Farmer",
-      "description": "<p>Increase your Hit Point maximum by 2. Whenever you gain a character level thereafter, your Hit Point maximum increases by an additional 2 Hit Points. The additional Hit Points are added automatically.</p>",
+      "name": "Fazendeiro",
+      "description": "<p>Aumente seu máximo de Pontos de Vida em 2. Sempre que adquirir um nível de personagem posteriormente, seu máximo de Pontos de Vida aumenta em 2 Pontos de Vida adicionais. Os Pontos de Vida adicionais são adicionados automaticamente.</p>",
       "effects": {
         "Farmer": {
-          "name": "Farmer"
+          "name": "Fazendeiro"
         }
       }
     },
     "Fleet": {
-      "name": "Fleet",
-      "description": "<p>Your Speed increases to 35 feet.</p>"
+      "name": "Ágil",
+      "description": "<p>Seu Deslocamento aumenta para 10,5 metros.</p>"
     },
     "Guide": {
-      "name": "Guide",
-      "description": "<p>You explored the wonders of the wilderness: strange monsters, pristine forests and streams, and overgrown ruins. From time to time, you guided friendly nature priests who taught you how to channel the magic of the wild.</p><p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Guidance} and @UUID[Compendium.dnd5e.spells24.Item.phbsplMessage000]{Message} cantrips. You can also cast the @UUID[Compendium.dnd5e.spells24.Item.phbsplGoodberry0]{Goodberry} spell once per Long Rest without expending a spell slot.</p>",
+      "name": "Guia",
+      "description": "<p>Você explorou as maravilhas da natureza: monstros estranhos, florestas e riachos intocados e ruínas tomadas pela vegetação. De tempos em tempos, guiava sacerdotes da natureza amigáveis que lhe ensinavam a canalizar a magia selvagem.</p><p>Você conhece os truques @UUID[Compendium.dnd5e.spells24.Item.phbsplGuidance00]{Orientação} e @UUID[Compendium.dnd5e.spells24.Item.phbsplMessage000]{Mensagem}. Você também pode conjurar a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplGoodberry0]{Frutos da Boa-Fé} uma vez por Descanso Longo sem gastar um espaço de magia.</p>",
       "advancement": {
         "Cantrips": {
-          "name": "Cantrips"
+          "name": "Truques"
         },
         "Spell": {
-          "name": "Spell"
+          "name": "Magia"
         }
       }
     },
     "Halfling": {
       "name": "Halfling",
-      "description": "<p><strong>Size: </strong>Small</p><p><strong>Brave.</strong> You have Advantage on saving throws you make to avoid or end the &amp;Reference[Frightened apply=false] condition.</p><p><strong>Halfling Nimbleness.</strong> You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.</p><p><strong>Luck.</strong> When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.</p><p><strong>Naturally Stealthy.</strong> You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.</p>",
+      "description": "<p><strong>Tamanho: </strong>Pequeno</p><p><strong>Corajoso.</strong> Você tem Vantagem nos testes de resistência que fizer para evitar ou encerrar a condição &Reference[Frightened apply=false].</p><p><strong>Agilidade Halfling.</strong> Você pode se mover pelo espaço de qualquer criatura que seja maior que você, mas não pode terminar no mesmo espaço.</p><p><strong>Sorte.</strong> Quando você rolar 1 no d20 de um Teste de D20, pode rolar novamente o dado, e deve usar a nova rolagem.</p><p><strong>Furtivo por Natureza.</strong> Você pode realizar a ação de Esconder-se mesmo quando estiver obscurecido apenas por uma criatura que seja pelo menos um tamanho maior que você.</p>",
       "advancement": {
         "Halfling Traits": {
-          "name": "Halfling Traits"
+          "name": "Características do Halfling"
         }
       }
     },
     "Hermit": {
-      "name": "Hermit",
-      "description": "<p>Your life well beyond the outskirts of the nearest settlement taught you self-sufficiency. Experience tending to injuries gives you these benefits:</p><p><strong>Combat Healer:</strong> As a Utilize action, you can tend to a creature within 5 feet of yourself. That creature regains 1d8 + 2 Hit Points, and you can’t use Com- bat Healer on it again until it finishes a Long Rest.</p><p><strong>Healing Rerolls:</strong> Whenever you roll a die to determine the number of Hit Points you restore with a spell or with Combat Healer, you can reroll the die if it rolls a 1, and you must use the new roll.</p>"
+      "name": "Eremita",
+      "description": "<p>Sua vida muito além dos arredores do assentamento mais próximo ensinou você a ser autossuficiente. A experiência em tratar ferimentos lhe concede estes benefícios:</p><p><strong>Curandeiro de Combate:</strong> Como uma ação de Utilizar, você pode tratar uma criatura a até 1,5 metro de você. Essa criatura recupera 1d8 + 2 Pontos de Vida, e você não pode usar Curandeiro de Combate nela novamente até que ela termine um Descanso Longo.</p><p><strong>Novas Rolagens de Cura:</strong> Sempre que rolar um dado para determinar o número de Pontos de Vida que recupera com uma magia ou com Curandeiro de Combate, você pode rolar novamente o dado se o resultado for 1, e deve usar a nova rolagem.</p>"
     },
     "hotbHermitFeatur": {
-      "name": "Hermit",
-      "description": "<p>Your life well beyond the outskirts of the nearest settlement taught you self-sufficiency. Experience tending to injuries gives you these benefits:</p><p><strong>Combat Healer:</strong> As a Utilize action, you can tend to a creature within 5 feet of yourself. That creature regains 1d8 + 2 Hit Points, and you can’t use Com- bat Healer on it again until it finishes a Long Rest.</p><p><strong>Healing Rerolls:</strong> Whenever you roll a die to determine the number of Hit Points you restore with a spell or with Combat Healer, you can reroll the die if it rolls a 1, and you must use the new roll.</p><section class=\"secret\" id=\"secret-CYdYEYA4wviDHqpo\"><p><strong>Foundry Note</strong></p><p>The <strong>Heal</strong> activity for Combat Healer includes the automatic reroll but other rolls will have to manually reroll the 1 as described in Healing Rerolls.</p></section>"
+      "name": "Eremita",
+      "description": "<p>Sua vida muito além dos arredores do assentamento mais próximo ensinou você a ser autossuficiente. A experiência em tratar ferimentos lhe concede estes benefícios:</p><p><strong>Curandeiro de Combate:</strong> Como uma ação de Utilizar, você pode tratar uma criatura a até 1,5 metro de você. Essa criatura recupera 1d8 + 2 Pontos de Vida, e você não pode usar Curandeiro de Combate nela novamente até que ela termine um Descanso Longo.</p><p><strong>Novas Rolagens de Cura:</strong> Sempre que rolar um dado para determinar o número de Pontos de Vida que recupera com uma magia ou com Curandeiro de Combate, você pode rolar novamente o dado se o resultado for 1, e deve usar a nova rolagem.</p><section class=\"secret\" id=\"secret-CYdYEYA4wviDHqpo\"><p><strong>Nota do Foundry</strong></p><p>A atividade <strong>Curar</strong> de Curandeiro de Combate inclui a nova rolagem automática, mas outras rolagens precisarão rolar novamente o 1 manualmente, conforme descrito em Novas Rolagens de Cura.</p></section>"
     },
     "Sharp Senses": {
-      "name": "Sharp Senses",
-      "description": "<p>You have proficiency in the Survival skill.</p>"
+      "name": "Sentidos Aguçados",
+      "description": "<p>Você tem proficiência na perícia Sobrevivência.</p>"
     },
     "Likable": {
-      "name": "Likable",
-      "description": "<p>You have a +2 bonus to Charisma (Persuasion) checks.</p>",
+      "name": "Simpático",
+      "description": "<p>Você recebe um bônus de +2 em testes de Carisma (Persuasão).</p>",
       "advancement": {
         "Likable": {
-          "name": "Likable",
-          "hint": "You have a +2 bonus to Charisma (Persuasion) checks."
+          "name": "Simpático",
+          "hint": "Você recebe um bônus de +2 em testes de Carisma (Persuasão)."
         }
       }
     },
     "Fortunate": {
-      "name": "Fortunate",
-      "description": "<p>You have a number of uses equal to your Proficiency Bonus to fuel your good fortune. You can expend one to give yourself Advantage on a D20 Test, or when a creature makes an attack roll against you, you can remove one to impose Disadvantage on that attack roll.</p>",
+      "name": "Afortunado",
+      "description": "<p>Você tem um número de usos igual ao seu Bônus de Proficiência para alimentar sua boa fortuna. Você pode gastar um deles para obter Vantagem em um Teste de D20 ou, quando uma criatura fizer uma rolagem de ataque contra você, pode remover um uso para impor Desvantagem nessa rolagem de ataque.</p>",
       "activities": {
         "Advantage": {
-          "name": "Advantage",
-          "condition": "When you roll a d20 for a D20 Test"
+          "name": "Vantagem",
+          "condition": "Quando você rolar um d20 para um Teste de D20"
         },
         "Disadvantage": {
-          "name": "Disadvantage",
-          "condition": "When a creature rolls a d20 for an attack roll against you"
+          "name": "Desvantagem",
+          "condition": "Quando uma criatura rolar um d20 para uma rolagem de ataque contra você"
         }
       }
     },
     "hotbMusician0000": {
-      "name": "Entertainer",
-      "description": "<p>After you finish a Short or Long Rest, you can perform an uplifting song and give &amp;Reference[Inspiration] to allies (up to your proficiency bonus, starts at 2) who hear the song.</p>"
+      "name": "Artista",
+      "description": "<p>Após terminar um Descanso Curto ou Longo, você pode executar uma canção inspiradora e conceder &Reference[Inspiration] a aliados (até seu bônus de proficiência, começando em 2) que ouçam a canção.</p>"
     },
     "Sage": {
-      "name": "Sage",
-      "description": "<p>You whiled away your days in libraries, studying books and scrolls and learning the lore of the multiverse—even the rudiments of magic.</p><p>You know the @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mage Hand} and @UUID[Compendium.dnd5e.spells24.Item.phbsplMessage000]{Message} cantrips. You can also cast the @UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Shield} spell once per day without expending a Spell Slot.</p>",
+      "name": "Sábio",
+      "description": "<p>Você passava seus dias em bibliotecas, estudando livros e pergaminhos e aprendendo os conhecimentos do multiverso — até mesmo os rudimentos da magia.</p><p>Você conhece os truques @UUID[Compendium.dnd5e.spells24.Item.phbsplMageHand00]{Mão Mágica} e @UUID[Compendium.dnd5e.spells24.Item.phbsplMessage000]{Mensagem}. Você também pode conjurar a magia @UUID[Compendium.dnd5e.spells24.Item.phbsplShield0000]{Escudo} uma vez por dia sem gastar um Espaço de Magia.</p>",
       "advancement": {
         "Sage Cantrips": {
-          "name": "Sage Cantrips"
+          "name": "Truques do Sábio"
         },
         "Sage Spell": {
-          "name": "Sage Spell"
+          "name": "Magia do Sábio"
         }
       }
     },
     "Soldier": {
-      "name": "Soldier",
-      "description": "<p>You have trained intensely for war and carry few memories of what life was like before you took up arms. Battle is in your blood.</p><p>Once per turn when you hit a target with a weapon, you can roll the weapon’s damage dice twice and use either roll against the target.</p>"
+      "name": "Soldado",
+      "description": "<p>Você treinou intensamente para a guerra e guarda poucas lembranças de como era a vida antes de empunhar armas. A batalha está no seu sangue.</p><p>Uma vez por turno, quando atingir um alvo com uma arma, você pode rolar os dados de dano da arma duas vezes e usar qualquer uma das rolagens contra o alvo.</p>"
     },
     "hotbSoldierFeatu": {
-      "name": "Soldier",
-      "description": "<p>Once per turn when you hit a target with a weapon, you can roll the weapon’s damage dice twice and use either roll against the target.</p>"
+      "name": "Soldado",
+      "description": "<p>Uma vez por turno, quando atingir um alvo com uma arma, você pode rolar os dados de dano da arma duas vezes e usar qualquer uma das rolagens contra o alvo.</p>"
     },
     "Protection from Evil and Good": {
-      "name": "Protection from Evil and Good",
-      "description": "<div><p>Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead. The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can't gain the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions from them. If the target is already Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect.</p></div>",
+      "name": "Proteção contra o Bem e o Mal",
+      "description": "<div><p>Até a magia terminar, uma criatura voluntária que você tocar fica protegida contra criaturas que sejam Aberrações, Celestiais, Elementais, Fadas, Ínferos ou Mortos-Vivos. A proteção concede vários benefícios. Criaturas desses tipos têm Desvantagem nas rolagens de ataque contra o alvo. O alvo também não pode obter as condições &Reference[Charmed apply=false] ou &Reference[Frightened apply=false] delas. Se o alvo já estiver Enfeitiçado ou Amedrontado por uma dessas criaturas, o alvo tem Vantagem em qualquer novo teste de resistência contra o efeito relevante.</p></div>",
       "effects": {
         "Protected": {
-          "name": "Protected",
-          "description": "<p>Creatures of those types have Disadvantage on attack rolls against the target. The target also can’t be possessed by or gain the &amp;Reference[Charmed apply=false] or &amp;Reference[Frightened apply=false] conditions from them. </p>"
+          "name": "Protegido",
+          "description": "<p>Criaturas desses tipos têm Desvantagem nas rolagens de ataque contra o alvo. O alvo também não pode ser possuído nem obter as condições &Reference[Charmed apply=false] ou &Reference[Frightened apply=false] delas. </p>"
         }
       }
     },
     "Corona of Light": {
-      "name": "Corona of Light",
-      "description": "<p>As a Magic action, you cause yourself to emit an aura of sunlight that lasts for 1 minute or until you dismiss it (no action required). You emit Bright Light in a 60-foot radius and Dim Light for an additional 30 feet. Your enemies in the Bright Light have Disadvantage on saving throws against your Radiance of the Dawn and any spell that deals Fire or Radiant damage.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-4qUkzR393EmbQxig\"><p><strong>Foundry Note</strong></p><p>This feature includes a target template of 60 feet for tracking the emitted Bright Light and an Active Effect for marking affected creatures but it does not automate the Disadvantage.</p></section>",
+      "name": "Coroa de Luz",
+      "description": "<p>Como uma ação Mágica, você faz com que seu corpo emita uma aura de luz solar que dura 1 minuto ou até que você a dissipe (nenhuma ação necessária). Você emite Luz Plena em um raio de 18 metros e Luz Fraca por mais 9 metros. Seus inimigos sob a Luz Plena têm Desvantagem nos testes de resistência contra sua Radiação da Alvorada e qualquer magia que cause dano de Fogo ou Radiante.</p><p>Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez), e recupera todos os usos gastos ao terminar um Descanso Longo.</p><section class=\"secret\" id=\"secret-4qUkzR393EmbQxig\"><p><strong>Nota do Foundry</strong></p><p>Esta característica inclui um modelo de área de alvo de 18 metros para acompanhar a Luz Plena emitida e um Efeito Ativo para marcar criaturas afetadas, mas não automatiza a Desvantagem.</p></section>",
       "activities": {
         "Emit Aura of Sunlight": {
-          "name": "Emit Aura of Sunlight"
+          "name": "Emitir Aura de Luz Solar"
         }
       },
       "effects": {
         "Corona of Light": {
-          "name": "Corona of Light"
+          "name": "Coroa de Luz"
         }
       }
     },
     "Improved Warding Flare": {
-      "name": "Improved Warding Flare",
-      "description": "<p>You regain all expended uses of your Warding Flare when you finish a Short or Long Rest.</p><p>In addition, whenever you use Warding Flare, you can give the target of the triggering attack a number of Temporary Hit Points equal to 2d6 plus your Wisdom modifier.</p><section class=\"secret\" id=\"secret-7WmcCKWWvsv7V9NG\"><p><strong>Foundry Note</strong></p><p>This feature does not automatically update Warding Flare to refresh on a Short Rest. You must edit the item and set the Recovery period to Short Rest.</p><p>The <strong>Heal</strong> activity includes the Temporary Hit Point healing.</p></section>",
+      "name": "Clarão Protetor Aprimorado",
+      "description": "<p>Você recupera todos os usos gastos de seu Clarão Protetor ao terminar um Descanso Curto ou Longo.</p><p>Além disso, sempre que usar Clarão Protetor, você pode conceder ao alvo do ataque desencadeador um número de Pontos de Vida Temporários igual a 2d6 mais seu modificador de Sabedoria.</p><section class=\"secret\" id=\"secret-7WmcCKWWvsv7V9NG\"><p><strong>Nota do Foundry</strong></p><p>Esta característica não atualiza automaticamente Clarão Protetor para ser recuperado em um Descanso Curto. Você deve editar o item e definir o período de Recuperação como Descanso Curto.</p><p>A atividade <strong>Curar</strong> inclui a cura de Pontos de Vida Temporários.</p></section>",
       "activities": {
         "heal": {
-          "target": "Target of the triggering attack"
+          "target": "Alvo do ataque desencadeador"
         }
       }
     },
     "Light Domain": {
-      "name": "Light Domain",
-      "description": "<blockquote><p>Bring Light to Banish Darkness</p></blockquote><p>The Light Domain emphasizes the divine power to bring about blazing fire and revelation. Clerics who wield this power are enlightened souls infused with radiance and the power of their deities' discerning vision, charged with chasing away lies and burning away darkness.</p><p>The Light Domain is associated with gods of truth, vigilance, beauty, insight, and renewal. Some of these gods are identified with the sun or as charioteers who guide the sun across the sky. Others are sentinels who pierce deception. Some are deities of beauty and artistry who teach that art is a vehicle for the soul's improvement.</p>",
+      "name": "Domínio da Luz",
+      "description": "<blockquote><p>Traga Luz para Banir a Escuridão</p></blockquote><p>O Domínio da Luz enfatiza o poder divino de produzir fogo intenso e revelação. Clérigos que empunham esse poder são almas iluminadas, imbuídas de radiância e do poder da visão perspicaz de suas divindades, encarregados de afastar mentiras e queimar a escuridão.</p><p>O Domínio da Luz está associado a deuses da verdade, vigilância, beleza, percepção e renovação. Alguns desses deuses são identificados com o sol ou como aurigas que conduzem o sol pelo céu. Outros são sentinelas que perfuram o engano. Alguns são divindades da beleza e da arte que ensinam que a arte é um veículo para o aprimoramento da alma.</p>",
       "advancement": {
         "Subclass Features": {
-          "name": "Subclass Features"
+          "name": "Características da Subclasse"
         },
         "Light Domain Spells": {
-          "name": "Light Domain Spells"
+          "name": "Magias do Domínio da Luz"
         }
       }
     },
     "Light Domain Spells": {
-      "name": "Light Domain Spells",
-      "description": "<p>Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Light Domain Spells table, you thereafter always have the listed spells prepared.</p><table><caption>Light Domain Spells</caption><thead><tr><td>Cleric Level</td><td>Prepared Spells</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Burning Hands}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Faerie Fire}, @UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Scorching Ray}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSeeInvisib]{See Invisibility}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Daylight}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Fireball}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{Arcane Eye}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Wall of Fire}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFlameStrik]{Flame Strike}, @UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Scrying}</td></tr></tbody></table><section class=\"secret\" id=\"secret-gGmJsB1mwI4zNuDh\"><p><strong>Foundry Note</strong></p><p>These spells are granted automatically as you advance.</p></section>"
+      "name": "Magias do Domínio da Luz",
+      "description": "<p>Sua conexão com este domínio divino garante que você sempre tenha certas magias preparadas. Quando alcançar um nível de Clérigo especificado na tabela de Magias do Domínio da Luz, você passa a ter sempre as magias listadas preparadas.</p><table><caption>Magias do Domínio da Luz</caption><thead><tr><td>Nível de Clérigo</td><td>Magias Preparadas</td></tr></thead><tbody><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplBurningHan]{Mãos Flamejantes}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFaerieFire]{Fogo das Fadas}, @UUID[Compendium.dnd5e.spells24.Item.phbsplScorchingR]{Raio Ardente}, @UUID[Compendium.dnd5e.spells24.Item.phbsplSeeInvisib]{Ver o Invisível}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplDaylight00]{Luz do Dia}, @UUID[Compendium.dnd5e.spells24.Item.phbsplFireball00]{Bola de Fogo}</td></tr><tr><td>7</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplArcaneEye0]{Olho Arcano}, @UUID[Compendium.dnd5e.spells24.Item.phbsplWallofFire]{Muralha de Fogo}</td></tr><tr><td>9</td><td>@UUID[Compendium.dnd5e.spells24.Item.phbsplFlameStrik]{Golpe de Chamas}, @UUID[Compendium.dnd5e.spells24.Item.phbsplScrying000]{Vidência}</td></tr></tbody></table><section class=\"secret\" id=\"secret-gGmJsB1mwI4zNuDh\"><p><strong>Nota do Foundry</strong></p><p>Essas magias são concedidas automaticamente conforme você avança.</p></section>"
     },
     "Radiance of the Dawn": {
-      "name": "Radiance of the Dawn",
-      "description": "<p>As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to emit a flash of light in a 30-foot Emanation originating from yourself. Any magical &amp;Reference[Darkness]—such as that created by the @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Darkness} spell—in that area is dispelled. Additionally, each creature of your choice in that area must make a Constitution saving throw, taking Radiant damage equal to 2d10 plus your Cleric level on a failed save or half as much damage on a successful one.</p>"
+      "name": "Radiação da Alvorada",
+      "description": "<p>Como uma ação Mágica, você apresenta seu Símbolo Sagrado e gasta um uso de sua Canalização Divina para emitir um clarão de luz em uma Emanação de 9 metros originada em você. Qualquer &Reference[Darkness]—como a criada pela magia @UUID[Compendium.dnd5e.spells24.Item.phbsplDarkness00]{Escuridão}—na área é dissipada. Além disso, cada criatura de sua escolha na área deve realizar um teste de resistência de Constituição, sofrendo dano Radiante igual a 2d10 mais seu nível de Clérigo se falhar, ou metade desse dano se obtiver sucesso.</p>"
     },
     "Warding Flare": {
-      "name": "Warding Flare",
-      "description": "<p>When a creature that you can see within 30 feet of yourself makes an attack roll, you can take a Reaction to impose Disadvantage on the attack roll, causing light to flare before it hits or misses.</p><p>You can use this feature a number of times equal to your Wisdom modifier (minimum of once, currently [[lookup @abilities.wis.mod]]). You regain all expended uses when you finish a Long Rest.</p><section class=\"secret\" id=\"secret-FVDTK9yzluaZoQ0v\"><p><strong>Foundry Note</strong></p><p>The <strong>Flare</strong> activity includes a 30 foot emanation for identifying impacted creatures. It does not automate the Disadvantage.</p></section>",
+      "name": "Clarão Protetor",
+      "description": "<p>Quando uma criatura que você possa ver a até 9 metros de você fizer uma rolagem de ataque, você pode usar uma Reação para impor Desvantagem na rolagem de ataque, fazendo a luz brilhar intensamente antes que o ataque acerte ou erre.</p><p>Você pode usar esta característica um número de vezes igual ao seu modificador de Sabedoria (mínimo de uma vez, atualmente [[lookup @abilities.wis.mod]]). Você recupera todos os usos gastos ao terminar um Descanso Longo.</p><section class=\"secret\" id=\"secret-FVDTK9yzluaZoQ0v\"><p><strong>Nota do Foundry</strong></p><p>A atividade <strong>Clarão</strong> inclui uma emanação de 9 metros para identificar criaturas afetadas. Ela não automatiza a Desvantagem.</p></section>",
       "activities": {
         "Flare": {
-          "name": "Flare",
-          "condition": "When a creature you can see within 30 feet makes an attack roll"
+          "name": "Clarão",
+          "condition": "Quando uma criatura que você possa ver a até 9 metros fizer uma rolagem de ataque"
         }
       }
     },
     "Arcane Charge": {
-      "name": "Arcane Charge",
-      "description": "<p>When you use your Action Surge, you can teleport up to 30 feet to an unoccupied space you can see. You can teleport before or after the additional action.</p>"
+      "name": "Carga Arcana",
+      "description": "<p>Quando você usa sua Surto de Ação, pode se teleportar até 9 metros para um espaço desocupado que possa ver. Você pode se teleportar antes ou depois da ação adicional.</p>"
     },
     "Eldritch Knight": {
-      "name": "Eldritch Knight",
-      "description": "<blockquote><p>Support Combat Skills with Arcane Magic</p></blockquote><p>Eldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.</p>",
+      "name": "Cavaleiro Místico",
+      "description": "<blockquote><p>Apoie Habilidades de Combate com Magia Arcana</p></blockquote><p>Cavaleiros Místicos combinam a maestria marcial comum a todos os Guerreiros com um estudo cuidadoso da magia. Suas magias complementam e ampliam suas habilidades de combate, fornecendo proteção adicional para reforçar sua armadura e também permitindo que enfrentem muitos inimigos ao mesmo tempo com magia explosiva.</p>",
       "advancement": {
         "Subclass Features": {
-          "name": "Subclass Features"
+          "name": "Características da Subclasse"
         },
         "Cantrips": {
-          "name": "Cantrips"
+          "name": "Truques"
         },
         "Prepared Spells": {
-          "name": "Prepared Spells"
+          "name": "Magias Preparadas"
         },
         "Subclass Spells": {
-          "name": "Subclass Spells"
+          "name": "Magias da Subclasse"
         }
       }
     },
     "Eldritch Strike": {
-      "name": "Eldritch Strike",
-      "description": "<p>You learn how to make your weapon strikes undercut a creature's ability to withstand your spells. When you hit a creature with an attack using a weapon, that creature has Disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn.</p><section id=\"secret-jvKDjaltxCLtjiax\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which can be used for tracking but does not automate the Disadvantage.</p></section>",
+      "name": "Golpe Místico",
+      "description": "<p>Você aprende a fazer com que seus golpes com armas prejudiquem a capacidade de uma criatura de resistir às suas magias. Quando você atinge uma criatura com um ataque usando uma arma, essa criatura tem Desvantagem no próximo teste de resistência que fizer contra uma magia que você conjure antes do final do seu próximo turno.</p><section id=\"secret-jvKDjaltxCLtjiax\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Esta característica inclui um Efeito Ativo que pode ser usado para acompanhamento, mas não automatiza a Desvantagem.</p></section>",
       "effects": {
         "Struck": {
-          "name": "Struck"
+          "name": "Atingido"
         }
       }
     },
     "Improved War Magic": {
-      "name": "Improved War Magic",
-      "description": "<p>When you take the Attack action on your turn, you can replace two of the attacks with a casting of one of your level 1 or level 2 Wizard spells that has a casting time of an action.</p>"
+      "name": "Magia de Guerra Aprimorada",
+      "description": "<p>Quando você realiza a ação de Ataque no seu turno, pode substituir dois dos ataques por uma conjuração de uma de suas magias de nível 1 ou nível 2 de Mago que tenha tempo de conjuração de uma ação.</p>"
     },
     "Spellcasting": {
-      "name": "Spellcasting",
-      "description": "<p>You have learned to cast spells. See for the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{rules on spellcasting}. The information below details how you use those rules as an Eldritch Knight.</p><p><strong>Cantrips.</strong> You know two cantrips from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Wizard spell list}: @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost} and @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Shocking Grasp}. Whenever you gain a Fighter level, you can replace one of these cantrips with another cantrip of your choice from the Wizard spell list.</p><p>When you reach Fighter level 10, you learn another Wizard cantrip of your choice.</p><p><strong>Spell Slots.</strong> The Eldritch Knight Spellcasting table shows how many spell slots you have to cast your level 1+ spells. You regain all expended slots when you finish a Long Rest.</p><p><strong>Prepared Spells of Level 1+.</strong> You prepare the list of level 1+ spells that are available for you to cast with this feature. To start, you have @UUID[Compendium.dnd5e.spells24.Item.phbsplGrease0000]{Grease}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Magic Missile}, and @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Ray of Frost}.</p><p>The number of spells on your list increases as you gain Fighter levels, as shown in the Prepared Spells column of the Eldritch Knight Spellcasting table. Whenever that number increases, choose additional spells from the Wizard spell list until the number of spells on your list matches the number on the table. The chosen spells must be of a level for which you have spell slots. For example, if you're a level 7 Fighter, your list of prepared spells can include five Wizard spells of levels 1 and 2 in any combination.</p><p><strong>Changing Your Prepared Spells.</strong> Whenever you gain a Fighter level, you can replace one spell on your list with another Wizard spell for which you have spell slots.</p><p><strong>Spellcasting Ability.</strong> Intelligence is your spellcasting ability for your Wizard spells.</p><p><strong>Spellcasting Focus.</strong> You can use an Arcane Focus as a Spellcasting Focus for your Wizard spells.</p>"
+      "name": "Conjuração",
+      "description": "<p>Você aprendeu a conjurar magias. Consulte as @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.mh3akteBDiLegqFK]{regras de conjuração}. As informações abaixo detalham como você usa essas regras como Cavaleiro Místico.</p><p><strong>Truques.</strong> Você conhece dois truques da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{lista de magias de Mago}: @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Raio de Gelo} e @UUID[Compendium.dnd5e.spells24.Item.phbsplShockingGr]{Aperto Chocante}. Sempre que adquirir um nível de Guerreiro, pode substituir um desses truques por outro truque de sua escolha da lista de magias de Mago.</p><p>Ao alcançar o 10º nível de Guerreiro, você aprende outro truque de Mago de sua escolha.</p><p><strong>Espaços de Magia.</strong> A tabela de Conjuração do Cavaleiro Místico mostra quantos espaços de magia você possui para conjurar suas magias de nível 1+. Você recupera todos os espaços gastos ao terminar um Descanso Longo.</p><p><strong>Magias Preparadas de Nível 1+.</strong> Você prepara a lista de magias de nível 1+ que estão disponíveis para conjurar com esta característica. Para começar, você tem @UUID[Compendium.dnd5e.spells24.Item.phbsplGrease0000]{Graxa}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Mísseis Mágicos} e @UUID[Compendium.dnd5e.spells24.Item.phbsplRayofFrost]{Raio de Gelo}.</p><p>O número de magias na sua lista aumenta conforme você ganha níveis de Guerreiro, conforme mostrado na coluna Magias Preparadas da tabela de Conjuração do Cavaleiro Místico. Sempre que esse número aumentar, escolha magias adicionais da lista de magias de Mago até que o número de magias na sua lista corresponda ao número da tabela. As magias escolhidas devem ser de um nível para o qual você tenha espaços de magia. Por exemplo, se você for um Guerreiro de 7º nível, sua lista de magias preparadas pode incluir cinco magias de Mago de níveis 1 e 2 em qualquer combinação.</p><p><strong>Alterando suas Magias Preparadas.</strong> Sempre que adquirir um nível de Guerreiro, pode substituir uma magia da sua lista por outra magia de Mago para a qual tenha espaços de magia.</p><p><strong>Atributo de Conjuração.</strong> Inteligência é seu atributo de conjuração para suas magias de Mago.</p><p><strong>Foco de Conjuração.</strong> Você pode usar um Foco Arcano como Foco de Conjuração para suas magias de Mago.</p>"
     },
     "War Bond": {
-      "name": "War Bond",
-      "description": "<p>You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a Short Rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond. The bond fails if another Fighter is bonded to the weapon or if the weapon is a magic item to which someone else is attuned.</p><p>Once you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.</p><p>You can have up to two bonded weapons, but you can summon only one at a time with a Bonus Action. If you attempt to bond with a third weapon, you must break the bond with one of the other two.</p><section class=\"secret\" id=\"secret-zmK2Pbr1mAvJ6BLy\"><p><strong>Foundry Note</strong></p><p>This feature includes an activity for summoning your weapon that can be used if you're tracking usage of your Bonus Action.</p><p>It also includes a Bond with Weapon activity which can be used to enchant your bonded weapons. It will append \", War Bonded\" to its name for easy identification.</p></section>",
+      "name": "Vínculo de Guerra",
+      "description": "<p>Você aprende um ritual que cria um vínculo mágico entre você e uma arma. Você realiza o ritual ao longo de 1 hora, que pode ser feita durante um Descanso Curto. A arma deve estar ao seu alcance durante todo o ritual; ao final, você toca a arma e forja o vínculo. O vínculo falha se outro Guerreiro estiver vinculado à arma ou se a arma for um item mágico ao qual outra pessoa esteja sintonizada.</p><p>Depois de criar um vínculo com uma arma, você não pode ser desarmado dela, a menos que esteja com a condição Incapacitado. Se ela estiver no mesmo plano de existência, você pode invocá-la como uma Ação Bônus, fazendo com que se teleporte instantaneamente para sua mão.</p><p>Você pode ter até duas armas vinculadas, mas pode invocar apenas uma por vez com uma Ação Bônus. Se tentar criar um vínculo com uma terceira arma, deve romper o vínculo com uma das outras duas.</p><section class=\"secret\" id=\"secret-zmK2Pbr1mAvJ6BLy\"><p><strong>Nota do Foundry</strong></p><p>Esta característica inclui uma atividade para invocar sua arma, que pode ser usada caso você esteja acompanhando o uso de sua Ação Bônus.</p><p>Ela também inclui uma atividade Vincular com Arma que pode ser usada para encantar suas armas vinculadas. Ela acrescentará \", Vinculada pela Guerra\" ao nome para facilitar a identificação.</p></section>",
       "activities": {
         "Summon Weapon": {
-          "name": "Summon Weapon"
+          "name": "Invocar Arma"
         },
         "Bond with Weapon": {
-          "name": "Bond with Weapon"
+          "name": "Vincular com Arma"
         }
       },
       "effects": {
         "War Bond": {
-          "name": "War Bond",
+          "name": "Vínculo de Guerra",
           "changes": {
-            "0": ", War Bonded"
+            "0": ", Vinculada pela Guerra"
           }
         }
       }
     },
     "War Magic": {
-      "name": "War Magic",
-      "description": "<p>When you take the Attack action on your turn, you can replace one of the attacks with a casting of one of your Wizard cantrips that has a casting time of an action.</p>"
+      "name": "Magia de Guerra",
+      "description": "<p>Quando você realiza a ação de Ataque no seu turno, pode substituir um dos ataques por uma conjuração de um dos seus truques de Mago que tenha tempo de conjuração de uma ação.</p>"
     },
     "Assasinate": {
-      "name": "Assasinate",
-      "description": "<p>You’re adept at ambushing a target, granting you the following benefits.</p><p><strong>Initiative.</strong> You have Advantage on Initiative rolls.</p><p><strong>Surprising Strikes.</strong> During the first round of each combat, you have Advantage on attack rolls against any creature that hasn’t taken a turn. If your Sneak Attack hits any target during that round, the target takes extra damage of the weapon’s type equal to your Rogue level.</p><section class=\"secret\" id=\"secret-roKwXDEMg8PmZo8U\"><p><strong>Foundry Note</strong></p><p>This feature includes an Active Effect which automates the advantage on Initiative rolls.</p><p>The <strong>Damage</strong> activity can be used to apply extra damage equal to your level. You can choose the damage type in the roll's dialog box. Alternatively, you could add your level ([[lookup @classes.rogue.levels]]) as a situational bonus to your normal damage roll.</p></section>",
+      "name": "Assassinar",
+      "description": "<p>Você é habilidoso em emboscar um alvo, obtendo os seguintes benefícios.</p><p><strong>Iniciativa.</strong> Você tem Vantagem nas rolagens de Iniciativa.</p><p><strong>Golpes Surpreendentes.</strong> Durante a primeira rodada de cada combate, você tem Vantagem nas rolagens de ataque contra qualquer criatura que ainda não tenha realizado um turno. Se seu Ataque Furtivo atingir qualquer alvo durante essa rodada, o alvo sofre dano adicional do tipo da arma igual ao seu nível de Ladino.</p><section class=\"secret\" id=\"secret-roKwXDEMg8PmZo8U\"><p><strong>Nota do Foundry</strong></p><p>Esta característica inclui um Efeito Ativo que automatiza a Vantagem nas rolagens de Iniciativa.</p><p>A atividade <strong>Dano</strong> pode ser usada para aplicar dano adicional igual ao seu nível. Você pode escolher o tipo de dano na caixa de diálogo da rolagem. Como alternativa, pode adicionar seu nível ([[lookup @classes.rogue.levels]]) como um bônus situacional à sua rolagem normal de dano.</p></section>",
       "activities": {
         "damage": {
-          "condition": "Your Sneak Attack hits any target during the first round"
+          "condition": "Quando seu Ataque Furtivo atingir qualquer alvo durante a primeira rodada"
         }
       },
       "effects": {
         "Assasinate": {
-          "name": "Assasinate",
-          "description": "<p>You have Advantage on Initiative rolls.</p>"
+          "name": "Assassinar",
+          "description": "<p>Você tem Vantagem nas rolagens de Iniciativa.</p>"
         }
       }
     },
     "Assassin": {
-      "name": "Assassin",
-      "description": "<blockquote><p>Practice the Grim Art of Death</p></blockquote><p>An Assassin’s training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.</p>",
+      "name": "Assassino",
+      "description": "<blockquote><p>Pratique a Sombria Arte da Morte</p></blockquote><p>O treinamento de um Assassino se concentra no uso de furtividade, veneno e disfarces para eliminar inimigos com eficiência mortal. Embora alguns Ladinos que seguem esse caminho sejam assassinos contratados, espiões ou caçadores de recompensas, as capacidades desta subclasse são igualmente úteis para aventureiros que enfrentam uma variedade de inimigos monstruosos.</p>",
       "advancement": {
         "Subclass Features": {
-          "name": "Subclass Features"
+          "name": "Características da Subclasse"
         },
         "Assassin's Tools": {
-          "name": "Assassin's Tools",
-          "hint": "You gain a Disguise Kit and a Poisoner’s Kit."
+          "name": "Ferramentas de Assassino",
+          "hint": "Você recebe um Kit de Disfarce e um Kit de Envenenador."
         },
         "rvg1VPVkuaZrsvIx": {
-          "name": "Assassin's Tools",
-          "hint": "You have proficiency with your Assassin's Tools."
+          "name": "Ferramentas de Assassino",
+          "hint": "Você tem proficiência com suas Ferramentas de Assassino."
         }
       }
     },
     "Assassin's Tools": {
-      "name": "Assassin's Tools",
-      "description": "<p>You gain a Disguise Kit and a Poisoner’s Kit, and you have proficiency with them.</p><section id=\"secret-QaK1hUaUaZqGMS7e\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The equipment and proficiencies are granted to you automatically as you level up.</p></section>"
+      "name": "Ferramentas de Assassino",
+      "description": "<p>Você recebe um Kit de Disfarce e um Kit de Envenenador, e tem proficiência com eles.</p><section id=\"secret-QaK1hUaUaZqGMS7e\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>O equipamento e as proficiências são concedidos automaticamente conforme você sobe de nível.</p></section>"
     },
     "Death Strike": {
-      "name": "Death Strike",
-      "description": "<p>When you hit with your Sneak Attack on the first round of a combat, the target must succeed on a Constitution saving throw (DC 8 plus your Dexterity modifier and Proficiency Bonus), or the attack’s damage is doubled against the target.</p><section class=\"secret\" id=\"secret-t8LKMEPbnFaP9kH0\"><p><strong>Foundry Note</strong></p><p>The <strong>Death Strike</strong> activity includes the save and your normal Sneak Attack damage.</p><p>With the target selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-injured\"> </em>Apply Double Damage</span> or click the \"2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>",
+      "name": "Golpe Mortal",
+      "description": "<p>Quando você atingir com seu Ataque Furtivo na primeira rodada de um combate, o alvo deve ser bem-sucedido em um teste de resistência de Constituição (CD 8 + seu modificador de Destreza + seu Bônus de Proficiência) ou o dano do ataque será dobrado contra o alvo.</p><section class=\"secret\" id=\"secret-t8LKMEPbnFaP9kH0\"><p><strong>Nota do Foundry</strong></p><p>A atividade <strong>Golpe Mortal</strong> inclui o teste de resistência e seu dano normal de Ataque Furtivo.</p><p>Com o alvo selecionado, você pode clicar com o botão direito no cartão de rolagem de dano no chat e selecionar <span class=\"reference\"><em class=\"fas fa-user-injured\"> </em>Aplicar Dano Dobrado</span> ou clicar no botão \"2\" e depois no botão <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Aplicar</span>.</p></section>",
       "activities": {
         "Death Strike": {
-          "name": "Death Strike",
-          "condition": "When you hit with your Sneak Attack on the first round of a combat"
+          "name": "Golpe Mortal",
+          "condition": "Quando você atingir com seu Ataque Furtivo na primeira rodada de um combate"
         }
       }
     },
     "Envenom Weapons": {
-      "name": "Envenom Weapons",
-      "description": "<p>When you use the [[/item Cunning Strike activity=\"Poison\"]]{Poison} option of your Cunning Strike, the target also takes [[/damage 2d6 poison]] damage whenever it fails the saving throw. This damage ignores Resistance to Poison damage.</p><section class=\"secret\" id=\"secret-JI5zawKdS8pQDlYO\"><p><strong>Foundry Note</strong></p><p>The <strong>Poison</strong> activity on this feature includes the save and poison damage.</p><p>Alternatively, you can use the inline roll above if you've already used the original activity.</p><p><strong>Important:</strong> This damage does not automatically bypass resistances so ensure the correct damage is being applied.</p></section>",
+      "name": "Envenenar Armas",
+      "description": "<p>Quando você usa a opção [[/item Cunning Strike activity=\"Poison\"]]{Veneno} de seu Golpe Astuto, o alvo também sofre [[/damage 2d6 poison]] de dano sempre que falhar no teste de resistência. Esse dano ignora Resistência a dano de Veneno.</p><section class=\"secret\" id=\"secret-JI5zawKdS8pQDlYO\"><p><strong>Nota do Foundry</strong></p><p>A atividade <strong>Veneno</strong> desta característica inclui o teste de resistência e o dano de veneno.</p><p>Como alternativa, você pode usar a rolagem inline acima caso já tenha usado a atividade original.</p><p><strong>Importante:</strong> Esse dano não ignora resistências automaticamente, portanto certifique-se de que o dano correto esteja sendo aplicado.</p></section>",
       "activities": {
         "Poison": {
-          "name": "Poison",
-          "condition": "When you deal Sneak Attack damage"
+          "name": "Veneno",
+          "condition": "Quando você causar dano de Ataque Furtivo"
         }
       }
     },
     "Infiltration Expertise": {
-      "name": "Infiltration Expertise",
-      "description": "<p>You are expert at the following techniques that aid your infiltrations.</p><p><strong>Masterful Mimicry.</strong> You can unerringly mimic another person’s speech, handwriting, or both if you have spent at least 1 hour studying them.</p><p><strong>Roving Aim.</strong> Your Speed isn’t reduced to 0 by using Steady Aim.</p>"
+      "name": "Especialização em Infiltração",
+      "description": "<p>Você é especialista nas seguintes técnicas que auxiliam suas infiltrações.</p><p><strong>Imitação Magistral.</strong> Você pode imitar perfeitamente a fala, a caligrafia ou ambas de outra pessoa se tiver passado pelo menos 1 hora estudando-a.</p><p><strong>Mira Itinerante.</strong> Seu Deslocamento não é reduzido para 0 ao usar Mira Firme.</p>"
     },
     "Dwarf": {
-      "name": "Dwarf",
-      "description": "<p><strong>Size: </strong>Medium</p><p><strong>Darkvision: </strong>You have Darkvision with a range of 120 feet.</p><p><strong>Dwarf Resilience:</strong> You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.</p><p><strong>Dwarf Toughness: </strong>Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.</p><p><strong>Stonecunning.</strong> As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.</p>",
+      "name": "Anão",
+      "description": "<p><strong>Tamanho: </strong>Médio</p><p><strong>Visão no Escuro: </strong>Você possui Visão no Escuro com alcance de 36 metros.</p><p><strong>Resiliência Anã:</strong> Você tem Resistência a dano de Veneno. Você também tem Vantagem nos testes de resistência que fizer para evitar ou encerrar a condição Envenenado.</p><p><strong>Resistência Anã: </strong>Seu máximo de Pontos de Vida aumenta em 1, e aumenta em 1 novamente sempre que você adquirir um nível.</p><p><strong>Conhecimento de Pedra.</strong> Como uma Ação Bônus, você obtém Sentido Sísmico com alcance de 18 metros por 10 minutos. Você pode usar esta Ação Bônus um número de vezes igual ao seu Bônus de Proficiência, e recupera todos os usos gastos ao terminar um Descanso Longo.</p>",
       "advancement": {
         "6HdONjMD4UozXSfC": {
-          "hint": "Medium (about 4–5 feet tall)"
+          "hint": "Médio (cerca de 1,2–1,5 metro de altura)"
         },
         "Dwarf Traits": {
-          "name": "Dwarf Traits"
+          "name": "Características do Anão"
         },
         "Dwarven Resilience": {
-          "name": "Dwarven Resilience",
-          "hint": "You have Resistance to Poison damage."
+          "name": "Resiliência Anã",
+          "hint": "Você tem Resistência a dano de Veneno."
         }
       }
     },
     "Human": {
-      "name": "Human",
-      "description": "<p><strong>Size: </strong>Your size is Medium.</p><p><strong>Resourceful: </strong>You gain Heroic Inspiration whenever you finish a Long Rest.</p><p><strong>Likable:</strong> You have a +2 bonus to Charisma (Persuasion) checks.</p><p><strong>Fortunate:</strong> You have a number of uses equal to your Proficiency Bonus to fuel your good fortune. You can expend one to give yourself Advantage on a D20 Test, or when a creature makes an attack roll against you, you can remove one to impose Disadvantage on that attack roll.</p>",
+      "name": "Humano",
+      "description": "<p><strong>Tamanho: </strong>Seu tamanho é Médio.</p><p><strong>Recursos:</strong> Você recebe Inspiração Heroica sempre que termina um Descanso Longo.</p><p><strong>Simpático:</strong> Você recebe um bônus de +2 em testes de Carisma (Persuasão).</p><p><strong>Afortunado:</strong> Você tem um número de usos igual ao seu Bônus de Proficiência para alimentar sua boa fortuna. Você pode gastar um deles para obter Vantagem em um Teste de D20 ou, quando uma criatura fizer uma rolagem de ataque contra você, pode remover um uso para impor Desvantagem nessa rolagem de ataque.</p>",
       "advancement": {
         "Human Traits": {
-          "name": "Human Traits"
+          "name": "Características do Humano"
         }
       }
     },
     "Arcane Lock": {
-      "name": "Arcane Lock",
-      "description": "<p><strong>Target:</strong> A closed door, window, gate, container, or hatch you touch</p><p><strong>Effect:</strong> The target is magically locked for the duration. This lock can’t be unlocked by any nonmagical means. You and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute.</p>"
+      "name": "Tranca Arcana",
+      "description": "<p><strong>Alvo:</strong> Uma porta, janela, portão, recipiente ou alçapão fechado que você tocar</p><p><strong>Efeito:</strong> O alvo fica magicamente trancado pela duração. Essa tranca não pode ser aberta por meios não mágicos. Você e quaisquer criaturas que designar ao conjurar a magia podem abrir e fechar o objeto apesar da tranca. Você também pode definir uma senha que, quando pronunciada a até 1,5 metro do objeto, o destranca por 1 minuto.</p>"
     },
     "Detect Evil and Good": {
-      "name": "Detect Evil and Good",
-      "description": "<p>For the duration, you sense the location of any Aberration, Celestial, Elemental, Fey, Fiend, or Undead within 30 feet of yourself.</p><p>The spell is blocked by 1 foot of stone, dirt, or wood; 1 inch of metal; or a thin sheet of lead.</p>",
+      "name": "Detectar o Bem e o Mal",
+      "description": "<p>Durante a duração, você sente a localização de qualquer Aberração, Celestial, Elemental, Fada, Ínfero ou Morto-Vivo a até 9 metros de você.</p><p>A magia é bloqueada por 30 centímetros de pedra, terra ou madeira; 2,5 centímetros de metal; ou uma fina folha de chumbo.</p>",
       "effects": {
         "Detect Evil and Good": {
-          "name": "Detect Evil and Good"
+          "name": "Detectar o Bem e o Mal"
         }
       }
     },
     "Druidcraft": {
-      "name": "Druidcraft",
-      "description": "<p>Whispering to the spirits of nature, you create one of the following effects within range.</p><p><strong>Bloom.</strong> You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</p><p><strong>Sensory Effect.</strong> You create a harmless sensory effect, such as falling leaves, spectral dancing fairies, a gentle breeze, the sound of an animal, or the faint odor of skunk. The effect must fit in a 5-foot Cube.</p><p><strong>Fire Play.</strong> You light or snuff out a candle, a torch, or a campfire.</p>"
+      "name": "Arte Druídica",
+      "description": "<p>Sussurrando para os espíritos da natureza, você cria um dos seguintes efeitos dentro do alcance.</p><p><strong>Florescer.</strong> Você faz instantaneamente uma flor desabrochar, uma vagem de sementes se abrir ou um broto de folha florescer.</p><p><strong>Efeito Sensorial.</strong> Você cria um efeito sensorial inofensivo, como folhas caindo, fadas espectrais dançantes, uma brisa suave, o som de um animal ou o leve odor de gambá. O efeito deve caber em um Cubo de 1,5 metro.</p><p><strong>Brincadeira com Fogo.</strong> Você acende ou apaga uma vela, uma tocha ou uma fogueira.</p>"
     },
     "See Invisibility": {
-      "name": "See Invisibility",
-      "description": "<p>For the duration, you see creatures and objects that have the &amp;Reference[invisible apply=false] condition as if they were visible.</p>",
+      "name": "Ver o Invisível",
+      "description": "<p>Durante a duração, você vê criaturas e objetos que tenham a condição &Reference[invisible apply=false] como se estivessem visíveis.</p>",
       "effects": {
         "See Invisibility": {
-          "name": "See Invisibility",
+          "name": "Ver o Invisível",
           "changes": {
             "0": ";Invisible creatures",
             "1": ";Ethereal Plane"
@@ -408,82 +408,82 @@
       }
     },
     "Shatter": {
-      "name": "Shatter",
-      "description": "<p>A loud noise erupts from a point of your choice within range. Each creature in a 10-foot-radius Sphere centered there makes a Constitution saving throw, taking 3d8 Thunder damage on a failed save or half as much damage on a successful one.</p><p>A nonmagical object that isn't being worn or carried also takes the damage if it's in the spell's area.</p><p><strong>Using a Higher-Level Spell Slot.</strong> The damage increases by 1d8 for each spell slot level above 2.</p>"
+      "name": "Despedaçar",
+      "description": "<p>Um ruído alto irrompe de um ponto à sua escolha dentro do alcance. Cada criatura em uma Esfera de raio de 3 metros centrada nesse ponto realiza um teste de resistência de Constituição, sofrendo 3d8 de dano Trovejante se falhar ou metade desse dano se obtiver sucesso.</p><p>Um objeto não mágico que não esteja sendo vestido ou carregado também sofre o dano se estiver na área da magia.</p><p><strong>Usando um Espaço de Magia de Nível Superior.</strong> O dano aumenta em 1d8 para cada nível do espaço de magia acima do 2º.</p>"
     },
     "Thaumaturgy": {
-      "name": "Thaumaturgy",
-      "description": "<p>You manifest a minor wonder within range. You create one of the effects below within range. If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time.</p><p><strong>Altered Eyes.</strong> You alter the appearance of your eyes for 1 minute.</p><p><strong>Booming Voice.</strong> Your voice booms up to three times as loud as normal for 1 minute. For the duration, you have Advantage on [[/check ability=cha skill=itm]] checks.</p><p><strong>Fire Play.</strong> You cause flames to flicker, brighten, dim, or change color for 1 minute.</p><p><strong>Tremors.</strong> You cause harmless tremors in the ground for 1 minute.</p>"
+      "name": "Taumaturgia",
+      "description": "<p>Você manifesta uma pequena maravilha dentro do alcance. Você cria um dos efeitos abaixo dentro do alcance. Se conjurar esta magia várias vezes, pode ter até três de seus efeitos de 1 minuto ativos ao mesmo tempo.</p><p><strong>Olhos Alterados.</strong> Você altera a aparência de seus olhos por 1 minuto.</p><p><strong>Voz Retumbante.</strong> Sua voz ressoa até três vezes mais alto que o normal por 1 minuto. Durante a duração, você tem Vantagem em testes de [[/check ability=cha skill=itm]].</p><p><strong>Brincadeira com Fogo.</strong> Você faz as chamas tremularem, ficarem mais brilhantes, mais fracas ou mudarem de cor por 1 minuto.</p><p><strong>Tremores.</strong> Você provoca tremores inofensivos no chão por 1 minuto.</p>"
     },
     "Toll the Dead": {
-      "name": "Toll the Dead",
-      "description": "<p>You point at one creature you can see within range, and the single chime of a dolorous bell is audible within 10 feet of the target. The target must succeed on a Wisdom saving throw or take 1d8 Necrotic damage. If the target is missing any of its Hit Points, it instead takes 1d12 Necrotic damage.</p><p><strong>Cantrip Upgrade.</strong> The damage increases by one die when you reach levels 5 (2d8 or 2d12), 11 (3d8 or 3d12), and 17 (4d8 or 4d12).</p>",
+      "name": "Toque dos Mortos",
+      "description": "<p>Você aponta para uma criatura que possa ver dentro do alcance, e o único toque de um sino fúnebre é audível a até 3 metros do alvo. O alvo deve ser bem-sucedido em um teste de resistência de Sabedoria ou sofrerá 1d8 de dano Necrótico. Se o alvo tiver perdido qualquer um de seus Pontos de Vida, ele sofrerá 1d12 de dano Necrótico.</p><p><strong>Aprimoramento do Truque.</strong> O dano aumenta em um dado quando você alcança os níveis 5 (2d8 ou 2d12), 11 (3d8 ou 3d12) e 17 (4d8 ou 4d12).</p>",
       "activities": {
         "Healthy Target": {
-          "name": "Healthy Target",
-          "target": "undamaged creature"
+          "name": "Alvo Saudável",
+          "target": "criatura sem dano"
         },
         "Damaged Target": {
-          "name": "Damaged Target",
-          "target": "creature missing any of its Hit Points"
+          "name": "Alvo Ferido",
+          "target": "criatura que perdeu qualquer quantidade de Pontos de Vida"
         }
       }
     },
     "Abjuration Savant": {
-      "name": "Abjuration Savant",
-      "description": "<p>Choose two Wizard spells from the @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{Abjuration school} (change the Grouping mode for easier selection), each of which must be no higher than level 2, and add them to your spellbook for free.</p><p>In addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Abjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots.</p>"
+      "name": "Especialista em Abjuração",
+      "description": "<p>Escolha duas magias de Mago da @UUID[Compendium.dnd5e.content24.JournalEntry.phbSpells0000000.JournalEntryPage.6AnqLUowgdsqMFvz]{escola de Abjuração} (altere o modo de Agrupamento para facilitar a seleção), cada uma das quais deve ser de no máximo 2º nível, e adicione-as ao seu livro de magias gratuitamente.</p><p>Além disso, sempre que obtiver acesso a um novo nível de espaços de magia nesta classe, você pode adicionar uma magia de Mago da escola de Abjuração ao seu livro de magias gratuitamente. A magia escolhida deve ser de um nível para o qual você tenha espaços de magia.</p>"
     },
     "Abjurer": {
-      "name": "Abjurer",
-      "description": "<blockquote><p>Shield Companions and Banish Foes</p></blockquote><p>Your study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide against a variety of hostile magic and other attacks.</p>",
+      "name": "Abjurador",
+      "description": "<blockquote><p>Proteja Companheiros e Expulse Inimigos</p></blockquote><p>Seu estudo da magia é focado em magias que bloqueiam, expulsam ou protegem — encerrando efeitos nocivos, banindo influências malignas e protegendo os fracos. Abjuradores são procurados quando espíritos malévolos precisam ser exorcizados, quando locais precisam ser protegidos contra espionagem mágica e quando portais para outros planos de existência precisam ser fechados. Grupos de aventureiros valorizam Abjuradores pela proteção que fornecem contra uma variedade de magias hostis e outros ataques.</p>",
       "advancement": {
         "Subclass Features": {
-          "name": "Subclass Features"
+          "name": "Características da Subclasse"
         },
         "Spell Breaker": {
-          "name": "Spell Breaker",
-          "hint": "You always have the Counterspell and Dispel Magic spells prepared."
+          "name": "Quebrador de Magias",
+          "hint": "Você sempre tem as magias Contramágica e Dissipar Magia preparadas."
         }
       }
     },
     "Arcane Ward": {
-      "name": "Arcane Ward",
-      "description": "<p>You can weave magic around yourself for protection. When you cast an Abjuration spell with a spell slot, you can simultaneously use a strand of the spell’s magic to create a magical ward on yourself that lasts until you finish a Long Rest. The ward has a Hit Point maximum equal to twice your Wizard level plus your Intelligence modifier. Whenever you take damage, the ward takes the damage instead, and if you have any Resistances or Vulnerabilities, apply them before reducing the ward’s Hit Points. If the damage reduces the ward to 0 Hit Points, you take any remaining damage. While the ward has 0 Hit Points, it can’t absorb damage, but its magic remains.</p><p>Whenever you cast an Abjuration spell with a spell slot, the ward regains a number of Hit Points equal to twice the level of the spell slot. Alternatively, as a Bonus Action, you can expend a spell slot, and the ward regains a number of Hit Points equal to twice the level of the spell slot expended.</p><p>Once you create the ward, you can’t create it again until you finish a Long Rest.</p><section class=\"secret\" id=\"secret-ri6EwokQGNpRCXyI\"><p><strong>Foundry Note</strong></p><p>Track the HP of the Ward with the number of uses on this item.</p><p>The <strong>Create Ward</strong> activity has 1 use per Long Rest and updates the Arcane Ward to have full uses (\"HP\").</p><p>The <strong>Damage Ward</strong> activity will reduce the Ward's uses (\"HP\") by the amount of damage given.</p><p>The <strong>Restore Ward HP After Casting Spell</strong> activity can be used after you use an Abjuration spell. Set the scale value to the spell slot level you used to restore the correct number of uses (\"HP\").</p><p>The <strong>Expend Spell Slot for Ward</strong> activity allows you to choose a spell slot level, expends it, and restores the correct number of uses (\"HP\").</p></section>",
+      "name": "Proteção Arcana",
+      "description": "<p>Você pode tecer magia ao seu redor para se proteger. Quando conjura uma magia de Abjuração usando um espaço de magia, pode simultaneamente usar um fio da magia para criar uma proteção mágica sobre si mesmo que dura até você terminar um Descanso Longo. A proteção tem um máximo de Pontos de Vida igual a duas vezes seu nível de Mago mais seu modificador de Inteligência. Sempre que sofrer dano, a proteção sofre o dano em seu lugar e, se você tiver Resistências ou Vulnerabilidades, aplique-as antes de reduzir os Pontos de Vida da proteção. Se o dano reduzir a proteção a 0 Pontos de Vida, você sofre qualquer dano restante. Enquanto a proteção tiver 0 Pontos de Vida, ela não pode absorver dano, mas sua magia permanece.</p><p>Sempre que conjurar uma magia de Abjuração usando um espaço de magia, a proteção recupera um número de Pontos de Vida igual a duas vezes o nível do espaço de magia. Como alternativa, como uma Ação Bônus, você pode gastar um espaço de magia, e a proteção recupera um número de Pontos de Vida igual a duas vezes o nível do espaço de magia gasto.</p><p>Depois de criar a proteção, você não pode criá-la novamente até terminar um Descanso Longo.</p><section class=\"secret\" id=\"secret-ri6EwokQGNpRCXyI\"><p><strong>Nota do Foundry</strong></p><p>Acompanhe os PV da Proteção usando o número de usos deste item.</p><p>A atividade <strong>Criar Proteção</strong> tem 1 uso por Descanso Longo e atualiza a Proteção Arcana para ter usos máximos (\"PV\").</p><p>A atividade <strong>Causar Dano à Proteção</strong> reduz os usos (\"PV\") da Proteção pelo valor do dano causado.</p><p>A atividade <strong>Restaurar PV da Proteção Após Conjurar Magia</strong> pode ser usada depois de conjurar uma magia de Abjuração. Defina o valor de escala como o nível do espaço de magia usado para restaurar o número correto de usos (\"PV\").</p><p>A atividade <strong>Gastar Espaço de Magia para a Proteção</strong> permite escolher um nível de espaço de magia, gastá-lo e restaurar o número correto de usos (\"PV\").</p></section>",
       "activities": {
         "Create Ward": {
-          "name": "Create Ward",
-          "condition": "When you cast an Abjuration spell with a spell slot"
+          "name": "Criar Proteção",
+          "condition": "Quando você conjurar uma magia de Abjuração usando um espaço de magia"
         },
         "Damage Ward": {
-          "name": "Damage Ward"
+          "name": "Causar Dano à Proteção"
         },
         "Restore Ward HP After Casting Spell": {
-          "name": "Restore Ward HP After Casting Spell",
-          "condition": "When you cast an Abjuration spell with a spell slot"
+          "name": "Restaurar PV da Proteção Após Conjurar Magia",
+          "condition": "Quando você conjurar uma magia de Abjuração usando um espaço de magia"
         },
         "Expend Spell Slot for Ward": {
-          "name": "Expend Spell Slot for Ward"
+          "name": "Gastar Espaço de Magia para a Proteção"
         }
       }
     },
     "Projected Ward": {
-      "name": "Projected Ward",
-      "description": "<p>When a creature that you can see within 30 feet of yourself takes damage, you can take a Reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 Hit Points, the warded creature takes any remaining damage. If that creature has any Resistances or Vulnerabilities, apply them before reducing the ward’s Hit Points.</p><section class=\"secret\" id=\"secret-pSOEhQX3JbZyO19Q\"><p><strong>Foundry Note</strong></p><p>The <strong>Project Ward</strong> activity uses your reaction and can be used to reduce the Ward's uses (\"HP\").</p></section>",
+      "name": "Proteção Projetada",
+      "description": "<p>Quando uma criatura que você possa ver a até 9 metros de você sofrer dano, pode usar uma Reação para fazer com que sua Proteção Arcana absorva esse dano. Se esse dano reduzir a proteção a 0 Pontos de Vida, a criatura protegida sofre qualquer dano restante. Se essa criatura tiver Resistências ou Vulnerabilidades, aplique-as antes de reduzir os Pontos de Vida da proteção.</p><section class=\"secret\" id=\"secret-pSOEhQX3JbZyO19Q\"><p><strong>Nota do Foundry</strong></p><p>A atividade <strong>Projetar Proteção</strong> usa sua reação e pode ser usada para reduzir os usos (\"PV\") da Proteção.</p></section>",
       "activities": {
         "Project Ward": {
-          "name": "Project Ward",
-          "condition": "When a creature that you can see within 30 feet of yourself takes damage",
-          "target": "That you can see"
+          "name": "Projetar Proteção",
+          "condition": "Quando uma criatura que você possa ver a até 9 metros de você sofrer dano",
+          "target": "Que você possa ver"
         }
       }
     },
     "Spell Breaker": {
-      "name": "Spell Breaker",
-      "description": "<p>You always have the @UUID[Compendium.dnd5e.spells24.Item.phbsplCounterspe]{Counterspell} and @UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dispel Magic} spells prepared. In addition, you can cast Dispel Magic as a Bonus Action, and you can add your Proficiency Bonus to its ability check.</p><p>When you cast either spell with a spell slot, that slot isn’t expended if the spell fails to stop a spell.</p><section id=\"secret-HoZDpPdy4CNflTLh\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>The spells are granted to you automatically as you level up.</p></section>"
+      "name": "Quebrador de Magias",
+      "description": "<p>Você sempre tem as magias @UUID[Compendium.dnd5e.spells24.Item.phbsplCounterspe]{Contramágica} e @UUID[Compendium.dnd5e.spells24.Item.phbsplDispelMagi]{Dissipar Magia} preparadas. Além disso, você pode conjurar Dissipar Magia como uma Ação Bônus e pode adicionar seu Bônus de Proficiência ao seu teste de atributo.</p><p>Quando conjura qualquer uma das duas magias usando um espaço de magia, esse espaço não é gasto se a magia falhar em interromper uma magia.</p><section id=\"secret-HoZDpPdy4CNflTLh\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>As magias são concedidas automaticamente conforme você sobe de nível.</p></section>"
     },
     "Spell Resistance": {
-      "name": "Spell Resistance",
-      "description": "<p>You have Advantage on saving throws against spells, and you have Resistance to the damage of spells.</p><section id=\"secret-JwtRxR7ZBFh3IFBo\" class=\"secret\"><p><strong>Foundry Note</strong></p><p>This feature does not automate the Advantage or Resistance.</p><p>With your token selected you can either right click on the damage roll's chat card and select <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Apply Half Damage</span> or click the \"1/2\" button and then the <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Apply</span> button.</p></section>"
+      "name": "Resistência a Magias",
+      "description": "<p>Você tem Vantagem nos testes de resistência contra magias e Resistência ao dano causado por magias.</p><section id=\"secret-JwtRxR7ZBFh3IFBo\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>Esta característica não automatiza a Vantagem nem a Resistência.</p><p>Com seu token selecionado, você pode clicar com o botão direito no cartão de rolagem de dano no chat e selecionar <span class=\"reference\"><em class=\"fas fa-user-shield\"> </em>Aplicar Metade do Dano</span> ou clicar no botão \"1/2\" e depois no botão <span class=\"reference\"><em class=\"fa-solid fa-reply-all\"> </em>Aplicar</span>.</p></section>"
     }
   }
 }

@@ -1,0 +1,84 @@
+name: Release automático
+
+# Dispara a cada push na main, exceto quando o próprio bot de release fez o
+# commit (mensagem contém "[skip ci]") — isso evita loop infinito.
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - ".github/**"
+      - "README.md"
+      - "CHANGELOG.md"
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: "Tipo de incremento de versão"
+        required: true
+        default: "patch"
+        type: choice
+        options: [patch, minor, major]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validar tradução antes de liberar
+        run: node scripts/validate-translation.mjs
+
+      - name: Incrementar versão (semver) em module.json
+        id: bump
+        run: |
+          NEW_VERSION=$(node scripts/bump-version.mjs "${{ github.event.inputs.bump || 'patch' }}")
+          echo "version=$NEW_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Configurar Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit da nova versão
+        run: |
+          git add module.json
+          git commit -m "chore(release): v${{ steps.bump.outputs.version }} [skip ci]"
+          git push
+
+      - name: Criar tag
+        run: |
+          git tag "v${{ steps.bump.outputs.version }}"
+          git push origin "v${{ steps.bump.outputs.version }}"
+
+      - name: Empacotar módulo (module.zip)
+        run: |
+          mkdir -p dist
+          zip -r "dist/module.zip" \
+            module.json \
+            packs \
+            scripts/babele-register.js \
+            README.md \
+            LICENSE \
+            -x "*.DS_Store"
+
+      - name: Criar Release no GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "v${{ steps.bump.outputs.version }}"
+          name: "v${{ steps.bump.outputs.version }}"
+          generate_release_notes: true
+          files: |
+            module.json
+            dist/module.zip

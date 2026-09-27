@@ -1,0 +1,202 @@
+{
+  "label": "Cenas",
+  "folders": {
+    "Caves of Chaos": "Cavernas do Caos",
+    "Keep on the Borderlands": "Forte nas Terras Fronteiriças",
+    "Wilderness": "Natureza"
+  },
+  "entries": {
+    "Cave A: Kobold Lair": {
+      "name": "Caverna A: Covil dos Kobolds",
+      "navName": "Caverna A",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave A: Kobold Lair": "Caverna A: Covil dos Kobolds"
+      }
+    },
+    "Cave B: Mephit Lair": {
+      "name": "Caverna B: Covil dos Mephits",
+      "navName": "Caverna B",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave B: Mephit Lair": "Caverna B: Covil dos Mephits"
+      }
+    },
+    "Cave C: Nothic Lair": {
+      "name": "Caverna C: Covil do Nothic",
+      "navName": "Caverna C",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave C: Nothic Lair": "Caverna C: Covil do Nothic"
+      }
+    },
+    "Cave D: Goblin Lair": {
+      "name": "Caverna D: Covil dos Goblins",
+      "navName": "Caverna D",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave D: Goblin Lair": "Caverna D: Covil dos Goblins"
+      },
+      "regions": {
+        "Region": {
+          "name": "Região",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Terreno Difícil"
+            }
+          }
+        }
+      }
+    },
+    "Cave E: Ogre Lair": {
+      "name": "Caverna E: Covil do Ogro",
+      "navName": "Caverna E",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave E: Ogre Lair": "Caverna E: Covil do Ogro"
+      }
+    },
+    "Cave F: Hobgoblin Lair": {
+      "name": "Caverna F: Covil dos Hobgoblins",
+      "navName": "Caverna F",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave F: Hobgoblin Lair": "Caverna F: Covil dos Hobgoblins"
+      }
+    },
+    "Cave G: Shunned Cave": {
+      "name": "Caverna G: Caverna Evitada",
+      "navName": "Caverna G",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave G: Shunned Cave": "Caverna G: Caverna Evitada"
+      },
+      "regions": {
+        "Shallow Pool": {
+          "name": "Poça Rasa",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Terreno Difícil"
+            }
+          }
+        }
+      }
+    },
+    "Cave H: Bugbear Lair": {
+      "name": "Caverna H: Covil dos Bugbears",
+      "navName": "Caverna H",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave H: Bugbear Lair": "Caverna H: Covil dos Bugbears"
+      }
+    },
+    "Cave I: Minotaur Lair": {
+      "name": "Caverna I: Covil do Minotauro",
+      "navName": "Caverna I",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave I: Minotaur Lair": "Caverna I: Covil do Minotauro"
+      }
+    },
+    "Cave J: Gnoll Lair": {
+      "name": "Caverna J: Covil dos Gnolls",
+      "navName": "Caverna J",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave J: Gnoll Lair": "Caverna J: Covil dos Gnolls"
+      }
+    },
+    "Cave K: Shrine of Evil": {
+      "name": "Caverna K: Santuário do Mal",
+      "navName": "Caverna K",
+      "drawings": {
+        "Suggested Start Area": "Área Inicial Sugerida"
+      },
+      "levels": {
+        "Cave K: Shrine of Evil": "Caverna K: Santuário do Mal"
+      }
+    },
+    "Caves of Chaos": {
+      "name": "Cavernas do Caos",
+      "levels": {
+        "Caves of Chaos": "Cavernas do Caos"
+      }
+    },
+    "Fens": {
+      "name": "Pântanos",
+      "levels": {
+        "Fens": "Pântanos"
+      },
+      "regions": {
+        "Difficult Terrain": {
+          "name": "Terreno Difícil",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Terreno Difícil"
+            }
+          }
+        }
+      }
+    },
+    "Keep on the Borderlands": {
+      "name": "Forte nas Terras Fronteiriças",
+      "levels": {
+        "Keep on the Borderlands": "Forte nas Terras Fronteiriças"
+      }
+    },
+    "Tamarack Stand": {
+      "name": "Bosque de Tamariscos",
+      "levels": {
+        "Tamarack Stand": "Bosque de Tamariscos"
+      }
+    },
+    "Trail": {
+      "name": "Trilha",
+      "levels": {
+        "Trail": "Trilha"
+      },
+      "regions": {
+        "Difficult Terrin": {
+          "name": "Terreno Difícil",
+          "behaviors": {
+            "Difficult Terrain": {
+              "name": "Terreno Difícil"
+            }
+          }
+        }
+      }
+    },
+    "Wilderness": {
+      "name": "Natureza",
+      "levels": {
+        "Wilderness": "Natureza"
+      }
+    },
+    "Woods": {
+      "name": "Bosques",
+      "levels": {
+        "Woods": "Bosques"
+      }
+    }
+  }
+}

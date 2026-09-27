@@ -1,0 +1,158 @@
+{
+  "label": "Tabelas de Rolagem",
+  "folders": {
+    "Keep on the Borderlands": "Forte nas Terras Fronteiriças",
+    "Wilderness": "Natureza",
+    "Region Events": "Eventos da Região"
+  },
+  "entries": {
+    "Fens Encounters": {
+      "name": "Encontros nos Pântanos"
+    },
+    "Magic Items": {
+      "name": "Itens Mágicos"
+    },
+    "Random Fens Encounters": {
+      "name": "Encontros Aleatórios nos Pântanos",
+      "results": {
+        "1-1": {
+          "description": "<p>Três <strong>@UUID[Actor.mmGnollWarrior00]{Guerreiros Gnolls}</strong> vasculham os pântanos em busca de tesouros. Os gnolls Hostis exigem dos personagens uma peça de equipamento ou um item mágico e iniciam o combate caso suas exigências não sejam atendidas.</p>"
+        },
+        "2-2": {
+          "description": "<p>Dois <strong>@UUID[Actor.mmGoblinWarrior0]{Guerreiros Goblins}</strong> recolhem lama de um monte de homens-lagarto como presente de aniversário atrasado para seu chefe. Os goblins são Indiferentes aos personagens e pedem que eles avaliem o presente.</p>"
+        },
+        "3-3": {
+          "description": "<p>Um pântano próximo arrota dois <strong>@UUID[Actor.mmSteamMephit000]{Mephits de Vapor}</strong> que cheiram a ovos podres. Os mephits Indiferentes tentam divertir os personagens com emissões barulhentas de vapor fedorento.</p>"
+        },
+        "4-4": {
+          "description": "<p>Dois <strong>@UUID[Actor.hotbKuotoaMaraud]{Saqueadores Kuo-Toa} </strong>tentam sequestrar os personagens e sacrificá-los a um antigo deus do pântano.</p>"
+        },
+        "5-5": {
+          "description": "<p>Um <strong>@UUID[Actor.hotbLizardfolkWa]{Guardião Homem-Lagarto}</strong> Amigável oferece-se para guiar o grupo pelos pântanos. Se os personagens aceitarem, o guardião os conduz até Jacko, o espião (veja o encontro @UUID[JournalEntry.hotbRegion3Fens0.JournalEntryPage.Ef07ZXnIr9hyXw2A]{Acampamento do Espião}).</p>"
+        },
+        "6-6": {
+          "description": "<p>Mais adiante, o cadáver de um cultista vestido com um manto vermelho jaz de bruços na lama. O cadáver é um <strong>@UUID[Actor.mmZombie00000000]{Zumbi}</strong> Hostil que se ergue bruscamente e embosca qualquer criatura que se aproxime a até 1,5 metro dele.</p>"
+        },
+        "7-7": {
+          "description": "<p>Dois <strong>@UUID[Actor.mmGrayOoze000000]{Glóbulos de Gosma Cinzenta}</strong> se escondem sob uma ponte precária, esperando para emboscar os personagens.</p>"
+        },
+        "8-8": {
+          "description": "<p></p><p>Uma chuva torrencial repentina provoca uma inundação súbita. Cada personagem deve ser bem-sucedido em um teste de resistência de [[/save 15 str]] para nadar até terra firme ou sofrer [[/damage 2d8 bludgeoning]] de dano causado pelos detritos carregados pela correnteza.</p>"
+        }
+      }
+    },
+    "Random Tamarack Stand Encounters": {
+      "name": "Encontros Aleatórios no Bosque de Tamariscos",
+      "results": {
+        "1-1": {
+          "description": "<p>Os personagens encontram <strong>@UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.6Dti695ubwK7p74L]{Mallyn}</strong> durante uma caminhada diurna. Ela conta a eles que as sementes de pinheiro encontradas por toda esta região são deliciosas (veja o encontro @UUID[JournalEntry.hotbRegion4Tamar.JournalEntryPage.6nW62WzwPQoDw8E7]{Sementes de Pinheiro}).</p>"
+        },
+        "2-2": {
+          "description": "<p>Uma <strong>@UUID[Actor.mmStirge00000000]{Stirge}</strong> se alimenta de um <strong>@UUID[Actor.mmOgreZombie0000]{Ogro Zumbi}</strong>. Ambas as criaturas são Hostis aos personagens.</p>"
+        },
+        "3-3": {
+          "description": "<p>Os personagens encontram uma carroça abandonada. Uma das caixas dentro da carroça é um <strong>@UUID[Actor.mmMimic000000000]{Mímico}</strong> Hostil.</p>"
+        },
+        "4-4": {
+          "description": "<p>Um viajante (<strong>@UUID[Actor.mmCommoner000000]{Plebeu}</strong><span>†</span>) com uma mochila grande precisa de primeiros socorros. Como uma ação de Ajuda, um personagem pode cuidar do viajante e realizar um teste de [[/skill med 15]]. Com um sucesso no teste, o viajante paga ao personagem [[/award 1gp]] como agradecimento. Com uma falha no teste, o viajante repreende o grupo e pede que eles vão embora.</p>"
+        },
+        "5-5": {
+          "description": "<p>Um <strong>@UUID[Actor.mmOgre0000000000]{Ogro}</strong> Hostil vasculha um acampamento abandonado em busca de algo para comer.</p>"
+        },
+        "6-6": {
+          "description": "<p>Uma árvore sinistra marca o local de um cemitério ocultista. Quatro <strong>@UUID[Actor.mmSkeleton000000]{Esqueletos}</strong> irrompem do solo profanado e emboscam os personagens.</p>"
+        },
+        "7-7": {
+          "description": "<p><strong>@UUID[Actor.hotbPral00000000]{Pral}</strong> e três <strong>@UUID[Actor.mmBandit00000000]{Bandidos}</strong> cantam alegremente em uma clareira. Se Pral tiver sido derrotado anteriormente (veja o encontro @UUID[JournalEntry.hotbRegion1Trail.JournalEntryPage.2YGkYz1dwJadJEBY]{Emboscada de Bandidos}), o líder dos bandidos é seu irmão gêmeo, Dral. Se os personagens tiverem um ou mais instrumentos musicais, os bandidos são Amigáveis e convidam os personagens a se apresentarem. Caso contrário, os bandidos são Hostis e tentam roubá-los.</p>"
+        },
+        "8-8": {
+          "description": "<p>Um <strong>@UUID[Actor.mmRedDragonWyrml]{Filhote de Dragão Vermelho}</strong> sobrevoa a área na direção das Cavernas do Caos. Ele ignora os personagens e está longe demais para qualquer interação.</p>"
+        }
+      }
+    },
+    "Random Trail Encounters": {
+      "name": "Encontros Aleatórios na Trilha",
+      "results": {
+        "1-1": {
+          "description": "<p>Três <strong>@UUID[Actor.mmHobgoblinWarri]{Guerreiros Hobgoblins}</strong> Hostis abordam os personagens ao longo da estrada.</p>"
+        },
+        "2-2": {
+          "description": "<p><strong>@UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.5o7LSGGkvVfPn2su]{Cornflower}</strong>,* o tratador de cavalos Amigável do forte, convida os personagens para um piquenique à beira da trilha.</p>"
+        },
+        "3-3": {
+          "description": "<p>Quatro <strong>@UUID[Actor.mmBandit00000000]{Bandidos}</strong> disfarçados de soldados bloqueiam a estrada, exigindo um pedágio de 10 PO. Se os personagens se recusarem ou perceberem os disfarces, os bandidos lutam.</p>"
+        },
+        "4-4": {
+          "description": "<p>Um <strong>@UUID[Actor.mmGuard000000000]{Guarda}</strong><span>†</span> ofegante persegue um <strong>@UUID[Actor.mmBandit00000000]{Bandido}</strong> fugitivo. O guarda Amigável grita por ajuda para capturar o criminoso Hostil.</p>"
+        },
+        "5-5": {
+          "description": "<p>Um <strong>@UUID[Actor.mmCultist0000000]{Cultista}</strong> proselitista tenta recrutar os personagens para o Culto do Caos. O cultista é Indiferente, mas luta em legítima defesa durante o combate. Se os personagens aceitarem, o cultista entrega a cada um deles um pequeno sino de ferro e realiza uma breve cerimônia de iniciação no local. Caso contrário, o cultista os amaldiçoa e segue seu caminho.</p>"
+        },
+        "6-6": {
+          "description": "<p>Um <strong>@UUID[Actor.mmKnight00000000]{Cavaleiro}</strong> Amigável a caminho do @UUID[JournalEntry.hotbSourceKeepOn]{Forte nas Terras Fronteiriças} desafia os personagens para um duelo descontraído — e não letal.</p>"
+        },
+        "7-7": {
+          "description": "<p><strong>@UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.WrAC0MHei6IVRzDZ]{Shannik}</strong> lidera uma carga de cavalaria partindo do forte como parte de um exercício de treinamento, e os personagens ficam no caminho. Cada personagem deve ser bem-sucedido em um teste de resistência de [[/save 15 dex]] ou sofrer [[/damage 2d8 bludgeoning]] de dano causado pela carga.</p>"
+        },
+        "8-8": {
+          "description": "<p>Um <strong>@UUID[Actor.hotbCurate000000]{Clérigo}</strong> viajante oferece-se para curar os ferimentos dos personagens, caso algum deles esteja ferido.</p>"
+        }
+      }
+    },
+    "Random Woods Encounters": {
+      "name": "Encontros Aleatórios nos Bosques",
+      "results": {
+        "1-1": {
+          "description": "<p>Um <strong>@UUID[Actor.mmGoblinWarrior0]{Guerreiro Goblin}</strong> preso em uma enorme teia pede ajuda. Se for libertado, o goblin Amigável ajuda os personagens a derrotar duas <strong>@UUID[Actor.mmGiantSpider000]{Aranhas Gigantes}</strong> Hostis que chegam momentos depois.</p>"
+        },
+        "2-2": {
+          "description": "<p>Os personagens encontram uma área de árvores apodrecidas por uma praga estranha. Um personagem que examinar as árvores pode realizar um teste de [[/skill arc 15]]; com um sucesso no teste, descobre que a doença é causada por magia maligna produzida por rituais ocultistas.</p>"
+        },
+        "3-3": {
+          "description": "<p>Quatro <strong>@UUID[Actor.mmCommoner000000]{Plebeus}</strong><span>†</span> Amigáveis ao redor de um acampamento convidam os personagens para acampar com eles durante a noite; os personagens podem realizar um Descanso Longo neste acampamento.</p>"
+        },
+        "4-4": {
+          "description": "<p>Dois <strong>@UUID[Actor.mmBugbearWarrior]{Guerreiros Bugbears}</strong> usam uma velha serra para derrubar um enorme carvalho. Os lenhadores Hostis lutam contra qualquer um que perturbe seu trabalho.</p>"
+        },
+        "5-5": {
+          "description": "<p>Um <strong>@UUID[Actor.mmOwlbear0000000]{Urso-Coruja}</strong> Hostil e faminto procura por presas. Ele luta contra os personagens assim que os vê.</p>"
+        },
+        "6-6": {
+          "description": "<p><strong>@UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.pY8wVhXUZuEZ6o0Q]{Oleira}</strong>, a comerciante, está colhendo cogumelos. Ela pode indicar aos personagens a cabana de @UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.JbKIizsMMDQs7wuN]{Xanthe} (veja o encontro @UUID[JournalEntry.hotbRegion2Woods.JournalEntryPage.viM8x1Sjm2pKxgdr]{Cabana da Eremita}).</p>"
+        },
+        "7-7": {
+          "description": "<p>Um cervo majestoso aparece em uma clareira pitoresca. Se os personagens se aproximarem do cervo pacificamente, ele os conduz até a nascente sagrada (veja o encontro @UUID[JournalEntry.hotbRegion2Woods.JournalEntryPage.XQht3e1JSq6F1ePK]{Nascente Sagrada}). Caso contrário, ele foge.</p>"
+        },
+        "8-8": {
+          "description": "<p>Os personagens são pegos por uma tempestade de raios. Cada personagem deve ser bem-sucedido em um teste de resistência de [[/save 15 dex]] ou sofrer [[/damage 2d8 lightning]] de dano.</p>"
+        }
+      }
+    },
+    "Tamarack Stand Encounters": {
+      "name": "Encontros no Bosque de Tamariscos"
+    },
+    "Tavern Rumors": {
+      "name": "Rumores da Taverna",
+      "results": {
+        "1-1": {
+          "description": "<p>“Bree-yark” é uma expressão goblin que significa “nós nos rendemos!” (Falso)</p>"
+        },
+        "2-2": {
+          "description": "<p>Quink, o banqueiro do forte, tem tido problemas com invasões recentemente. (Verdadeiro)</p>"
+        },
+        "3-3": {
+          "description": "<p>Pelo preço certo, os guardas da guarita externa deixarão qualquer pessoa entrar no forte. (Falso)</p>"
+        },
+        "4-4": {
+          "description": "<p>Kalista, a ferreira do forte, não forja mais armas. (Parcialmente verdadeiro; ela as fabrica apenas para a milícia do forte.)</p>"
+        }
+      }
+    },
+    "Trail Encounters": {
+      "name": "Encontros na Trilha"
+    },
+    "Woods Encounters": {
+      "name": "Encontros nos Bosques"
+    }
+  }
+}

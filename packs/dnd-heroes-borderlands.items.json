@@ -1,0 +1,363 @@
+{
+  "label": "Itens",
+  "folders": {
+    "Equipment": "Equipamento",
+    "Treasure": "Tesouro",
+    "Magic Items": "Itens Mágicos",
+    "Quest Items": "Itens de Missão"
+  },
+  "entries": {
+    "Rope": {
+      "name": "Corda",
+      "description": "<p>Como uma ação de Utilizar, você pode dar um nó com uma Corda se obtiver sucesso em um teste de Destreza (Prestidigitação) CD 10. A Corda pode ser rompida com um teste de Força (Atletismo) CD 20 bem-sucedido.</p><p>Você só pode amarrar uma criatura que não queira ser amarrada com a Corda se a criatura estiver com a condição &Reference[Grappled], &Reference[Incapacitated] ou &Reference[Restrained]. Se as pernas da criatura estiverem amarradas, a criatura fica com a condição Restrained até escapar. Escapar da Corda exige que a criatura realize uma ação e seja bem-sucedida em um teste de Destreza (Acrobacia) CD 15.</p>",
+      "activities": {
+        "Tie Knot": {
+          "name": "Dar Nó"
+        },
+        "Burst Rope": {
+          "name": "Romper Corda"
+        },
+        "Escape Check": {
+          "name": "Teste de Fuga"
+        }
+      }
+    },
+    "Ball Bearings": {
+      "name": "Esferas de Metal",
+      "description": "<p>Como uma ação de Utilizar, você pode espalhar Esferas de Metal de sua bolsa. Elas se espalham para cobrir uma área quadrada de 3 metros de lado no mesmo nível, a até 3 metros de você. Uma criatura que entrar nessa área pela primeira vez em um turno deve ser bem-sucedida em um teste de resistência de Destreza CD 10 ou ficará com a condição &Reference[Prone]. Leva 10 minutos para recolher as Esferas de Metal.</p><section id=\"secret-bbcC5syRGw0PCZnG\" class=\"secret\"><p><strong>Nota do Foundry</strong></p><p>A atividade <strong>Recolher Esferas de Metal</strong> concede outro uso deste item.</p></section>",
+      "activities": {
+        "Spill Ball Bearings": {
+          "name": "Espalhar Esferas de Metal"
+        },
+        "Recover Ball Bearings": {
+          "name": "Recolher Esferas de Metal"
+        }
+      },
+      "effects": {
+        "Tripped": {
+          "name": "Derrubado"
+        }
+      }
+    },
+    "Plate Armor": {
+      "name": "Armadura de Placas",
+      "description": "<p>Enquanto estiver usando esta armadura, você tem Desvantagem em testes de Destreza (Furtividade).</p>"
+    },
+    "Cloak of Billowing": {
+      "name": "Manto Esvoaçante",
+      "description": "<div><p><em>Item Maravilhoso, Comum</em></p></div><p>Enquanto estiver usando este manto, você pode usar uma Ação Bônus para fazê-lo esvoaçar dramaticamente por 1 minuto.</p>",
+      "activities": {
+        "Billow": {
+          "name": "Esvoaçar",
+          "chatFlavor": "O manto esvoaça dramaticamente.",
+          "target": "O Manto Esvoaçante"
+        }
+      }
+    },
+    "Clockwork Amulet": {
+      "name": "Amuleto Mecânico",
+      "description": "<div><p><em>Item Maravilhoso, Comum</em></p></div><blockquote><p>Este amuleto de cobre contém pequenas engrenagens interligadas e é alimentado pela magia de Mechanus, um plano de previsibilidade mecânica. Pequenos sons de tique-taque e zumbidos emanam de seu interior.</p></blockquote><p>Quando você realiza uma rolagem de ataque enquanto usa o amuleto, pode abrir mão de rolar o d20 para obter um 10 no dado. Depois de usado, esta propriedade não pode ser usada novamente até o próximo amanhecer.</p>",
+      "activities": {
+        "Forgo Roll": {
+          "name": "Abrir Mão da Rolagem",
+          "roll": "Resultado do d20",
+          "condition": "você realiza uma rolagem de ataque enquanto usa o amuleto"
+        }
+      }
+    },
+    "Clothes of Mending": {
+      "name": "Roupas de Reparação",
+      "description": "<div><p><em>Item Maravilhoso, Comum</em></p></div><p>Esta roupa elegante se repara magicamente para compensar o desgaste diário. Partes da roupa que forem destruídas não podem ser reparadas dessa maneira.</p>"
+    },
+    "Dread Helm": {
+      "name": "Elmo Aterrorizante",
+      "description": "<div><p><em>Item Maravilhoso, Comum</em></p></div><p>Enquanto estiver usando este temível elmo de aço, seus olhos brilham em vermelho e o restante do seu rosto fica oculto pelas sombras.</p>"
+    },
+    "Pole of Collapsing": {
+      "name": "Bastão Retrátil",
+      "description": "<p><em>Item Maravilhoso, Comum</em></p><p>Este item funciona como um @UUID[Compendium.dnd-players-handbook.equipment.Item.phbagPole0000000]{Bastão}. Enquanto estiver segurando-o, você pode usar uma ação Mágica para dobrá-lo, transformando-o em uma haste de 30 centímetros de comprimento para facilitar seu armazenamento (o peso do bastão não muda), ou fazer com que a haste de 30 centímetros volte a ser um Bastão. A haste se alonga apenas até onde o espaço ao redor permitir.</p>"
+    },
+    "Potion of Fire Breath": {
+      "name": "Poção de Sopro de Fogo",
+      "description": "<p><em>Poção, Incomum</em></p><p>Depois de beber esta poção, você pode usar uma Ação Bônus para exalar fogo contra um alvo a até 9 metros de você. O alvo realiza um teste de resistência de Destreza CD 13, sofrendo 4d6 de dano de Fogo se falhar ou metade desse dano se obtiver sucesso. O efeito termina depois que você exalar fogo três vezes ou quando 1 hora tiver passado.</p><p>O líquido alaranjado desta poção cintila, e fumaça preenche o topo do recipiente e escapa sempre que ele é aberto.</p>",
+      "activities": {
+        "Breathe Fire": {
+          "name": "Soprar Fogo"
+        },
+        "Drink": {
+          "name": "Beber"
+        }
+      }
+    },
+    "Potion of Healing": {
+      "name": "Poção de Cura",
+      "description": "<p>Como uma Ação Bônus, você pode beber esta poção ou administrá-la a outra criatura a até 1,5 metro de você. A criatura que beber o líquido vermelho mágico deste frasco recupera 2d4 + 2 Pontos de Vida.</p>",
+      "activities": {
+        "Consume": {
+          "name": "Consumir"
+        }
+      }
+    },
+    "Borderlands Tabard": {
+      "name": "Tabardo das Terras Fronteiriças",
+      "description": "<p>Enquanto estiver usando este tabardo, os NPCs no Forte nas Terras Fronteiriças são inicialmente Amigáveis com você.</p>"
+    },
+    "Chaos Bell": {
+      "name": "Sino do Caos",
+      "description": "<p>Este sino foi encontrado nas Cavernas do Caos.</p>"
+    },
+    "Cultist's Robe": {
+      "name": "Manto de Cultista",
+      "description": "<p>Enquanto estiver usando esta vestimenta ocultista, você tem Vantagem em qualquer teste de atributo que realizar para se passar por um cultista do Culto do Caos.</p>"
+    },
+    "Fine Furs": {
+      "name": "Peles Finas",
+      "description": "<p>Peles finas encontradas no Covil dos Hobgoblins.</p>"
+    },
+    "Gemstone": {
+      "name": "Gema"
+    },
+    "Mace": {
+      "name": "Maça",
+      "description": "<p>Você recebe um bônus de +1 nas rolagens de ataque e de dano realizadas com esta arma mágica. Este bônus é incluído automaticamente.</p><p><strong>Propriedade de Maestria: Sap</strong></p><p>Se você atingir uma criatura com esta arma, a criatura terá Desvantagem em sua próxima rolagem de ataque antes do início do seu próximo turno.</p>",
+      "effects": {
+        "Weapon +1": {
+          "name": "Arma +1",
+          "changes": {
+            "0": "{} +1"
+          }
+        }
+      }
+    },
+    "hotbPlateArmor10": {
+      "name": "Armadura de Placas",
+      "description": "<p>Você recebe um bônus de +1 na Classe de Armadura enquanto estiver usando esta armadura mágica. Este bônus é incluído automaticamente.</p><p>Enquanto estiver usando esta armadura, você tem Desvantagem em testes de Destreza (Furtividade).</p>",
+      "effects": {
+        "Armor +1": {
+          "name": "Armadura +1",
+          "changes": {
+            "0": "{} +1"
+          }
+        }
+      }
+    },
+    "Potion of Resistance (Necrotic)": {
+      "name": "Poção de Resistência (Necrótico)",
+      "description": "<p>Como uma Ação Bônus, você pode beber esta poção ou administrá-la a outra criatura a até 1,5 metro de você. A criatura que beber a poção terá Resistência a dano Necrótico por 1 hora.</p>",
+      "activities": {
+        "Drink Potion": {
+          "name": "Beber Poção"
+        }
+      },
+      "effects": {
+        "Necrotic Resistance": {
+          "name": "Resistência a Necrótico"
+        }
+      }
+    },
+    "Shortbow": {
+      "name": "Arco Curto",
+      "description": "<p>Você recebe um bônus de +1 nas rolagens de ataque e de dano realizadas com esta arma mágica. Este bônus é incluído automaticamente.</p>",
+      "effects": {
+        "Weapon +1": {
+          "name": "Arma +1",
+          "changes": {
+            "0": "{} +1"
+          }
+        }
+      }
+    },
+    "Shortsword": {
+      "name": "Espada Curta",
+      "description": "<p>Você recebe um bônus de +1 nas rolagens de ataque e de dano realizadas com esta arma mágica. Este bônus é incluído automaticamente.</p><p><strong>Propriedade de Maestria: Vex</strong></p><p>Se você atingir uma criatura com esta arma e causar dano à criatura, você terá Vantagem na sua próxima rolagem de ataque contra essa criatura antes do fim do seu turno.</p>",
+      "effects": {
+        "Weapon +1": {
+          "name": "Arma +1",
+          "changes": {
+            "0": "{} +1"
+          }
+        }
+      }
+    },
+    "Spell Scroll of Fireball": {
+      "name": "Pergaminho de Magia de Bola de Fogo",
+      "description": "<p><em>3º Nível &Reference[Spell Scroll]</em></p><p>@Embed[Compendium.dnd5e.spells24.Item.phbsplFireball00 inline]</p>"
+    },
+    "Spellbook": {
+      "name": "Livro de Magias",
+      "description": "<p>Seu livro de magias contém as magias de nível 1 ou superior que você conhece.</p><p>Quando começar a jogar, escolha quatro magias entre as Cartas de Magia de nível 1 ou superior listadas na seção “O Que Você Precisa para Jogar” do quadro da sua classe (cinco se estiver no nível 2, seis se estiver no nível 3). Essas cartas compõem suas magias preparadas. Não inclua magias da sua Carta de Antecedente ou Carta de Espécie.</p><p>Coloque as magias que você não preparou em uma pilha sob esta carta e empilhe suas magias preparadas perto do Quadro de Classe.</p><p><em><strong>Magias Recomendadas.</strong></em> Na primeira vez que jogar, prepare estas magias: @UUID[Compendium.dnd5e.spells24.Item.phbsplFeatherFal]{Queda Suave}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMageArmor0]{Armadura Arcana}, @UUID[Compendium.dnd5e.spells24.Item.phbsplMagicMissi]{Míssil Mágico} e @UUID[Compendium.dnd5e.spells24.Item.phbsplThunderwav]{Onda Trovejante}.</p>"
+    },
+    "Tapestry": {
+      "name": "Tapeçaria",
+      "description": "<p>Uma bela tapeçaria costurada com fios de prata e ouro.</p>"
+    },
+    "Holy Water": {
+      "name": "Água Benta",
+      "description": "<p>Quando você realiza a ação de Ataque, pode substituir um de seus ataques por lançar um frasco de Água Benta. Escolha como alvo uma criatura que você possa ver a até 6 metros de você. O alvo deve ser bem-sucedido em um teste de resistência de Destreza (CD 10 + seu modificador de Destreza) ou sofrerá 2d8 de dano Radiante se for um Ínfero ou Morto-Vivo.</p>",
+      "activities": {
+        "Throw": {
+          "name": "Arremessar"
+        }
+      }
+    },
+    "Acid": {
+      "name": "Ácido",
+      "description": "<p>Quando você realiza a ação de Ataque, pode substituir um de seus ataques por lançar um frasco de Ácido. Escolha como alvo uma criatura ou objeto que você possa ver a até 6 metros de você. O alvo deve ser bem-sucedido em um teste de resistência de Destreza (CD 10 + seu modificador de Destreza + seu Bônus de Proficiência) ou sofrerá 2d6 de dano de Ácido.</p>",
+      "activities": {
+        "Throw Acid": {
+          "name": "Arremessar Ácido",
+          "target": "Você pode ver"
+        }
+      }
+    },
+    "Antitoxin": {
+      "name": "Antitoxina",
+      "description": "<p>Como uma Ação Bônus, você pode beber um frasco de Antitoxina para ter Vantagem em testes de resistência para evitar ou encerrar a condição Envenenado por 1 hora.</p>",
+      "effects": {
+        "Antitoxin": {
+          "name": "Antitoxina"
+        }
+      }
+    },
+    "Healer's Kit": {
+      "name": "Kit de Curandeiro",
+      "description": "<p>Como uma ação de Utilizar, você pode gastar um de seus usos para estabilizar uma criatura Inconsciente que tenha 0 Pontos de Vida sem precisar realizar um teste de Sabedoria (Medicina). Em seguida, role [[/r 1d10]]. Com um resultado 1, o kit é consumido, e você deve remover o item do seu inventário.</p>",
+      "activities": {
+        "Stabilize": {
+          "name": "Estabilizar",
+          "target": "Inconsciente"
+        }
+      }
+    },
+    "Lantern": {
+      "name": "Lanterna",
+      "description": "<p>Uma Lanterna emite Luz Plena em um raio de 9 metros e Luz Fraca por mais 9 metros. Como uma Ação Bônus, você pode baixar a cobertura, reduzindo a luz para Luz Fraca em um raio de 1,5 metro, ou levantá-la novamente.</p>",
+      "activities": {
+        "Light": {
+          "name": "Acender"
+        }
+      }
+    },
+    "Breastplate": {
+      "name": "Peitoral"
+    },
+    "Chain Mail": {
+      "name": "Cota de Malha",
+      "description": "<p>Enquanto estiver usando esta armadura, você tem Desvantagem em testes de Destreza (Furtividade).</p>"
+    },
+    "Chain Shirt": {
+      "name": "Camisa de Malha"
+    },
+    "Leather Armor": {
+      "name": "Armadura de Couro"
+    },
+    "Shield": {
+      "name": "Escudo",
+      "description": "<p>Enquanto estiver empunhando este escudo, sua Classe de Armadura aumenta em 2 se sua classe permitir que você use um Escudo. Você pode empunhar apenas um Escudo por vez e não pode também empunhar uma arma com a propriedade Duas Mãos.</p>"
+    },
+    "Splint Armor": {
+      "name": "Armadura de Talas",
+      "description": "<p>Enquanto estiver usando esta armadura, você tem Desvantagem em testes de Destreza (Furtividade).</p>"
+    },
+    "Studded Leather Armor": {
+      "name": "Armadura de Couro Batido"
+    },
+    "Drum": {
+      "name": "Tambor",
+      "description": "<p>Como uma ação de Utilizar, você pode realizar um teste de Carisma (Atuação) CD 10 para tocar uma melodia conhecida ou um teste de Carisma (Atuação) CD 15 para improvisar uma canção com este instrumento.</p>",
+      "activities": {
+        "Play a Known Tune": {
+          "name": "Tocar uma Melodia Conhecida"
+        },
+        "Improvise a Song": {
+          "name": "Improvisar uma Canção"
+        }
+      }
+    },
+    "Flute": {
+      "name": "Flauta",
+      "description": "<p>Como uma ação de Utilizar, você pode realizar um teste de Carisma (Atuação) CD 10 para tocar uma melodia conhecida ou um teste de Carisma (Atuação) CD 15 para improvisar uma canção com este instrumento.</p>",
+      "activities": {
+        "Play a Known Tune": {
+          "name": "Tocar uma Melodia Conhecida"
+        },
+        "Improvise a Song": {
+          "name": "Improvisar uma Canção"
+        }
+      }
+    },
+    "Lute": {
+      "name": "Alaúde",
+      "description": "<p>Como uma ação de Utilizar, você pode realizar um teste de Carisma (Atuação) CD 10 para tocar uma melodia conhecida ou um teste de Carisma (Atuação) CD 15 para improvisar uma canção com este instrumento.</p>",
+      "activities": {
+        "Play a Known Tune": {
+          "name": "Tocar uma Melodia Conhecida"
+        },
+        "Improvise a Song": {
+          "name": "Improvisar uma Canção"
+        }
+      }
+    },
+    "Viol": {
+      "name": "Violeta",
+      "description": "<p>Como uma ação de Utilizar, você pode realizar um teste de Carisma (Atuação) CD 10 para tocar uma melodia conhecida ou um teste de Carisma (Atuação) CD 15 para improvisar uma canção com este instrumento.</p>",
+      "activities": {
+        "Play a Known Tune": {
+          "name": "Tocar uma Melodia Conhecida"
+        },
+        "Improvise a Song": {
+          "name": "Improvisar uma Canção"
+        }
+      }
+    },
+    "Thieves' Tools": {
+      "name": "Ferramentas de Ladrão",
+      "description": "<p>Como uma ação de Utilizar, você pode realizar um teste de Destreza (Prestidigitação) CD 15 para arrombar uma fechadura ou desarmar uma armadilha. Você tem Vantagem no teste.</p>",
+      "activities": {
+        "Pick a Lock/Disarm a Trap": {
+          "name": "Arrombar uma Fechadura/Desarmar uma Armadilha"
+        }
+      }
+    },
+    "Dagger": {
+      "name": "Adaga",
+      "description": "<p><strong>Propriedade de Maestria: Nick</strong></p><p>Quando você realiza o ataque adicional da propriedade Leve, pode fazê-lo como parte da ação de Ataque em vez de uma Ação Bônus. Você pode realizar esse ataque adicional apenas uma vez por turno.</p>"
+    },
+    "Greatsword": {
+      "name": "Espada Grande",
+      "description": "<p><strong>Propriedade de Maestria: Graze</strong></p><p>Se sua rolagem de ataque com esta arma errar uma criatura, você pode causar dano a essa criatura igual ao seu modificador de Força. Esse dano é do mesmo tipo causado pela arma, e o dano só pode ser aumentado aumentando o modificador de atributo.</p>"
+    },
+    "Hand Crossbow": {
+      "name": "Besta de Mão",
+      "description": "<p><strong>Propriedade de Maestria: Vex</strong></p><p>Se você atingir uma criatura com esta arma e causar dano à criatura, você terá Vantagem na sua próxima rolagem de ataque contra essa criatura antes do fim do seu turno.</p>"
+    },
+    "Longsword": {
+      "name": "Espada Longa",
+      "description": "<p><strong>Propriedade de Maestria: Sap</strong></p><p>Se você atingir uma criatura com esta arma, a criatura terá Desvantagem em sua próxima rolagem de ataque antes do início do seu próximo turno.</p>"
+    },
+    "phbwepMace000000": {
+      "name": "Maça",
+      "description": "<p><strong>Propriedade de Maestria: Sap</strong></p><p>Se você atingir uma criatura com esta arma, a criatura terá Desvantagem em sua próxima rolagem de ataque antes do início do seu próximo turno.</p>"
+    },
+    "Maul": {
+      "name": "Malho",
+      "description": "<p><strong>Propriedade de Maestria: Topple</strong></p><p>Se você atingir uma criatura com esta arma, pode obrigá-la a realizar um teste de resistência de Constituição (CD 10 + seu modificador de Força). Se falhar no teste, a criatura fica com a condição &Reference[Prone apply=false].</p>"
+    },
+    "Rapier": {
+      "name": "Rapieira",
+      "description": "<p><strong>Propriedade de Maestria: Vex</strong></p><p>Se você atingir uma criatura com esta arma e causar dano à criatura, você terá Vantagem na sua próxima rolagem de ataque contra essa criatura antes do fim do seu turno.</p>"
+    },
+    "phbwepShortbow00": {
+      "name": "Arco Curto",
+      "description": "<p><strong>Propriedade de Maestria: Vex</strong></p><p>Se você atingir uma criatura com esta arma e causar dano à criatura, você terá Vantagem na sua próxima rolagem de ataque contra essa criatura antes do fim do seu turno.</p>"
+    },
+    "phbwepShortsword": {
+      "name": "Espada Curta",
+      "description": "<p><strong>Propriedade de Maestria: Vex</strong></p><p>Se você atingir uma criatura com esta arma e causar dano à criatura, você terá Vantagem na sua próxima rolagem de ataque contra essa criatura antes do fim do seu turno.</p>"
+    },
+    "Spear": {
+      "name": "Lança",
+      "description": "<p><strong>Propriedade de Maestria: Vex</strong></p><p>Se você atingir uma criatura com esta arma e causar dano à criatura, você terá Vantagem na sua próxima rolagem de ataque contra essa criatura antes do fim do seu turno.</p>"
+    }
+  }
+}

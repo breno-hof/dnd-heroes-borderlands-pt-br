@@ -20,7 +20,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT_DIR = path.resolve(__dirname, "..");
 
-const TRANSLATION_FILE = path.join(ROOT_DIR, "packs", "dnd-heroes-borderlands.actors.json");
+const TRANSLATION_FILE = path.join(ROOT_DIR, "packs", "dnd-heroes-borderlands.items.json");
 const MODULE_FILE = path.join(ROOT_DIR, "module.json");
 
 const errors = [];

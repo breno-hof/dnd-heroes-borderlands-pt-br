@@ -2,21 +2,17 @@
   "id": "dnd-heroes-borderlands-pt-br",
   "title": "Heroes of Borderlands (PT-BR) — Tradução de Compêndios",
   "description": "<p>Tradução para Português do Brasil dos compêndios do módulo <strong>dnd-heroes-borderlands</strong>, via <strong>Babele</strong>.</p><p>Este módulo <strong>não contém</strong> o conteúdo original — ele apenas sobrescreve, em tempo de execução, os campos traduzíveis (nome, descrição, biografia, itens, efeitos) do compêndio de origem. É necessário possuir o módulo <code>dnd-heroes-borderlands</code> instalado e licenciado.</p>",
-
-  "version": "0.0.0-dev",
-
+  "version": "0.0.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14"
   },
-
   "authors": [
     {
       "name": "breno-hof",
       "flags": {}
     }
   ],
-
   "relationships": {
     "systems": [
       {
@@ -42,21 +38,20 @@
       }
     ]
   },
-
   "esmodules": [
     "scripts/babele-register.js"
   ],
-
   "flags": {
     "babele": {
       "noAutoLoad": false
     },
     "dnd-heroes-borderlands-pt-br": {
       "sourceModule": "dnd-heroes-borderlands",
-      "translatedPacks": ["actors"]
+      "translatedPacks": [
+        "actors"
+      ]
     }
   },
-
   "url": "https://github.com/breno-hof/dnd-heroes-borderlands-pt-br",
   "manifest": "https://github.com/breno-hof/dnd-heroes-borderlands-pt-br/releases/latest/download/module.json",
   "download": "https://github.com/breno-hof/dnd-heroes-borderlands-pt-br/releases/latest/download/module.zip",

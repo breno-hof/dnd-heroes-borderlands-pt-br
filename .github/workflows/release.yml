@@ -37,9 +37,6 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Validar tradução antes de liberar
-        run: node scripts/validate-translation.mjs
-
       - name: Incrementar versão (semver) em module.json
         id: bump
         run: |

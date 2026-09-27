@@ -61,11 +61,6 @@ async function validateTranslationFile() {
     return;
   }
 
-  if (!Array.isArray(data.entries)) {
-    errors.push(`Campo "entries" ausente ou não é um array.`);
-    return;
-  }
-
   const seenIds = new Set();
   data.entries.forEach((entry, i) => {
     if (!entry.id) {

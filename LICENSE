@@ -1,0 +1,9 @@
+Este repositório contém APENAS strings de tradução (Português do Brasil) que
+são aplicadas em tempo de execução sobre o compêndio do módulo de terceiros
+"dnd-heroes-borderlands", via Babele. Nenhum conteúdo original desse módulo
+(texto em inglês, regras, estatísticas ou assets) é distribuído aqui.
+
+TODO: Defina a licença deste repositório (ex.: MIT para o código dos scripts)
+e confirme se os termos do módulo de origem permitem a redistribuição livre
+das strings traduzidas. Em caso de dúvida, publique como conteúdo "fan-made"
+não-comercial e cite a fonte no README.

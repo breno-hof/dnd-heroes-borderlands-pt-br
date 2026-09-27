@@ -1,0 +1,11 @@
+{
+  "name": "dnd-heroes-borderlands-pt-br",
+  "private": true,
+  "type": "module",
+  "description": "Módulo de tradução PT-BR (via Babele) para os compêndios de dnd-heroes-borderlands.",
+  "scripts": {
+    "generate": "node scripts/generate-translation.mjs",
+    "validate": "node scripts/validate-translation.mjs",
+    "bump": "node scripts/bump-version.mjs"
+  }
+}

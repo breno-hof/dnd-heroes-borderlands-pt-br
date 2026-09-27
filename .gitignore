@@ -1,0 +1,11 @@
+# Conteúdo original de terceiros usado apenas como matéria-prima local
+# para o gerador de traduções — NUNCA deve ser versionado/redistribuído.
+/source/
+
+# Dependências e artefatos de build
+/node_modules/
+/dist/
+
+# Diversos
+.DS_Store
+*.log

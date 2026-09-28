@@ -2,7 +2,7 @@
   "id": "dnd-heroes-borderlands-pt-br",
   "title": "Heroes of Borderlands (PT-BR) — Tradução de Compêndios",
   "description": "<p>Tradução para Português do Brasil dos compêndios do módulo <strong>dnd-heroes-borderlands</strong>, via <strong>Babele</strong>.</p><p>Este módulo <strong>não contém</strong> o conteúdo original — ele apenas sobrescreve, em tempo de execução, os campos traduzíveis (nome, descrição, biografia, itens, efeitos) do compêndio de origem. É necessário possuir o módulo <code>dnd-heroes-borderlands</code> instalado e licenciado.</p>",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "compatibility": {
     "minimum": "13",
     "verified": "14"

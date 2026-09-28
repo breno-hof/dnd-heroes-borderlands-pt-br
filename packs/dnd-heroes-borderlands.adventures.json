@@ -2,81 +2,81 @@
   "label": "Adventures",
   "entries": {
     "Heroes of the Borderlands": {
-      "name": "Heroes of the Borderlands",
-      "description": "<p><a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/discussions?discussions_q=is%3Aopen+label%3Adnd-heroes-borderlands\"><strong>Changelogs Available Here</strong></a></p><p>The adventure in this module is for two to four characters of levels 1–3. The adventure has no overarching plot. While there are conflicts and secrets to uncover, the story that emerges is the one your group experiences.</p><p>The adventure is divided into three self-contained journals, each of which features a different area. You don’t need to read one journal to understand the others, and you can play and revisit them in any order. The adventure areas are as follows:</p><p><strong>The Caves of Chaos</strong> tempt adventurers with riches and glory, obtainable by any who dare brave these monster-filled caverns.</p><p><strong>The Keep on the Borderlands</strong> is a fortified settlement where the party can rest, purchase goods and services, and interact with locals.</p><p><strong>The Wilderness</strong> lies beyond the ken of law. Friends, foes, and surprises await explorers who traverse these untamed wilds.</p><p>Over the course of the adventure, the characters might visit these areas more than once. They don’t have to complete all the encounters in an adventure journal before exploring a different corner of the Borderlands.</p>",
-      "caption": "The Keep on the Borderlands",
+      "name": "Heróis das Terras Fronteiriças",
+      "description": "<p><a href=\"https://github.com/foundryvtt/foundryvtt-premium-content/discussions?discussions_q=is%3Aopen+label%3Adnd-heroes-borderlands\"><strong>Changelogs Disponíveis Aqui</strong></a></p><p>A aventura contida neste módulo é para dois a quatro personagens de níveis 1–3. A aventura não possui um enredo central. Embora existam conflitos e segredos a serem descobertos, a história que emerge é aquela vivida pelo seu grupo.</p><p>A aventura está dividida em três journals independentes, cada um cobrindo uma área diferente. Não é necessário ler um journal para entender os outros, e você pode jogá-los e revisitá-los em qualquer ordem. As áreas da aventura são as seguintes:</p><p><strong>As Cavernas do Caos</strong> tentam os aventureiros com riquezas e glória, obtidas por quem ousar desafiar essas cavernas repletas de monstros.</p><p><strong>O Forte nas Terras Fronteiriças</strong> é um assentamento fortificado onde o grupo pode descansar, comprar bens e serviços, e interagir com os moradores locais.</p><p><strong>As Terras Selvagens</strong> ficam além do alcance da lei. Amigos, inimigos e surpresas aguardam os exploradores que atravessam essas terras indômitas.</p><p>Ao longo da aventura, os personagens podem visitar essas áreas mais de uma vez. Eles não precisam completar todos os encontros de um journal de aventura antes de explorar outro canto das Terras Fronteiriças.</p>",
+      "caption": "O Forte nas Terras Fronteiriças",
       "scenes": {
         "Caves of Chaos": {
-          "name": "Caves of Chaos",
+          "name": "Cavernas do Caos",
           "levels": {
-            "Caves of Chaos": "Caves of Chaos"
+            "Caves of Chaos": "Cavernas do Caos"
           }
         },
         "Cave A: Kobold Lair": {
-          "name": "Cave A: Kobold Lair",
-          "navName": "Cave A",
+          "name": "Caverna A: Covil dos Kobolds",
+          "navName": "Caverna A",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave A: Kobold Lair": "Cave A: Kobold Lair"
+            "Cave A: Kobold Lair": "Caverna A: Covil dos Kobolds"
           }
         },
         "Cave B: Mephit Lair": {
-          "name": "Cave B: Mephit Lair",
-          "navName": "Cave B",
+          "name": "Caverna B: Covil dos Mefitos",
+          "navName": "Caverna B",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave B: Mephit Lair": "Cave B: Mephit Lair"
+            "Cave B: Mephit Lair": "Caverna B: Covil dos Mefitos"
           }
         },
         "Cave C: Nothic Lair": {
-          "name": "Cave C: Nothic Lair",
-          "navName": "Cave C",
+          "name": "Caverna C: Covil do Nothic",
+          "navName": "Caverna C",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave C: Nothic Lair": "Cave C: Nothic Lair"
+            "Cave C: Nothic Lair": "Caverna C: Covil do Nothic"
           }
         },
         "Cave D: Goblin Lair": {
-          "name": "Cave D: Goblin Lair",
-          "navName": "Cave D",
+          "name": "Caverna D: Covil dos Goblins",
+          "navName": "Caverna D",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "deltaTokens": {
             "Vinx": {
               "effects": {
                 "Restrained": {
-                  "name": "Restrained",
+                  "name": "Retido",
                   "description": "@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.dqLeGdpHtb8FfcxX inline]"
                 }
               }
             }
           },
           "levels": {
-            "Cave D: Goblin Lair": "Cave D: Goblin Lair"
+            "Cave D: Goblin Lair": "Caverna D: Covil dos Goblins"
           },
           "regions": {
             "Region": {
-              "name": "Region",
+              "name": "Região",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Cave E: Ogre Lair": {
-          "name": "Cave E: Ogre Lair",
-          "navName": "Cave E",
+          "name": "Caverna E: Covil dos Ogros",
+          "navName": "Caverna E",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "deltaTokens": {
             "Oggdug": {
@@ -87,44 +87,44 @@
             }
           },
           "levels": {
-            "Cave E: Ogre Lair": "Cave E: Ogre Lair"
+            "Cave E: Ogre Lair": "Caverna E: Covil dos Ogros"
           }
         },
         "Cave F: Hobgoblin Lair": {
-          "name": "Cave F: Hobgoblin Lair",
-          "navName": "Cave F",
+          "name": "Caverna F: Covil dos Hobgoblins",
+          "navName": "Caverna F",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave F: Hobgoblin Lair": "Cave F: Hobgoblin Lair"
+            "Cave F: Hobgoblin Lair": "Caverna F: Covil dos Hobgoblins"
           }
         },
         "Cave G: Shunned Cave": {
-          "name": "Cave G: Shunned Cave",
-          "navName": "Cave G",
+          "name": "Caverna G: Caverna Evitada",
+          "navName": "Caverna G",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave G: Shunned Cave": "Cave G: Shunned Cave"
+            "Cave G: Shunned Cave": "Caverna G: Caverna Evitada"
           },
           "regions": {
             "Shallow Pool": {
-              "name": "Shallow Pool",
+              "name": "Poça Rasa",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Cave H: Bugbear Lair": {
-          "name": "Cave H: Bugbear Lair",
-          "navName": "Cave H",
+          "name": "Caverna H: Covil dos Ogros-Menores",
+          "navName": "Caverna H",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "deltaTokens": {
             "Gargle": {
@@ -134,137 +134,137 @@
               "name": "Yams"
             },
             "Rolling Log": {
-              "name": "Rolling Log"
+              "name": "Tronco Rolante"
             }
           },
           "levels": {
-            "Cave H: Bugbear Lair": "Cave H: Bugbear Lair"
+            "Cave H: Bugbear Lair": "Caverna H: Covil dos Ogros-Menores"
           }
         },
         "Cave I: Minotaur Lair": {
-          "name": "Cave I: Minotaur Lair",
-          "navName": "Cave I",
+          "name": "Caverna I: Covil do Minotauro",
+          "navName": "Caverna I",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave I: Minotaur Lair": "Cave I: Minotaur Lair"
+            "Cave I: Minotaur Lair": "Caverna I: Covil do Minotauro"
           }
         },
         "Cave J: Gnoll Lair": {
-          "name": "Cave J: Gnoll Lair",
-          "navName": "Cave J",
+          "name": "Caverna J: Covil dos Gnolls",
+          "navName": "Caverna J",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave J: Gnoll Lair": "Cave J: Gnoll Lair"
+            "Cave J: Gnoll Lair": "Caverna J: Covil dos Gnolls"
           }
         },
         "Cave K: Shrine of Evil": {
-          "name": "Cave K: Shrine of Evil",
-          "navName": "Cave K",
+          "name": "Caverna K: Santuário do Mal",
+          "navName": "Caverna K",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Cave K: Shrine of Evil": "Cave K: Shrine of Evil"
+            "Cave K: Shrine of Evil": "Caverna K: Santuário do Mal"
           }
         },
         "Keep on the Borderlands": {
-          "name": "Keep on the Borderlands",
+          "name": "Forte nas Terras Fronteiriças",
           "levels": {
-            "Keep on the Borderlands": "Keep on the Borderlands"
+            "Keep on the Borderlands": "Forte nas Terras Fronteiriças"
           }
         },
         "Dangerous Stowaway": {
-          "name": "Dangerous Stowaway",
-          "navName": "Trail",
+          "name": "Clandestino Perigoso",
+          "navName": "Trilha",
           "levels": {
-            "Dangerous Stowaway": "Dangerous Stowaway"
+            "Dangerous Stowaway": "Clandestino Perigoso"
           }
         },
         "Wilderness": {
-          "name": "Wilderness",
+          "name": "Terras Selvagens",
           "levels": {
-            "Wilderness": "Wilderness"
+            "Wilderness": "Terras Selvagens"
           }
         },
         "Fens": {
-          "name": "Fens",
+          "name": "Pântano",
           "levels": {
-            "Fens": "Fens"
+            "Fens": "Pântano"
           },
           "regions": {
             "Difficult Terrain": {
-              "name": "Difficult Terrain",
+              "name": "Terreno Difícil",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Tamarack Stand": {
-          "name": "Tamarack Stand",
+          "name": "Bosque de Tamaracos",
           "levels": {
-            "Tamarack Stand": "Tamarack Stand"
+            "Tamarack Stand": "Bosque de Tamaracos"
           }
         },
         "Trail": {
-          "name": "Trail",
+          "name": "Trilha",
           "levels": {
-            "Trail": "Trail"
+            "Trail": "Trilha"
           },
           "regions": {
             "Difficult Terrin": {
-              "name": "Difficult Terrin",
+              "name": "Terreno Difícil",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Woods": {
-          "name": "Woods",
+          "name": "Bosque",
           "levels": {
-            "Woods": "Woods"
+            "Woods": "Bosque"
           }
         },
         "Flock of Stirges": {
-          "name": "Flock of Stirges",
-          "navName": "Fens",
+          "name": "Bando de Estirges",
+          "navName": "Pântano",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Flock of Stirges": "Flock of Stirges"
+            "Flock of Stirges": "Bando de Estirges"
           },
           "regions": {
             "Difficult Terrain": {
-              "name": "Difficult Terrain",
+              "name": "Terreno Difícil",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Lizardfolk Swamp": {
-          "name": "Lizardfolk Swamp",
-          "navName": "Fens",
+          "name": "Pântano dos Homens-Lagarto",
+          "navName": "Pântano",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "deltaTokens": {
             "Lizardfolk Warden": {
               "effects": {
                 "Invisible": {
-                  "name": "Invisible",
+                  "name": "Invisível",
                   "description": "@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN inline]"
                 }
               }
@@ -272,141 +272,141 @@
             "DDpWGfU4DUcaczwI": {
               "items": {
                 "Bite": {
-                  "name": "Bite",
+                  "name": "Mordida",
                   "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
                 },
                 "Bone Pike": {
-                  "name": "Bone Pike",
+                  "name": "Pique de Osso",
                   "description": "<p>[[/attack extended]]. [[/damage average extended]].</p>"
                 }
               },
               "effects": {
                 "Invisible": {
-                  "name": "Invisible",
+                  "name": "Invisível",
                   "description": "@Embed[Compendium.dnd-players-handbook.content.JournalEntry.phbAppendixCRule.JournalEntryPage.MQIZ1zRLWRcNOtPN inline]"
                 }
               }
             }
           },
           "levels": {
-            "Lizardfolk Swamp": "Lizardfolk Swamp"
+            "Lizardfolk Swamp": "Pântano dos Homens-Lagarto"
           },
           "regions": {
             "Difficult Terrain": {
-              "name": "Difficult Terrain",
+              "name": "Terreno Difícil",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Giant Spiders' Nest": {
-          "name": "Giant Spiders' Nest",
+          "name": "Ninho de Aranhas Gigantes",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Giant Spiders' Nest": "Giant Spiders' Nest"
+            "Giant Spiders' Nest": "Ninho de Aranhas Gigantes"
           },
           "regions": {
             "Spider Web": {
-              "name": "Spider Web",
+              "name": "Teia de Aranha",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Hobgoblin Patrol": {
-          "name": "Hobgoblin Patrol",
+          "name": "Patrulha Hobgoblin",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Hobgoblin Patrol": "Hobgoblin Patrol"
+            "Hobgoblin Patrol": "Patrulha Hobgoblin"
           }
         },
         "Bandit Ambush": {
-          "name": "Bandit Ambush",
-          "navName": "Trail",
+          "name": "Emboscada de Bandidos",
+          "navName": "Trilha",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Bandit Ambush": "Bandit Ambush"
+            "Bandit Ambush": "Emboscada de Bandidos"
           },
           "regions": {
             "Difficult Terrin": {
-              "name": "Difficult Terrin",
+              "name": "Terreno Difícil",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Looted Wagon": {
-          "name": "Looted Wagon",
+          "name": "Carroça Saqueada",
           "levels": {
-            "Looted Wagon": "Looted Wagon"
+            "Looted Wagon": "Carroça Saqueada"
           },
           "regions": {
             "Difficult Terrin": {
-              "name": "Difficult Terrin",
+              "name": "Terreno Difícil",
               "behaviors": {
                 "Difficult Terrain": {
-                  "name": "Difficult Terrain"
+                  "name": "Terreno Difícil"
                 }
               }
             }
           }
         },
         "Occult Ritual": {
-          "name": "Occult Ritual",
-          "navName": "Woods",
+          "name": "Ritual Oculto",
+          "navName": "Bosque",
           "drawings": {
-            "Suggested Start Area": "Suggested Start Area"
+            "Suggested Start Area": "Área de Início Sugerida"
           },
           "levels": {
-            "Occult Ritual": "Occult Ritual"
+            "Occult Ritual": "Ritual Oculto"
           }
         },
         "Sparring Sprites": {
-          "name": "Sparring Sprites",
-          "navName": "Woods",
+          "name": "Fadas em Combate",
+          "navName": "Bosque",
           "levels": {
-            "Sparring Sprites": "Sparring Sprites"
+            "Sparring Sprites": "Fadas em Combate"
           }
         },
         "Heroes of the Borderlands": {
-          "name": "Heroes of the Borderlands",
+          "name": "Heróis das Terras Fronteiriças",
           "levels": {
-            "Heroes of the Borderlands": "Heroes of the Borderlands"
+            "Heroes of the Borderlands": "Heróis das Terras Fronteiriças"
           }
         }
       },
       "actors": {
         "Rolling Log": {
-          "name": "Rolling Log"
+          "name": "Tronco Rolante"
         },
         "Spear Barricade": {
-          "name": "Spear Barricade"
+          "name": "Barricada de Lanças"
         },
         "Wagon (Empty)": {
-          "name": "Wagon (Empty)",
-          "tokenName": "Wagon"
+          "name": "Carroça (Vazia)",
+          "tokenName": "Carroça"
         },
         "Wagon (Full)": {
-          "name": "Wagon (Full)",
-          "tokenName": "Wagon"
+          "name": "Carroça (Cheia)",
+          "tokenName": "Carroça"
         },
         "Animated Flying Sword": {
-          "name": "Animated Flying Sword",
+          "name": "Espada Voadora Animada",
           "description": "<blockquote><p>Mundane Object Come to Life</p></blockquote><p>Animated flying swords move as if wielded by unseen warriors. Whether an animated blade is newly forged or a constellation of broken fragments, the object behaves the same.</p>",
           "items": {
             "Slash": {
@@ -416,7 +416,7 @@
           }
         },
         "Bandit": {
-          "name": "Bandit",
+          "name": "Bandido",
           "description": "<blockquote><p>Criminal and Scoundrel</p></blockquote><p>Bandits use the threat of violence to take what they want. Such criminals include gang members, desperadoes, and lawless mercenaries. Yet not all bandits are motivated by greed. Some are driven to lives of crime by unjust laws, desperation, or the threats of merciless leaders.</p><section class=\"notable\"><h3>NPC Creature Sizes</h3><p>If you use this card to represent an NPC, the NPC’s size depends on the species listed on their NPC Card as follows:</p><p><strong>Dwarf:</strong> Medium</p><p><strong>Elf:</strong> Medium</p><p><strong>Halfling:</strong> Small</p><p><strong>Human:</strong> Medium</p></section>",
           "items": {
             "Scimitar": {
@@ -433,7 +433,7 @@
           }
         },
         "Bugbear Warrior": {
-          "name": "Bugbear Warrior",
+          "name": "Guerreiro Ogro-Menor",
           "description": "<blockquote><p>Lurking Goblinoid Brute</p></blockquote><p>Bugbears embody fear of the wilds and the menace of natural places. They’re notoriously stealthy, and foes that venture into their territories often vanish without a trace.</p>",
           "planarSubtype": "feywild",
           "items": {
@@ -471,7 +471,7 @@
           }
         },
         "Carrion Crawler": {
-          "name": "Carrion Crawler",
+          "name": "Rastejador de Carniça",
           "description": "<blockquote><p>Catacomb-Scouring Scavenger</p></blockquote>",
           "items": {
             "Spider Climb": {
@@ -509,7 +509,7 @@
           }
         },
         "Commoner": {
-          "name": "Commoner",
+          "name": "Plebeu",
           "description": "<blockquote><p>Everyday folk</p></blockquote><p>Commoners constitute the majority of people who don’t pursue magical talents, extraordinary training, or a life of adventure. Some are generous, helpful sorts, while others are more cautious in sharing what they have.</p><section class=\"notable\"><h3>NPC Creature Sizes</h3><p>If you use this card to represent an NPC, the NPC’s size depends on the species listed on their NPC Card as follows:</p><p><strong>Dwarf:</strong> Medium</p><p><strong>Elf:</strong> Medium</p><p><strong>Halfling:</strong> Small</p><p><strong>Human:</strong> Medium</p></section>",
           "items": {
             "Club": {
@@ -523,7 +523,7 @@
           }
         },
         "Copper Dragon Wyrmling": {
-          "name": "Copper Dragon Wyrmling",
+          "name": "Filhote de Dragão-de-Cobre",
           "description": "<blockquote><p>Dragon of Curiosity and Community</p></blockquote><p>Copper dragon wyrmlings venture into the world seeking to make friends and discover wonders. They sometimes get into trouble, but those who help them can become their friends for life.</p>",
           "items": {
             "Rend": {
@@ -547,7 +547,7 @@
           }
         },
         "Cultist": {
-          "name": "Cultist",
+          "name": "Cultista",
           "description": "<blockquote><p>Doomsayer and Fanatic</p></blockquote><p>Cultists devote themselves to their faith’s leaders and otherworldly masters. While this zeal grants cultists no magical powers, it gives them remarkable resolve in the face of threats. Cultists perform much of a cult’s mundane work, which might include evangelism, criminal acts, or serving as sacrifices.</p><section class=\"notable\"><h3>NPC Creature Sizes</h3><p>If you use this card to represent an NPC, the NPC’s size depends on the species listed on their NPC Card as follows:</p><p><strong>Dwarf:</strong> Medium</p><p><strong>Elf:</strong> Medium</p><p><strong>Halfling:</strong> Small</p><p><strong>Human:</strong> Medium</p></section>",
           "items": {
             "Leather Armor": {
@@ -560,7 +560,7 @@
           }
         },
         "Curate": {
-          "name": "Curate",
+          "name": "Pároco",
           "description": "<blockquote><p>Pious Healer</p></blockquote><p>A curate earns a special connection to the divine through service to shrines and temples. This devotion endows these spiritual leaders with the power to heal injuries, repel evil, and raise the dead.</p>",
           "items": {
             "Magic Resistance": {
@@ -591,7 +591,7 @@
           }
         },
         "Giant Centipede": {
-          "name": "Giant Centipede",
+          "name": "Centopeia Gigante",
           "description": "<blockquote><p>Many-Legged Arthropod</p></blockquote><p>Giant centipedes are monstrous arthropods found in caves, dungeons, and other subterranean environments. A giant centipede can skitter up inclines with ease, and its venomous bite carries a painful sting.</p>",
           "items": {
             "Bite": {
@@ -607,7 +607,7 @@
           }
         },
         "Giant Fire Beetle": {
-          "name": "Giant Fire Beetle",
+          "name": "Besouro-de-Fogo Gigante",
           "description": "<blockquote><p>Big Bright Bug</p></blockquote><p>A giant fire beetle takes its name from its pair of glowing glands that give off light. Miners and adventurers prize these creatures, for a giant fire beetle’s glands continue to shed light for [[/r 1d6]] days after the beetle dies.</p>",
           "items": {
             "Bite": {
@@ -621,7 +621,7 @@
           }
         },
         "Giant Spider": {
-          "name": "Giant Spider",
+          "name": "Aranha Gigante",
           "description": "<blockquote><p>Atrocious Arachnid</p></blockquote><p>Some spiders are big—others are really big.</p>",
           "items": {
             "Spider Climb": {
@@ -654,7 +654,7 @@
           }
         },
         "Gnoll Warrior": {
-          "name": "Gnoll Warrior",
+          "name": "Guerreiro Gnoll",
           "description": "<blockquote><p>Fiend in Feral Flesh</p></blockquote><p>Gnoll warriors crave endless slaughter but quickly grow bored with the prey they kill and the treasures they plunder. Nevertheless, they’re enraged by the thought of anyone else having what’s theirs, compelling them to ruin what they can’t take with them.</p>",
           "items": {
             "Rend": {
@@ -672,7 +672,7 @@
           }
         },
         "Goblin Boss": {
-          "name": "Goblin Boss",
+          "name": "Chefe Goblin",
           "description": "<blockquote><p>Bossy Goblin Leader</p></blockquote><p>Goblin bosses are often the most imaginative, disruptive, or forceful goblins.</p>",
           "planarSubtype": "acheron",
           "items": {
@@ -738,7 +738,7 @@
           }
         },
         "Goblin Warrior": {
-          "name": "Goblin Warrior",
+          "name": "Guerreiro Goblin",
           "description": "<blockquote><p>Wild Trickster and Troublemaker</p></blockquote><p>Goblins are embodiments of recklessness and ruin. They delight in wreckage—the louder, the more energetic, and the more convoluted, the better. Goblin raids are often as much opportunities to enjoy setting fires and tormenting livestock as they are parts of more disruptive plots.</p>",
           "planarSubtype": "acheron",
           "items": {
@@ -779,8 +779,8 @@
           }
         },
         "Gray Ooze Glob": {
-          "name": "Gray Ooze Glob",
-          "tokenName": "Gray Ooze",
+          "name": "Glóbulo de Limo Cinzento",
+          "tokenName": "Limo Cinzento",
           "description": "<blockquote><p>Hungry Slime and Magical Failure</p></blockquote><p>Gray oozes are predatory, corrosive slimes that blend in with stony surroundings. Unpredictable magic and other chaotic forces can cause these oozes to split, creating smaller, unstable globs.</p>",
           "items": {
             "Amorphous": {
@@ -809,7 +809,7 @@
           }
         },
         "Guard": {
-          "name": "Guard",
+          "name": "Guarda",
           "description": "<blockquote><p>Sentry and Watch Member</p></blockquote><p>Guards protect people, places, and things, either for pay or from a sense of duty. They might perform their duties vigilantly or distractedly. Some raise alarms at the first sign of danger and defend their charges with their lives. Others flee outright if their compensation doesn’t match the danger they face. They’re perceptive, but most have little martial training. They might be bouncers, lookouts, members of a city watch, or other keen-eyed warriors.</p><section class=\"notable\"><h3>NPC Creature Sizes</h3><p>If you use this card to represent an NPC, the NPC’s size depends on the species listed on their NPC Card as follows:</p><p><strong>Dwarf:</strong> Medium</p><p><strong>Elf:</strong> Medium</p><p><strong>Halfling:</strong> Small</p><p><strong>Human:</strong> Medium</p></section>",
           "items": {
             "Spear": {
@@ -826,7 +826,7 @@
           }
         },
         "Guard Captain": {
-          "name": "Guard Captain",
+          "name": "Capitão da Guarda",
           "description": "<blockquote><p>Accomplished Watch Commander</p></blockquote><p>Guard captains often have ample professional experience. They might be accomplished bodyguards, protectors of magic treasures, veteran watch members, or similar wardens.</p><section class=\"notable\"><h3>NPC Creature Sizes</h3><p>If you use this card to represent an NPC, the NPC’s size depends on the species listed on their NPC Card as follows:</p><p><strong>Dwarf:</strong> Medium</p><p><strong>Elf:</strong> Medium</p><p><strong>Halfling:</strong> Small</p><p><strong>Human:</strong> Medium</p></section>",
           "items": {
             "Javelin": {
@@ -856,7 +856,7 @@
           }
         },
         "Hobgoblin Warrior": {
-          "name": "Hobgoblin Warrior",
+          "name": "Guerreiro Hobgoblin",
           "description": "<blockquote><p>Conqueror of Every Horizon</p></blockquote><p>Hobgoblin warriors might hunt and raid alone or with trained pets, goblin gangs, or other allies. They employ simple tactics and exploit every advantage their allies provide.</p>",
           "planarSubtype": "acheron",
           "items": {
@@ -951,8 +951,8 @@
           }
         },
         "Jelly Cube": {
-          "name": "Jelly Cube",
-          "tokenName": "Gelatinous Cube",
+          "name": "Cubo de Geleia",
+          "tokenName": "Cubo Gelatinoso",
           "description": "<blockquote><p>Insatiable Block of Ooze</p></blockquote>",
           "items": {
             "Pseudopod": {
@@ -980,7 +980,7 @@
           }
         },
         "Knight": {
-          "name": "Knight",
+          "name": "Cavaleiro",
           "description": "<blockquote><p>Battle Master and Heroic Wanderer</p></blockquote><section class=\"notable\"><h3>NPC Creature Sizes</h3><p>If you use this card to represent an NPC, the NPC’s size depends on the species listed on their NPC Card as follows:</p><p><strong>Dwarf:</strong> Medium</p><p><strong>Elf:</strong> Medium</p><p><strong>Halfling:</strong> Small</p><p><strong>Human:</strong> Medium</p></section>",
           "items": {
             "Greatsword": {
@@ -1017,7 +1017,7 @@
           }
         },
         "Kobold Warrior": {
-          "name": "Kobold Warrior",
+          "name": "Guerreiro Kobold",
           "description": "<blockquote><p>Trickster and Servant to Chromatic Dragons</p></blockquote><p>Cowardly cousins to chromatic dragons, kobolds serve draconic overlords as warriors and servants. What they lack in ferocity they make up for in zeal and ingenuity. Kobold warriors use hit-and- run tactics to raid their enemies and defend their homes.</p>",
           "items": {
             "Dagger": {
@@ -1035,7 +1035,7 @@
           }
         },
         "Kuo-toa Marauder": {
-          "name": "Kuo-toa Marauder",
+          "name": "Saqueador Kuo-toa",
           "description": "<blockquote><p>Fishlike Fanatic of the Deep</p></blockquote><p>Kuo-toa have slimy, humanoid bodies and the heads of goggle-eyed deep-sea fish. They claim they once dominated whole worlds, their empires spanning land and sea under the blessings of piscine gods.</p><p>Kuo-toa undertake contrived plots to propel themselves to dominance, often kidnapping people to learn their secrets or making dubious sacrifices to bizarre gods. These marauders lurk in wet places, eager to shed blood and claim plunder.</p>",
           "items": {
             "Amphibious": {
@@ -1057,7 +1057,7 @@
           }
         },
         "Lizardfolk Warden": {
-          "name": "Lizardfolk Warden",
+          "name": "Guardião Lagarto",
           "description": "<blockquote><p>Reptilian Guardian of Nature</p></blockquote><p>Lizardfolk wardens draw on primal magic to protect nature’s boundaries. These territorial guardians lurk in wetlands and jungles, surfacing from murky pools to track down trespassers and drive them out. Wardens wield weapons and shields fashioned from the husks of giant beetles, snapping turtles, and other mighty creatures. When these tools fail them, they channel the forces of nature to augment their natural attacks with poison saliva.</p>",
           "items": {
             "Hold Breath": {
@@ -1088,7 +1088,7 @@
           }
         },
         "Mimic": {
-          "name": "Mimic",
+          "name": "Mímico",
           "description": "<blockquote><p>Shape-Shifter Disguised as an Unassuming Object</p></blockquote>",
           "items": {
             "Adhesive (Object Form Only)": {
@@ -1147,7 +1147,7 @@
           }
         },
         "Minotaur of Baphomet": {
-          "name": "Minotaur of Baphomet",
+          "name": "Minotauro de Baphomet",
           "description": "<blockquote><p>Berserker of the Demon Lord of Beasts</p></blockquote><p>Baphomet, Demon Lord of Beasts, claims to have created minotaurs and demands their worship. These brutes resemble the hulking, horned demon lord more than others of their kind, and they wreak havoc in that foul immortal’s name. Rarely, non-minotaurs cursed by magic-users or spiteful deities might transform into these monsters.</p>",
           "items": {
             "Abyssal Glaive": {
@@ -1200,7 +1200,7 @@
           }
         },
         "Noble": {
-          "name": "Noble",
+          "name": "Nobre",
           "description": "<blockquote><p>Royal and Rich Folk</p></blockquote><p>Nobles encompass a variety of people with social influence. They might be rulers, wealthy merchants, callous bureaucrats, or the idle elite.</p><section class=\"notable\"><h3>NPC Creature Sizes</h3><p>If you use this card to represent an NPC, the NPC’s size depends on the species listed on their NPC Card as follows:</p><p><strong>Dwarf:</strong> Medium</p><p><strong>Elf:</strong> Medium</p><p><strong>Halfling:</strong> Small</p><p><strong>Human:</strong> Medium</p></section>",
           "items": {
             "Rapier": {
@@ -1261,7 +1261,7 @@
           }
         },
         "Ogre": {
-          "name": "Ogre",
+          "name": "Ogro",
           "description": "<blockquote><p>Raging Hulk and Hoarder</p></blockquote><p>Ogres are 10-foot-tall brutes that overwhelm their foes and take what spoils they please. Ogre raiders ally with other evil forces in return for food, riches, and promises of battle.</p>",
           "items": {
             "Greatclub": {
@@ -1275,7 +1275,7 @@
           }
         },
         "Ogre Zombie": {
-          "name": "Ogre Zombie",
+          "name": "Zumbi Ogro",
           "description": "<blockquote><p>Relentless Reanimated Corpse</p></blockquote><p>Ogre zombies serve as tireless labor and undying weapons of war. These massive zombies possess the size and strength to break through barriers that repel smaller zombies.</p>",
           "planarSubtype": "shadowfell",
           "items": {
@@ -1290,7 +1290,7 @@
           }
         },
         "Owlbear": {
-          "name": "Owlbear",
+          "name": "Urso-Coruja",
           "description": "<blockquote><p>Magically Perfected Predator</p></blockquote><p>Created long ago by mages, owlbears combine keen avian eyes, thick feathers, and a tearing beak with a mighty bearlike frame. Despite their magical origins, owlbears have propagated and spread to wildernesses across the multiverse. They are tenacious hunters that might track prey over miles and rarely give up their hunts.</p>",
           "items": {
             "Multiattack": {
@@ -1337,7 +1337,7 @@
           }
         },
         "Red Dragon Wyrmling": {
-          "name": "Red Dragon Wyrmling",
+          "name": "Filhote de Dragão Vermelho",
           "description": "<blockquote><p>Dragon of Greed and Devastation</p></blockquote><p>Red dragon wyrmlings are born destroyers. From a young age, they delight in igniting objects and creatures alike. They sometimes restrain themselves from scorching creatures to instead bully others into following their orders and bringing them gifts.</p>",
           "items": {
             "Multiattack": {
@@ -1360,7 +1360,7 @@
           }
         },
         "Skeleton": {
-          "name": "Skeleton",
+          "name": "Esqueleto",
           "description": "<blockquote><p>Ossified Evil</p></blockquote><p>Skeletons are reanimated Humanoid bones bearing the equipment they had in life. They have rudimentary faculties and greater agility than zombies and similar shambling corpses.</p>",
           "planarSubtype": "shadowfell",
           "items": {
@@ -1375,8 +1375,8 @@
           }
         },
         "Sprite Skirmisher": {
-          "name": "Sprite Skirmisher",
-          "tokenName": "Sprite",
+          "name": "Fada Batedora",
+          "tokenName": "Fada",
           "description": "<blockquote><p>Elusive Defender of Fey Realms</p></blockquote><p>Sprites are wee spirits of nature that can see the innate goodness or wickedness of other creatures. Those that enter their realms with good intentions might be treated with tiny feasts and celebrations. The wicked face nasty tricks and bold ambushes at the hands of invisible sprite defenders.</p>",
           "planarSubtype": "feywild",
           "items": {
@@ -1423,7 +1423,7 @@
           }
         },
         "Steam Mephit": {
-          "name": "Steam Mephit",
+          "name": "Mefita de Vapor",
           "description": "<blockquote><p>Malicious Elemental Hooligan</p></blockquote>",
           "planarSubtype": "elemental planes",
           "items": {
@@ -1461,7 +1461,7 @@
           }
         },
         "Stirge": {
-          "name": "Stirge",
+          "name": "Estirge",
           "description": "<blockquote><p>Notorious, Clinging Bloodsucker</p></blockquote><p>Stirges are bat-size vermin with dagger-length proboscises that attach to other creatures and drain life from them. Stirges are most active at night and hide in shadowy places during the day. If disturbed, they take flight and defend themselves.</p>",
           "items": {
             "Proboscis": {
@@ -1502,8 +1502,8 @@
           }
         },
         "Wight Lifedrinker": {
-          "name": "Wight Lifedrinker",
-          "tokenName": "Wight",
+          "name": "Vulto Sugador de Vida",
+          "tokenName": "Vulto",
           "description": "<blockquote><p>Life-Leeching Corpse Warrior</p></blockquote>",
           "planarSubtype": "shadowfell",
           "items": {
@@ -1538,7 +1538,7 @@
           }
         },
         "Zombie": {
-          "name": "Zombie",
+          "name": "Zumbi",
           "description": "<blockquote><p>Relentless Animated Corpse</p></blockquote><p>Zombies are unthinking, reanimated corpses, often gruesomely marred by decay. They serve whatever supernatural force animates them—typically evil necromancers or fiendish spirits.</p>",
           "planarSubtype": "shadowfell",
           "items": {
@@ -1974,8 +1974,8 @@
           }
         },
         "Cleric (Level 1)": {
-          "name": "Cleric (Level 1)",
-          "tokenName": "Cleric",
+          "name": "Clérigo (Nível 1)",
+          "tokenName": "Clérigo",
           "description": "<aside class=\"notable\"><h3>Playing a Cleric</h3><p>Choose this class if you want to play a holy warrior who invokes divine magic to heal, bolster, and smite.</p><p><strong>Cleric Tips.</strong> In combat, defend your fellow party members with your trusty Mace and spells like Guiding Bolt. When other characters take damage, you can cast Cure Wounds to keep them fighting.</p><p>Out of combat, your high Wisdom helps you discern a person’s moods or intentions (Insight) or notice something that’s easy to miss (Perception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbAcolyte00000]{Acolyte} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspDwarf000000]{Dwarf} Species complement this class well.</p></aside>",
           "items": {
             "Cleric": {
@@ -2076,8 +2076,8 @@
           }
         },
         "Cleric (Level 2)": {
-          "name": "Cleric (Level 2)",
-          "tokenName": "Cleric",
+          "name": "Clérigo (Nível 2)",
+          "tokenName": "Clérigo",
           "description": "<aside class=\"notable\"><h3>Playing a Cleric</h3><p>Choose this class if you want to play a holy warrior who invokes divine magic to heal, bolster, and smite.</p><p><strong>Cleric Tips.</strong> In combat, defend your fellow party members with your trusty Mace and spells like Guiding Bolt. When other characters take damage, you can cast Cure Wounds to keep them fighting.</p><p>Out of combat, your high Wisdom helps you discern a person’s moods or intentions (Insight) or notice something that’s easy to miss (Perception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbAcolyte00000]{Acolyte} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspDwarf000000]{Dwarf} Species complement this class well.</p></aside>",
           "items": {
             "Cleric": {
@@ -2203,8 +2203,8 @@
           }
         },
         "Cleric (Level 3, Life Domain)": {
-          "name": "Cleric (Level 3, Life Domain)",
-          "tokenName": "Cleric",
+          "name": "Clérigo (Nível 3, Domínio da Vida)",
+          "tokenName": "Clérigo",
           "description": "<aside class=\"notable\"><h3>Playing a Cleric</h3><p>Choose this class if you want to play a holy warrior who invokes divine magic to heal, bolster, and smite.</p><p><strong>Cleric Tips.</strong> In combat, defend your fellow party members with your trusty Mace and spells like Guiding Bolt. When other characters take damage, you can cast Cure Wounds to keep them fighting.</p><p>Out of combat, your high Wisdom helps you discern a person’s moods or intentions (Insight) or notice something that’s easy to miss (Perception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbAcolyte00000]{Acolyte} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspDwarf000000]{Dwarf} Species complement this class well.</p></aside>",
           "items": {
             "Cleric": {
@@ -2424,8 +2424,8 @@
           }
         },
         "Cleric (Level 3, Light Domain)": {
-          "name": "Cleric (Level 3, Light Domain)",
-          "tokenName": "Cleric",
+          "name": "Clérigo (Nível 3, Domínio da Luz)",
+          "tokenName": "Clérigo",
           "description": "<aside class=\"notable\"><h3>Playing a Cleric</h3><p>Choose this class if you want to play a holy warrior who invokes divine magic to heal, bolster, and smite.</p><p><strong>Cleric Tips.</strong> In combat, defend your fellow party members with your trusty Mace and spells like Guiding Bolt. When other characters take damage, you can cast Cure Wounds to keep them fighting.</p><p>Out of combat, your high Wisdom helps you discern a person’s moods or intentions (Insight) or notice something that’s easy to miss (Perception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbAcolyte00000]{Acolyte} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspDwarf000000]{Dwarf} Species complement this class well.</p></aside>",
           "items": {
             "Cleric": {
@@ -2616,8 +2616,8 @@
           }
         },
         "Fighter (Level 1)": {
-          "name": "Fighter (Level 1)",
-          "tokenName": "Fighter L1",
+          "name": "Guerreiro (Nível 1)",
+          "tokenName": "Guerreiro Nv1",
           "description": "<aside class=\"notable\"><h3>Playing a Fighter</h3><p>Choose this class if you want to play a warrior who can hold the line and access special weapon properties.</p><p><strong>Fighter Tips.</strong> Leap into the fray and shake off damage with Second Wind. When you take the Attack action, don’t forget about the Mastery Properties of your weapons.</p><p>Out of combat, your high Strength helps you overcome physical obstacles, like breaking down doors or climbing a steep wall (Athletics). Look for chances to procure new armor and weapons—you can use them all!</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSoldier00000]{Soldier} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspHuman000000]{Human} Species complement this class well.</p></aside>",
           "items": {
             "Chain Mail": {
@@ -2657,8 +2657,8 @@
           }
         },
         "Rogue (Level 1)": {
-          "name": "Rogue (Level 1)",
-          "tokenName": "Rogue L1",
+          "name": "Ladino (Nível 1)",
+          "tokenName": "Ladino Nv1",
           "description": "<aside class=\"notable\"><h3>Playing a Rogue</h3><p>Choose this class if you want to play an antihero who launches deadly strikes while avoiding harm through stealth.</p><p><strong>Rogue Tips.</strong> In combat, use a combination of stealth, positioning, and the Vex property of your Shortsword or Shortbow to make attacks with Advantage and deal extra damage with Sneak Attack. The Light property allows you to attack with your Dagger and Shortsword on the same turn, increasing the likelihood of this extra damage.</p><p>Your high Dexterity helps you escape notice (Stealth) and pick locks with your Thieves’ Tools (Sleight of Hand). You’re also a capable liar (Deception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbCriminal0000]{Criminal} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbHalfling0000]{Halfling} Species complement this class well.</p></aside>",
           "items": {
             "Dagger": {
@@ -2725,8 +2725,8 @@
           }
         },
         "Rogue (Level 2)": {
-          "name": "Rogue (Level 2)",
-          "tokenName": "Rogue L1",
+          "name": "Ladino (Nível 2)",
+          "tokenName": "Ladino Nv1",
           "description": "<aside class=\"notable\"><h3>Playing a Rogue</h3><p>Choose this class if you want to play an antihero who launches deadly strikes while avoiding harm through stealth.</p><p><strong>Rogue Tips.</strong> In combat, use a combination of stealth, positioning, and the Vex property of your Shortsword or Shortbow to make attacks with Advantage and deal extra damage with Sneak Attack. The Light property allows you to attack with your Dagger and Shortsword on the same turn, increasing the likelihood of this extra damage.</p><p>Your high Dexterity helps you escape notice (Stealth) and pick locks with your Thieves’ Tools (Sleight of Hand). You’re also a capable liar (Deception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbCriminal0000]{Criminal} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbHalfling0000]{Halfling} Species complement this class well.</p></aside>",
           "items": {
             "Dagger": {
@@ -2813,8 +2813,8 @@
           }
         },
         "Rogue (Level 3, Assassin)": {
-          "name": "Rogue (Level 3, Assassin)",
-          "tokenName": "Rogue (L3, Thief)",
+          "name": "Ladino (Nível 3, Assassino)",
+          "tokenName": "Ladino (Nv3, Ladrão)",
           "description": "<aside class=\"notable\"><h3>Playing a Rogue</h3><p>Choose this class if you want to play an antihero who launches deadly strikes while avoiding harm through stealth.</p><p><strong>Rogue Tips.</strong> In combat, use a combination of stealth, positioning, and the Vex property of your Shortsword or Shortbow to make attacks with Advantage and deal extra damage with Sneak Attack. The Light property allows you to attack with your Dagger and Shortsword on the same turn, increasing the likelihood of this extra damage.</p><p>Your high Dexterity helps you escape notice (Stealth) and pick locks with your Thieves’ Tools (Sleight of Hand). You’re also a capable liar (Deception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbCriminal0000]{Criminal} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbHalfling0000]{Halfling} Species complement this class well.</p></aside>",
           "items": {
             "Dagger": {
@@ -2959,8 +2959,8 @@
           }
         },
         "Rogue (Level 3, Thief)": {
-          "name": "Rogue (Level 3, Thief)",
-          "tokenName": "Rogue (L3, Thief)",
+          "name": "Ladino (Nível 3, Ladrão)",
+          "tokenName": "Ladino (Nv3, Ladrão)",
           "description": "<aside class=\"notable\"><h3>Playing a Rogue</h3><p>Choose this class if you want to play an antihero who launches deadly strikes while avoiding harm through stealth.</p><p><strong>Rogue Tips.</strong> In combat, use a combination of stealth, positioning, and the Vex property of your Shortsword or Shortbow to make attacks with Advantage and deal extra damage with Sneak Attack. The Light property allows you to attack with your Dagger and Shortsword on the same turn, increasing the likelihood of this extra damage.</p><p>Your high Dexterity helps you escape notice (Stealth) and pick locks with your Thieves’ Tools (Sleight of Hand). You’re also a capable liar (Deception).</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbCriminal0000]{Criminal} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbHalfling0000]{Halfling} Species complement this class well.</p></aside>",
           "items": {
             "Dagger": {
@@ -3079,8 +3079,8 @@
           }
         },
         "Wizard (Level 1)": {
-          "name": "Wizard (Level 1)",
-          "tokenName": "Wizard (Level 2)",
+          "name": "Mago (Nível 1)",
+          "tokenName": "Mago (Nível 2)",
           "description": "<aside class=\"notable\"><h3>Playing a Wizard</h3><p>Choose this class if you want to play a mage who prepares spells and controls the battlefield. Famous wizards include Melf, Mordenkainen, and Tasha.</p><p><strong>Wizard Tips.</strong> In combat, attack with cantrips or seize an opportunity to damage multiple enemies with spells like Burning Hands or Thunderwave. Be careful! You don’t have many Hit Points. Out of combat, your high Intelligence helps you recall important lore.</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSage00000000]{Sage} Background Card and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbElfWood00000]{Elf} Species Card complement this class well.</p></aside>",
           "items": {
             "Spellbook": {
@@ -3171,7 +3171,7 @@
           }
         },
         "Wizard (Level 2)": {
-          "name": "Wizard (Level 2)",
+          "name": "Mago (Nível 2)",
           "description": "<aside class=\"notable\"><h3>Playing a Wizard</h3><p>Choose this class if you want to play a mage who prepares spells and controls the battlefield. Famous wizards include Melf, Mordenkainen, and Tasha.</p><p><strong>Wizard Tips.</strong> In combat, attack with cantrips or seize an opportunity to damage multiple enemies with spells like Burning Hands or Thunderwave. Be careful! You don’t have many Hit Points. Out of combat, your high Intelligence helps you recall important lore.</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSage00000000]{Sage} Background Card and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbElfWood00000]{Elf} Species Card complement this class well.</p></aside>",
           "items": {
             "Spellbook": {
@@ -3285,8 +3285,8 @@
           }
         },
         "Wizard (Level 3, Abjurer)": {
-          "name": "Wizard (Level 3, Abjurer)",
-          "tokenName": "Wizard (Level 2)",
+          "name": "Mago (Nível 3, Abjurador)",
+          "tokenName": "Mago (Nível 2)",
           "description": "<aside class=\"notable\"><h3>Playing a Wizard</h3><p>Choose this class if you want to play a mage who prepares spells and controls the battlefield. Famous wizards include Melf, Mordenkainen, and Tasha.</p><p><strong>Wizard Tips.</strong> In combat, attack with cantrips or seize an opportunity to damage multiple enemies with spells like Burning Hands or Thunderwave. Be careful! You don’t have many Hit Points. Out of combat, your high Intelligence helps you recall important lore.</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSage00000000]{Sage} Background Card and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbElfWood00000]{Elf} Species Card complement this class well.</p></aside>",
           "items": {
             "Spellbook": {
@@ -3461,8 +3461,8 @@
           }
         },
         "Wizard (Level 3, Evoker)": {
-          "name": "Wizard (Level 3, Evoker)",
-          "tokenName": "Wizard (Level 2)",
+          "name": "Mago (Nível 3, Evocador)",
+          "tokenName": "Mago (Nível 2)",
           "description": "<aside class=\"notable\"><h3>Playing a Wizard</h3><p>Choose this class if you want to play a mage who prepares spells and controls the battlefield. Famous wizards include Melf, Mordenkainen, and Tasha.</p><p><strong>Wizard Tips.</strong> In combat, attack with cantrips or seize an opportunity to damage multiple enemies with spells like Burning Hands or Thunderwave. Be careful! You don’t have many Hit Points. Out of combat, your high Intelligence helps you recall important lore.</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSage00000000]{Sage} Background Card and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbElfWood00000]{Elf} Species Card complement this class well.</p></aside>",
           "items": {
             "Spellbook": {
@@ -3624,8 +3624,8 @@
           }
         },
         "Fighter (Level 2)": {
-          "name": "Fighter (Level 2)",
-          "tokenName": "Fighter L1",
+          "name": "Guerreiro (Nível 2)",
+          "tokenName": "Guerreiro Nv1",
           "description": "<aside class=\"notable\"><h3>Playing a Fighter</h3><p>Choose this class if you want to play a warrior who can hold the line and access special weapon properties.</p><p><strong>Fighter Tips.</strong> Leap into the fray and shake off damage with Second Wind. When you take the Attack action, don’t forget about the Mastery Properties of your weapons.</p><p>Out of combat, your high Strength helps you overcome physical obstacles, like breaking down doors or climbing a steep wall (Athletics). Look for chances to procure new armor and weapons—you can use them all!</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSoldier00000]{Soldier} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspHuman000000]{Human} Species complement this class well.</p></aside>",
           "items": {
             "Chain Mail": {
@@ -3680,8 +3680,8 @@
           }
         },
         "Fighter (Level 3, Champion)": {
-          "name": "Fighter (Level 3, Champion)",
-          "tokenName": "Fighter L1",
+          "name": "Guerreiro (Nível 3, Campeão)",
+          "tokenName": "Guerreiro Nv1",
           "description": "<aside class=\"notable\"><h3>Playing a Fighter</h3><p>Choose this class if you want to play a warrior who can hold the line and access special weapon properties.</p><p><strong>Fighter Tips.</strong> Leap into the fray and shake off damage with Second Wind. When you take the Attack action, don’t forget about the Mastery Properties of your weapons.</p><p>Out of combat, your high Strength helps you overcome physical obstacles, like breaking down doors or climbing a steep wall (Athletics). Look for chances to procure new armor and weapons—you can use them all!</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSoldier00000]{Soldier} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspHuman000000]{Human} Species complement this class well.</p></aside>",
           "items": {
             "Chain Mail": {
@@ -3758,8 +3758,8 @@
           }
         },
         "Fighter (Level 3, Eldritch Knight)": {
-          "name": "Fighter (Level 3, Eldritch Knight)",
-          "tokenName": "Fighter L1",
+          "name": "Guerreiro (Nível 3, Cavaleiro Arcano)",
+          "tokenName": "Guerreiro Nv1",
           "description": "<aside class=\"notable\"><h3>Playing a Fighter</h3><p>Choose this class if you want to play a warrior who can hold the line and access special weapon properties.</p><p><strong>Fighter Tips.</strong> Leap into the fray and shake off damage with Second Wind. When you take the Attack action, don’t forget about the Mastery Properties of your weapons.</p><p>Out of combat, your high Strength helps you overcome physical obstacles, like breaking down doors or climbing a steep wall (Athletics). Look for chances to procure new armor and weapons—you can use them all!</p><p><strong>Recommended Origin.</strong> If you need help deciding your origin, the @UUID[Compendium.dnd-heroes-borderlands.options.Item.hotbSoldier00000]{Soldier} Background and the @UUID[Compendium.dnd-heroes-borderlands.options.Item.phbspHuman000000]{Human} Species complement this class well.</p></aside>",
           "items": {
             "Chain Mail": {
@@ -3815,30 +3815,30 @@
         }
       },
       "folders": {
-        "Heroes of the Borderlands": "Heroes of the Borderlands",
-        "Caves of Chaos": "Caves of Chaos",
-        "Locations": "Locations",
-        "Keep on the Borderlands": "Keep on the Borderlands",
-        "Wilderness": "Wilderness",
-        "Blank Maps": "Blank Maps",
-        "Fens": "Fens",
-        "Tamarack Stand": "Tamarack Stand",
-        "Trail": "Trail",
-        "Woods": "Woods",
-        "Miscellaneous": "Miscellaneous",
-        "Monsters": "Monsters",
+        "Heroes of the Borderlands": "Heróis das Terras Fronteiriças",
+        "Caves of Chaos": "Cavernas do Caos",
+        "Locations": "Locais",
+        "Keep on the Borderlands": "Forte nas Terras Fronteiriças",
+        "Wilderness": "Terras Selvagens",
+        "Blank Maps": "Mapas em Branco",
+        "Fens": "Pântano",
+        "Tamarack Stand": "Bosque de Tamaracos",
+        "Trail": "Trilha",
+        "Woods": "Bosque",
+        "Miscellaneous": "Diversos",
+        "Monsters": "Monstros",
         "NPCs": "NPCs",
-        "Pre-Made Actors": "Pre-Made Actors",
-        "Cleric": "Cleric",
-        "Fighter": "Fighter",
-        "Rogue": "Rogue",
-        "Wizard": "Wizard",
-        "Appendices": "Appendices",
-        "Character Options": "Character Options"
+        "Pre-Made Actors": "Fichas Prontas",
+        "Cleric": "Clérigo",
+        "Fighter": "Guerreiro",
+        "Rogue": "Ladino",
+        "Wizard": "Mago",
+        "Appendices": "Apêndices",
+        "Character Options": "Opções de Personagem"
       },
       "journals": {
         "Art Handouts": {
-          "name": "Art Handouts",
+          "name": "Ilustrações",
           "categories": {
             "Species": "Species",
             "Backgrounds": "Backgrounds",
@@ -4058,7 +4058,7 @@
           }
         },
         "Play Guide": {
-          "name": "Play Guide",
+          "name": "Guia de Jogo",
           "pages": {
             "Cover": {
               "name": "Cover",
@@ -4161,7 +4161,7 @@
               "text": "<p>On your turn, you can move a distance equal to your &amp;Reference[Speed] or less. Or you can decide not to move.</p><p>Your movement can include climbing, crawling, jumping, and swimming (each explained in the @UUID[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule]{rules glossary}). These different modes of movement can be combined with your regular movement, or they can constitute your entire move.</p><p>However you’re moving with your Speed, you deduct the distance of each part of your move from it until it is used up or until you are done moving, whichever comes first.</p>"
             },
             "Difficult Terrain": {
-              "name": "Difficult Terrain",
+              "name": "Terreno Difícil",
               "text": "<p>Combatants are often slowed by &amp;Reference[Difficult Terrain]. Furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of Difficult Terrain.</p><p>Every foot of movement in Difficult Terrain costs 1 extra foot, even if multiple things in a space count as Difficult Terrain.</p>"
             },
             "Breaking Up Your Move": {
@@ -4359,7 +4359,7 @@
           }
         },
         "Quick Start": {
-          "name": "Quick Start",
+          "name": "Início Rápido",
           "pages": {
             "Introduction": {
               "name": "Introduction",
@@ -4387,57 +4387,57 @@
           "name": "Atlas",
           "pages": {
             "Cave A: Kobold Lair": {
-              "name": "Cave A: Kobold Lair"
+              "name": "Caverna A: Covil dos Kobolds"
             },
             "Cave B: Mephit Lair": {
-              "name": "Cave B: Mephit Lair"
+              "name": "Caverna B: Covil dos Mefitos"
             },
             "Cave C: Nothic Lair": {
-              "name": "Cave C: Nothic Lair"
+              "name": "Caverna C: Covil do Nothic"
             },
             "Cave D: Goblin Lair": {
-              "name": "Cave D: Goblin Lair"
+              "name": "Caverna D: Covil dos Goblins"
             },
             "Cave E: Ogre Lair": {
-              "name": "Cave E: Ogre Lair"
+              "name": "Caverna E: Covil dos Ogros"
             },
             "Cave F: Hobgoblin Lair": {
-              "name": "Cave F: Hobgoblin Lair"
+              "name": "Caverna F: Covil dos Hobgoblins"
             },
             "Cave G: Shunned Caves": {
-              "name": "Cave G: Shunned Caves"
+              "name": "Caverna G: Cavernas Evitadas"
             },
             "Cave H: Bugbear Lair": {
-              "name": "Cave H: Bugbear Lair"
+              "name": "Caverna H: Covil dos Ogros-Menores"
             },
             "Cave I: Minotaur Lair": {
-              "name": "Cave I: Minotaur Lair"
+              "name": "Caverna I: Covil do Minotauro"
             },
             "Cave J: Gnoll Lair": {
-              "name": "Cave J: Gnoll Lair"
+              "name": "Caverna J: Covil dos Gnolls"
             },
             "Cave K: Shrine of Evil Chaos": {
-              "name": "Cave K: Shrine of Evil Chaos"
+              "name": "Caverna K: Santuário do Caos Maligno"
             },
             "Wilderness": {
-              "name": "Wilderness"
+              "name": "Terras Selvagens"
             },
             "Trail": {
-              "name": "Trail"
+              "name": "Trilha"
             },
             "Keep on the Borderlands": {
-              "name": "Keep on the Borderlands"
+              "name": "Forte nas Terras Fronteiriças"
             },
             "Woods": {
-              "name": "Woods"
+              "name": "Bosque"
             },
             "Caves of Chaos": {
-              "name": "Caves of Chaos"
+              "name": "Cavernas do Caos"
             }
           }
         },
         "Monsters": {
-          "name": "Monsters",
+          "name": "Monstros",
           "pages": {
             "Monster List": {
               "name": "Monster List",
@@ -4531,7 +4531,7 @@
           }
         },
         "On Your Turn": {
-          "name": "On Your Turn",
+          "name": "No Seu Turno",
           "pages": {
             "Combat": {
               "name": "Combat",
@@ -4544,7 +4544,7 @@
           }
         },
         "Backgrounds": {
-          "name": "Backgrounds",
+          "name": "Antecedentes",
           "pages": {
             "Acolyte": {
               "name": "Acolyte",
@@ -4581,7 +4581,7 @@
           }
         },
         "Items": {
-          "name": "Items",
+          "name": "Itens",
           "pages": {
             "Equipment": {
               "name": "Equipment",
@@ -4594,7 +4594,7 @@
           }
         },
         "Species": {
-          "name": "Species",
+          "name": "Espécies",
           "pages": {
             "Dwarf": {
               "name": "Dwarf",
@@ -4615,7 +4615,7 @@
           }
         },
         "Spells": {
-          "name": "Spells",
+          "name": "Magias",
           "pages": {
             "Descriptions": {
               "name": "Descriptions",
@@ -4624,7 +4624,7 @@
           }
         },
         "Caves of Chaos": {
-          "name": "Caves of Chaos",
+          "name": "Cavernas do Caos",
           "pages": {
             "Getting Started": {
               "name": "Getting Started",
@@ -4645,10 +4645,10 @@
           }
         },
         "A: Kobold Lair": {
-          "name": "A: Kobold Lair",
+          "name": "A: Covil dos Kobolds",
           "pages": {
             "A: Kobold Lair": {
-              "name": "A: Kobold Lair",
+              "name": "A: Covil dos Kobolds",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.RNQochyYiuQD5fSE caption=false]</p><div class=\"space-between top\"><section class=\"social-example\"><section class=\"highlighted\"><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong>@UUID[Scene.hotbCaveAKoboldL]{Cave A}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.RNQochyYiuQD5fSE]{Cave A: Kobold Lair}</p><p><span class=\"footnote\">1</span></p></section></section><section class=\"highlighted\"><p>A band of kobolds recently stole a dragon egg and brought it to these caves to eat. But when the egg hatched and a screeching dragon wyrmling emerged, the kobolds quickly realized they bit off more than they could chew.<span class=\"footnote\">2</span></p></section><p>The kobolds tried to appease the fussy wyrmling with treasure, but they can’t agree on what to do next. Should they return the wyrmling to its nest, or should they raise it themselves?</p><section class=\"highlighted\"><p>You can add monsters, such as <strong>@UUID[Actor.mmGiantFireBeetl]{Giant Fire Beetles}</strong>, to the cave to make this scenario longer and more difficult, or you can reduce the number of <strong>@UUID[Actor.mmKoboldWarrior0]{Kobold Warriors}</strong> to make it easier and shorter.<span class=\"footnote\">3</span></p></section><h3>Getting Started</h3><p>Lay out this cave’s poster map for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area.</p><p>To begin, read the following boxed text aloud:</p><section class=\"narrative highlighted\"><p>A tunnel made of hard-packed earth leads into darkness. The cave echoes with high-pitched bickering overtopped by a loud, bestial squeal.<span class=\"footnote\">4</span></p></section><p>The sounds come from the quarreling kobolds in @UUID[JournalEntry.hotbAKoboldLair0.JournalEntryPage.8g7EokmF8gdA8p9d]{area A4} and the crying wyrmling in @UUID[JournalEntry.hotbAKoboldLair0.JournalEntryPage.9Gpzfiz11Qa6l8Kp]{area A5}.</p><section class=\"highlighted\"><h3>Kobold Lair Features</h3><p><span class=\"footnote\">5</span></p></section><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 10 feet high.</p><p><strong>Environment.</strong> The cave has rough stone walls and a dirt floor. The floor is littered with gnawed animal bones and junk collected by the kobolds.</p><p><strong>Lighting.</strong> The cave is unlit, and its denizens rely on Darkvision or other means to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><h3>Kobold Lair Locations</h3><p>The following locations are keyed to map A. The map also shows you where to place tokens.</p></section><section class=\"social-callouts\"><aside class=\"callout-border\"><p><em><strong>DM Tips. </strong></em>This tutorial is designed for first-time Dungeon Masters. Sidebars like this one explain how to use the text and give examples of how an adventure in this cave might play out.</p></aside><aside class=\"callout-border\"><p><em><strong>What You Need to Play. </strong></em>Review the items listed here before you begin play.</p><p><span class=\"footnote\">1</span></p></aside><aside class=\"callout-border\"><p><em><strong>Summary. </strong></em>The beginning of each cave presents its central conflict, as well as optional ways to increase or decrease the difficulty. If the characters are level 1, don’t increase the difficulty.</p><p><span class=\"footnote\">2</span></p></aside><aside class=\"callout-border\"><p><em><strong>Bold Terms. </strong></em>When a game component’s name appears in <strong>Bold</strong> type, that’s a visual cue to say, “Hey, DM, this is going to be important soon.”</p><p><span class=\"footnote\">3</span></p></aside><aside class=\"callout-border\"><p><em><strong>Boxed Text. </strong></em>Text that appears in a box like the one to the left is meant to be read aloud or paraphrased for the players when their characters first arrive at a location or under a specific circumstance, as described in the text.</p><p><span class=\"footnote\">4</span></p></aside><aside class=\"callout-border\"><p><em><strong>Features. </strong></em>This section presents special features about the location. Some of these exist to help you set the mood—you might describe the crunch of animal bones under the characters’ feet—while others detail important rules, such as secret doors and how to find them.</p><p><span class=\"footnote\">5</span></p></aside><aside class=\"callout-border\"><p><em><strong>Exploration and Movement. </strong></em>Exploration is open-ended; the players don’t take turns moving around the dungeon the way they do in combat. As they explore, direct the players to freely move their <strong>Player Character Tokens</strong> on the Scene, but stop them when they reach the entrance (@UUID[JournalEntry.hotbAKoboldLair0.JournalEntryPage.uV5xsLYRhZU8LN2S]{area A1}).</p></aside></section></div>"
             },
             "Entrance": {
@@ -4674,10 +4674,10 @@
           }
         },
         "B: Mephit Lair": {
-          "name": "B: Mephit Lair",
+          "name": "B: Covil dos Mefitos",
           "pages": {
             "B: Mephit Lair": {
-              "name": "B: Mephit Lair",
+              "name": "B: Covil dos Mefitos",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.gpusJpvBSkMjolX8 caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong>@UUID[Scene.hotbCaveBMephitL]</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.gpusJpvBSkMjolX8]</p></section><p>Sturdy fortifications and clean water make this abandoned subterranean outpost an appealing den for thieves and monsters. Before the prior inhabitants left, they stored some enticing treasure here, guarded by a monstrous shape-shifter called a mimic. Since then, a trio of impish elementals and kuo-toa fanatics have made the cave their home.</p><p>You can add monsters, such as <strong>@UUID[Actor.mmGiantCentipede]{Giant Centipedes}</strong>, to the cave to make this scenario longer and more difficult, or you can remove the <strong>@UUID[Actor.hotbKuotoaMaraud]{Kuo-Toa Marauders}</strong> or one of the <strong>@UUID[Actor.mmSteamMephit000]{Steam Mephits}</strong> to make it easier and shorter.</p><h3>Getting Started</h3><p>Activate the Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene.</p><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>Walls of mortared stone and cracked flagstone tiles form the interior of this cave, creating the impression of a subterranean fortress. Water trickles steadily somewhere in the cave.</p></section><p>Water from the broken fountain in @UUID[JournalEntry.hotbBMephitLair0.JournalEntryPage.Ov6rLTpT1I6vu6JG]{area B7} floods a chamber to the south (@UUID[JournalEntry.hotbBMephitLair0.JournalEntryPage.1gVzkdw70xvq8O3A]{area B5}). The dribbling fountain can be heard throughout the cave.</p><h3>Mephit Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 10 feet high.</p><p><strong>Door. </strong>The door to @UUID[JournalEntry.hotbBMephitLair0.JournalEntryPage.TFVSE7DjBYp9AYZC]{area B8} is made from reinforced wood; it’s closed but unlocked.</p><p><strong>Environment.</strong> The cave’s walls are made of smooth, mortared stones with patches of unworked rock.</p><p><strong>Lighting.</strong> The cave is unlit, and its denizens rely on Darkvision to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><h3>Mephit Lair Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4715,10 +4715,10 @@
           }
         },
         "C: Nothic Lair": {
-          "name": "C: Nothic Lair",
+          "name": "C: Covil do Nothic",
           "pages": {
             "C: Nothic Lair": {
-              "name": "C: Nothic Lair",
+              "name": "C: Covil do Nothic",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.sCXmQnDoutnGPoEN caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene:</strong> @UUID[Scene.hotbCaveCNothicL]{Cave C}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.sCXmQnDoutnGPoEN]{Cave C}</p></section><p>An evil wizard used these caverns to conduct foul experiments. The last of these destroyed the wizard’s memory and transformed her into a cyclopic monster called a nothic. By studying arcane secrets, the nothic hopes to regain its memories and attain enough power to rule the Caves of Chaos.</p><p>Recently, a carrion crawler slithered into the cave and interrupted the nothic’s research. Unwilling to confront the creature directly, the nothic is now trapped in its laboratory as it concocts a solution.</p><p>You can add monsters, such as <strong>@UUID[Actor.mmStirge00000000]{Stirges}</strong>, to the cave to make this scenario longer and more difficult, or you can remove the <strong>@UUID[Actor.mmAnimatedFlying]{Animated Flying Sword}</strong> to make it easier and shorter.</p><h3>Getting Started</h3><p>Lay out this cave’s poster map for the other players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area Shown on the Scene.</p><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>The entrance to this cave is flanked by carved stone blocks etched with strange geometric patterns. You hear sounds of something scuttling across the stone inside the cave.</p></section><p>The sounds come from the carrion crawler in the hallway (@UUID[JournalEntry.hotbCNothicLair0.JournalEntryPage.poQL6RK5KEF8fxum]{area C4}).</p><h3>Nothic Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 10 feet high.</p><p><strong>Doors. </strong>Doors throughout the cave are made of reinforced wood with iron hinges.</p><p><strong>Environment.</strong> The cave has mostly smooth stone walls with patches of unworked stone. The smooth stone walls are carved with geometric patterns and indecipherable runes.</p><p><strong>Lighting.</strong> The cave is unlit, and its denizens rely on Darkvision or other means to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><h3>Nothic Lair Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4752,10 +4752,10 @@
           }
         },
         "D: Goblin Lair": {
-          "name": "D: Goblin Lair",
+          "name": "D: Covil dos Goblins",
           "pages": {
             "D: Goblin Lair": {
-              "name": "D: Goblin Lair",
+              "name": "D: Covil dos Goblins",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.NgLLrB4AYzrKQyab caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene:</strong> @UUID[Scene.hotbCaveDGoblinL]{Cave D}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.NgLLrB4AYzrKQyab]{Cave D}</p></section><p>A violent band of goblin warriors lives in this cave. It’s the goblin boss’s birthday, and she demands a celebration! Engrossed in the revelry, the goblins ignore their recent captive: a dwarf named @UUID[Actor.hotbVinx00000000]{Vinx}.</p><p>You can add monsters to the cave to make this scenario longer and more difficult. The goblins might have invited <strong>@UUID[Actor.mmHobgoblinWarri]{Hobgoblin Warriors}</strong> from the adjacent cave (@UUID[JournalEntry.hotbFHobgoblinLa]{cave F}) as party guests or bodyguards. To make the scenario easier and shorter, reduce the number of <strong>@UUID[Actor.mmGoblinWarrior0]{Goblin Warriors}</strong>.</p><h3>Getting Started</h3><p>Activate this cave’s Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on @UUID[JournalEntry.hotbDGoblinLair0]{map D} if the characters approach from outside the cave, in @UUID[JournalEntry.hotbDGoblinLair0.JournalEntryPage.bHx3nAxEm37lZT78]{area D5} if they enter through the secret door in @UUID[JournalEntry.hotbEOgreLair000.JournalEntryPage.ACFAkWYOX0k8RMh3]{cave E}, or in the hallway west of @UUID[JournalEntry.hotbDGoblinLair0.JournalEntryPage.UWtJtfAl7ORQc9Iz]{area D4} if they arrive from @UUID[JournalEntry.hotbFHobgoblinLa]{cave F}.</p><p>Read or paraphrase the following to begin:</p><section class=\"narrative\"><p>Torches illuminate this stinking cave. A horrendous racket of discordant voices echoes within. The voices appear to be singing—quite badly.</p></section><p>The “music” emanates from the boss’s room (@UUID[JournalEntry.hotbDGoblinLair0.JournalEntryPage.UWtJtfAl7ORQc9Iz]{area D4}), where off-key goblins commemorate their leader in song. The singing continues for 1 minute, then ends with a din of celebratory yips.</p><h3>Goblin Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 10 feet high.</p><p><strong>Surroundings. </strong>The cave has walls of rough-hewn stone and a dirt floor. It stinks of old food and soiled clothes, which are strewn about the cave.</p><p><strong>Doors and Secret Door.</strong> Doors in the cave are made of rough wood. The secret door in @UUID[JournalEntry.hotbDGoblinLair0.JournalEntryPage.bHx3nAxEm37lZT78]{area D5} blends in with the surrounding wall. As a &amp;Reference[Search] action, a character can make a [[/skill 15 perception]] check to scan that area for a secret door, noticing it on a successful check.</p><p><strong>Lighting.</strong> Torches in wall sconces throughout the cave fill it with Bright Light.</p><h3>Goblin Lair Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4781,10 +4781,10 @@
           }
         },
         "E: Ogre Lair": {
-          "name": "E: Ogre Lair",
+          "name": "E: Covil dos Ogros",
           "pages": {
             "E: Ogre Lair": {
-              "name": "E: Ogre Lair",
+              "name": "E: Covil dos Ogros",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.wnAeOzQY4htRpQcL caption=false classes=\"right three\"]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene:</strong> @UUID[Scene.hotbCaveEOgreLai]{Cave E}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.wnAeOzQY4htRpQcL]{Cave E}</p></section><p>An ogre mercenary named Oggdug recently formed an alliance with a red dragon wyrmling who aims to rule the Caves of Chaos. The dragon, Cindertooth, serves Oggdug as an attack dog and companion—for now. Cindertooth tolerates Oggdug so long as the ogre supplies him with gold and spoils for his growing hoard. Player characters might hire the ogre for a short time.</p><p>You can add monsters to the cave to make this scenario longer and more difficult. One or more <strong>@UUID[Actor.mmGoblinWarrior0]{Goblin Warriors}</strong> or <strong>@UUID[Actor.mmKoboldWarrior0]{Kobold Warriors}</strong> might be here soliciting the ogre’s services. Conversely, you can remove the <strong>@UUID[Actor.mmRedDragonWyrml]{Red Dragon Wyrmling}</strong> to make the scenario easier and shorter. Cindertooth might be away when the characters first explore this cave.</p><h3>Getting Started</h3><p>Activate this cave’s Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene if the characters approach from outside the cave or in @UUID[JournalEntry.hotbEOgreLair000.JournalEntryPage.ACFAkWYOX0k8RMh3]{area E3} if they enter through the secret door in @UUID[JournalEntry.hotbDGoblinLair0]{cave D}.</p><p>If the characters approach from outside the cave, read the following boxed text aloud to begin:</p><section class=\"narrative\"><p>This large cave exudes a strong, sour odor. Half-gnawed hunks of meat from sloppily butchered and charred animals litter the area.</p></section><p>The cave’s occupants are responsible for the mess.</p><h3>Ogre Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 15 feet high.</p><p><strong>Environment.</strong> The dirt floor of this natural cave is stained with blood from past battles.</p><p><strong>Secret Door.</strong> The secret door in @UUID[JournalEntry.hotbEOgreLair000.JournalEntryPage.ACFAkWYOX0k8RMh3]{area E3} blends in with the surrounding wall. As a &amp;Reference[Search] action, a character can make a [[/skill 15 perception]] check to scan that area for a secret door, noticing it on a successful check. Oggdug knows about the door but doesn’t use it due to its narrowness and the spider den on the other side (see @UUID[JournalEntry.hotbDGoblinLair0]{cave D}).</p><p><strong>Lighting.</strong> During the day, natural light provides &amp;Reference[Dim Light] in the cave. At night, its denizens rely on Darkvision to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\"></figure><article><h3>Day and Night Modes</h3><p>If your players arrive at night you can set the Scene's Darkness level to .8 or higher. This can be done automatically by changing to the <strong>Light</strong> tool and pressing the <strong>Transition to Night</strong> button. It will automatically disable the lights in the cave for accurate vision.</p></article></section><h3>Ogre Lair Locations</h3><p>The following locations are keyed to map E. The map also shows you where to place tokens.</p>"
             },
             "Entrance": {
@@ -4802,10 +4802,10 @@
           }
         },
         "F: Hobgoblin Lair": {
-          "name": "F: Hobgoblin Lair",
+          "name": "F: Covil dos Hobgoblins",
           "pages": {
             "F: Hobgoblin Lair": {
-              "name": "F: Hobgoblin Lair",
+              "name": "F: Covil dos Hobgoblins",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.apmbROei2q8JLU8k caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene:</strong> @UUID[Scene.hotbCaveFHobgobl]{Cave F}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.apmbROei2q8JLU8k]{Cave F}</p></section><p>Hobgoblins quartered in this cave recently suffered heavy losses, including their former captain. Only four hobgoblins remain. They’ve fortified their outpost and drafted a voracious ooze to guard it.</p><p>You can add monsters, such as allied <strong>@UUID[Actor.mmGoblinWarrior0]{Goblin Warriors}</strong>, to the cave to make this scenario longer and more difficult, or you can remove some monsters to make it easier and shorter. One or two <strong>Hobgoblin Warriors</strong> might be out on a patrol elsewhere.</p><h3>Getting Started</h3><p>Activate this cave's Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene if they characters approach from outside the cave or in the hall east of @UUID[JournalEntry.hotbFHobgoblinLa.JournalEntryPage.zvYrW2GM5qXWQEqd]{area F2} if they arrive from @UUID[JournalEntry.hotbDGoblinLair0]{cave D}. Don’t place any other tokens yet, since the cave’s contents aren’t visible to characters at the outset.</p><p>If the characters approach from outside the cave, read the following boxed text aloud to begin:</p><section class=\"narrative\"><p>A stout, ironbound door seals this cave mouth. Bleached skulls line niches outside the entrance. A bloodstained sign on the door reads, “Come in! We’d like to have you for dinner!”</p></section><p>The hobgoblins don’t eat people, but they use the sign’s gruesome implication to scare intruders.</p><h3>Hobgoblin Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 10 feet high.</p><p><strong>Doors. </strong>The cave’s doors are made of oak planks bound with iron. They are unlocked.</p><p><strong>Environment. </strong>The cave is carved from stone. It is scrupulously clean. The hobgoblins keep their areas tidy, and the <strong>@UUID[Actor.mmGelatinousCube]{jelly cube}</strong> in @UUID[JournalEntry.hotbFHobgoblinLa.JournalEntryPage.zvYrW2GM5qXWQEqd]{area F2} sweeps up anything in its path.</p><p><strong>Lighting.</strong> The cave is unlit, and its denizens rely on Darkvision or other means to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><h3>Hobgoblin Lair Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4831,10 +4831,10 @@
           }
         },
         "G: Shunned Caves": {
-          "name": "G: Shunned Caves",
+          "name": "G: Cavernas Evitadas",
           "pages": {
             "G: Shunned Caves": {
-              "name": "G: Shunned Caves",
+              "name": "G: Cavernas Evitadas",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.EvuysYbApYktHBlQ caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene:</strong> @UUID[Scene.hotbCaveGShunned]{Cave G}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.EvuysYbApYktHBlQ]{Cave G}</p></section><p>An owlbear—a frightening cross between a bear and a giant owl—lurks in this cave. Most other denizens of the valley give the cave a wide berth.</p><p>This cave is connected to @UUID[JournalEntry.hotbKShrineOfEvi]{cave K}, a hotbed of activity for the Cult of Chaos, whose members venerate powers of disorder and destruction. The cult mainly operates in the adjacent cave, but as its ranks swell, cultists increasingly frequent this one. The owlbear is unaware of the cultists’ presence.</p><p>You can add monsters, such as <strong>@UUID[Actor.mmZombie00000000]{Zombies}</strong>, to the cave to make this scenario longer and more difficult, or you can reduce the number of <strong>@UUID[Actor.mmCultist0000000]{Cultists}</strong> or <strong>@UUID[Actor.mmGrayOoze000000]{Gray Ooze Globs}</strong> to make it easier and shorter.</p><h3>Getting Started</h3><p>Activate this cave's Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene if the characters approach from outside the cave or on the stairs south of @UUID[JournalEntry.hotbGShunnedCave.JournalEntryPage.Kb3YWWGkK2yPj0ag]{area G6} if they arrive from cave K.</p><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>The stench of rot and wet stone issues from this natural cave. An unsettling screech and the sound of thick feathers ruffling echo within.</p></section><p>The owlbear is moving restlessly in its den (@UUID[JournalEntry.hotbGShunnedCave.JournalEntryPage.jy1nrvLD2R8ZaZzB]{area G5}).</p><h3>Shunned Cave Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 15 feet high.</p><p><strong>Door.</strong> The stone door to @UUID[JournalEntry.hotbGShunnedCave.JournalEntryPage.Kb3YWWGkK2yPj0ag]{area G6} is ajar.</p><p><strong>Environment.</strong> The eastern half of this cave (areas G1–G5) has naturally formed spaces with wet walls and damp dirt floors. The western half of the cave (areas G6–G7) has walls made of cut stone blocks and floors made of cracked tiles.</p><p><strong>Lighting.</strong> Unless noted otherwise, the cave is unlit. Its denizens use Darkvision or other means to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><h3>Shunned Cave Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4842,7 +4842,7 @@
               "text": "<p>Gnawed bones litter the ground near the cave mouth, and the stench of blood hangs in the air. The bones belong to the owlbear’s victims, including animals, explorers, and other monsters. The bones bear indentations from the owlbear’s toothed beak.</p>"
             },
             "Shallow Pool": {
-              "name": "Shallow Pool",
+              "name": "Poça Rasa",
               "text": "<section class=\"narrative\"><p>Moisture drips from the ceiling of this damp cave, forming a shallow pool. Something glitters in the murky water.</p></section><p>Both of the <strong>@UUID[Actor.mmGrayOoze000000]{Gray Ooze Globs}</strong> are hiding so their Tokens are hidden. They can be revealed when you're ready. Two <strong>Gray Ooze Globs</strong> lurk in the pool, which is 2 feet deep and &amp;Reference[Difficult Terrain]. The Hostile oozes fight any creature that comes within 5 feet of the water.</p><p><span class=\"CharOverride-3\"><em><strong>Treasure.</strong></em></span> The pool contains a jewel-encrusted goblet (give the players one <strong>@UUID[Compendium.dnd-heroes-borderlands.items.Item.hotbGem000000000]{Gem}</strong>) and one magic item; draw a card from the <strong>@UUID[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbMagicItems00]{Magic Item Table}</strong> to determine the item.</p>"
             },
             "Tight Passage": {
@@ -4868,10 +4868,10 @@
           }
         },
         "H: Bugbear Lair": {
-          "name": "H: Bugbear Lair",
+          "name": "H: Covil dos Ogros-Menores",
           "pages": {
             "H: Bugbear Lair": {
-              "name": "H: Bugbear Lair",
+              "name": "H: Covil dos Ogros-Menores",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.woAXakVZiaeL5qfI caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene:</strong> @UUID[Scene.hotbCaveHBugbear]{Cave H}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.woAXakVZiaeL5qfI]{Cave H}</p></section><p>This cave recently came under the control of three belligerent bugbears and the goblin stooges they’ve cowed into their service. The bugbears are plotting an assault on the @UUID[JournalEntry.hotbSourceKeepOn]{Keep on the Borderlands}. They dream of destroying the keep and looting its riches.</p><p>You can add another <strong>@UUID[Actor.mmBugbearWarrior]{Bugbear Warrior}</strong> to the cave to make this scenario longer and more difficult, or you can remove one or more of them to make it easier and shorter.</p><h3>Getting Started</h3><p>Activate the Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene if the characters approach from outside the cave or in @UUID[JournalEntry.hotbHBugbearLair.JournalEntryPage.ZZAkUjrtUKLRc4LZ]{area H5} if they enter through the secret door in @UUID[JournalEntry.hotbIMinotaurLai]{cave I}.</p><p>If the characters approach from outside the cave, read the following boxed text aloud to begin:</p><section class=\"narrative\"><p>A tunnel of rough stone is tucked behind several bushes. Within, you hear two deep voices in a heated argument. The conversation is unintelligible at this range.</p></section><p>The voices belong to a pair of bugbears quarreling in the war room (@UUID[JournalEntry.hotbHBugbearLair.JournalEntryPage.kepU4JeP06ZdD5Ka]{area H2}).</p><h3>Bugbear Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 10 feet high.</p><p><strong>Doors and Secret Doors.</strong> The doors in this cave are made of sturdy wood planks. The secret door in @UUID[JournalEntry.hotbHBugbearLair.JournalEntryPage.ZZAkUjrtUKLRc4LZ]{area H5} blends in with the surrounding wall. As a &amp;Reference[Search] action, a character can make a [[/skill 15 perception]] check to scan that area for a secret door, noticing it on a successful check.</p><p><strong>Environment.</strong> The walls are made of rough-hewn stone in some places and neat-fitting stone blocks in others. Stone tiles cover the floor.</p><p><strong>Lighting.</strong> The cave is unlit, and its denizens rely on Darkvision to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><h3>Bugbear Lair Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4901,10 +4901,10 @@
           }
         },
         "I: Minotaur Lair": {
-          "name": "I: Minotaur Lair",
+          "name": "I: Covil do Minotauro",
           "pages": {
             "I: Minotaur Lair": {
-              "name": "I: Minotaur Lair",
+              "name": "I: Covil do Minotauro",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.nluh5BFwekVUD0OT caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Poster Map:</strong> @UUID[Scene.hotbCaveIMinotau]{Cave I}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.nluh5BFwekVUD0OT]{Cave I}</p></section><p>A bloodthirsty minotaur rules this cave. A servant of Baphomet—a demon lord who endorses bloodshed and cruelty—the minotaur feasts on adventurers and monsters alike. It stalks its lair, huffing in bestial rage.</p><p>The minotaur’s only companions are the vermin that scavenge its grisly leftovers. Deprived of recent visitors to its cave, the minotaur hungers for new playthings to hunt.</p><p>You can add monsters to the cave to make this scenario longer and more difficult. One or more <strong>@UUID[Actor.mmBandit00000000]{Bandits} </strong>might be here searching for hidden treasure. Conversely, you can reduce the number of <strong>@UUID[Actor.mmStirge00000000]{Stirges}</strong> to make the scenario easier and shorter.</p><h3>Getting Started</h3><p>Activate this cave's Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene if the characters approach from outside the cave or north of @UUID[JournalEntry.hotbIMinotaurLai.JournalEntryPage.1nh6QnQFGYYrxAfP]{area I3} if they enter through the secret door in @UUID[JournalEntry.hotbHBugbearLair]{cave H}.</p><p>If the characters approach from outside the cave, read the following boxed text aloud to begin:</p><section class=\"narrative\"><p>The entrance to this cave is a gaping maw of crumbling gray bricks. A low bellow rumbles within, causing dirt to trickle from the roof of the cave mouth.</p></section><h3>Minotaur Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 15 feet high.</p><p><strong>Environment.</strong> The cave walls are made of hard-packed dirt reinforced with crumbling pillars and brickwork. Crushed bones lie scattered about the dirt floor.</p><p><strong>Lighting.</strong> The cave is unlit, and its denizens rely on Darkvision or other means to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><p><strong>Secret Doors.</strong> The secret doors in @UUID[JournalEntry.hotbIMinotaurLai.JournalEntryPage.1nh6QnQFGYYrxAfP]{areas I3} and @UUID[JournalEntry.hotbIMinotaurLai.JournalEntryPage.slzPY51MwR88hBLL]{I4} blend in with their surroundings. As a &amp;Reference[Search] action, a character in either of those areas can make a [[/skill 15 perception]] check to scan the area for a secret door, noticing it on a successful check.</p><h3>Minotaur Lair Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4930,10 +4930,10 @@
           }
         },
         "J: Gnoll Lair": {
-          "name": "J: Gnoll Lair",
+          "name": "J: Covil dos Gnolls",
           "pages": {
             "J: Gnoll Lair": {
-              "name": "J: Gnoll Lair",
+              "name": "J: Covil dos Gnolls",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.2D58ku1tiqRHLfxB caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Poster Map:</strong> @UUID[Scene.hotbCaveJGnollLa]{Cave J}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.2D58ku1tiqRHLfxB]{Cave J}</p></section><p>Evil gnolls—tall, shaggy fiends with hyenoid heads—have turned this abandoned shrine into their lair. The gnolls heard rumors that treasure is hidden somewhere in this cave, but they’ve been unable to find it due to an illusion placed by a long-dead mage. Vicious and hot-tempered, the gnolls have little patience for those who interrupt their search.</p><p>You can add monsters to the cave to make this scenario longer and more difficult. One or more <strong>@UUID[Actor.mmBugbearWarrior]{Bugbear Warriors}</strong> might have formed a tenuous alliance with the gnolls. Conversely, you can reduce the number of <strong>@UUID[Actor.mmGnollWarrior00]{Gnoll Warriors}</strong> to make the scenario easier and shorter.</p><h3>Getting Started</h3><p>Activate this cave's Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene.</p><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>All is quiet outside the yawning mouth of this natural cave, at the back of which you can just make out a pair of featureless stone doors.</p></section><h3>Gnoll Lair Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 10 feet high.</p><p><strong>Doors.</strong> The doors to @UUID[JournalEntry.hotbJGnollLair00.JournalEntryPage.ymqKxjwPulaYdz5c]{area J2} are made of stone.</p><p><strong>Environment.</strong> Past its entrance, the cave’s natural rock gives way to crumbling stone blocks and flagstone tiles. Its walls are decorated with painted motifs of grinning demons and marching skeletons.</p><p><strong>Lighting.</strong> The cave is unlit, and its denizens rely on Darkvision to see. Area descriptions assume the characters have a light source or other means of seeing in Darkness.</p><h3>Gnoll Lair Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -4959,10 +4959,10 @@
           }
         },
         "K: Shrine of Evil Chaos": {
-          "name": "K: Shrine of Evil Chaos",
+          "name": "K: Santuário do Caos Maligno",
           "pages": {
             "K: Shrine of Evil Chaos": {
-              "name": "K: Shrine of Evil Chaos",
+              "name": "K: Santuário do Caos Maligno",
               "text": "<p>@Embed[JournalEntry.hotbAtlas0000000.JournalEntryPage.PTR9UHEwrKbUurkj caption=false]</p><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene:</strong> @UUID[Scene.hotbCaveKShrineO]{Cave K}</p><p><strong>DM View:</strong> @UUID[JournalEntry.hotbAtlas0000000.JournalEntryPage.PTR9UHEwrKbUurkj]{Cave K}</p></section><p>The Cult of Chaos performs evil rites in this cave, subtly drawing monsters to inhabit the Caves of Chaos and bring strife to the Borderlands. The current cult leader is @UUID[Actor.hotbIvlis0000000]{Ivlis}, the keep’s former priest. Her cruel assistant, @UUID[Actor.hotbNarthus00000]{Narthus}, is always here, and other cultists dwell close by (see @UUID[JournalEntry.hotbGShunnedCave]{cave G}). Undead guardians defend the shrine and the Chaos Bell—the source of the cult’s foul magic—at the shrine’s heart.</p><p>You can add monsters, such as <strong>@UUID[Actor.mmCultist0000000]{Cultists}</strong>, to the cave to make this scenario longer and more difficult, or you can reduce the number of <strong>@UUID[Actor.mmSkeleton000000]{Skeletons}</strong> or <strong>@UUID[Actor.mmZombie00000000]{Zombies}</strong> to make the scenario easier and shorter.</p><h3>Getting Started</h3><p>Activate this cave’s Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area shown on the Scene if the party approaches from outside the cave or on the stairs east of @UUID[JournalEntry.hotbKShrineOfEvi.JournalEntryPage.bnd56aGBqKagaUWj]{area K5} if they arrive from @UUID[JournalEntry.hotbGShunnedCave]{cave G}.</p><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>A foul draft issues from this cave. Red strata intertwine with bulging black veins running through the hewn rock. A sinister crimson light dances deep in the cave.</p></section><p>The stench issues from the rotting ogre in @UUID[JournalEntry.hotbKShrineOfEvi.JournalEntryPage.nSTCdE5cR3ATBGvv]{area K2}.</p><h3>Shrine Features</h3><p>The cave has the following features:</p><p><strong>Ceilings.</strong> The cave’s ceilings are 20 feet high.</p><p><strong>Doors and Secret Doors.</strong> Doors throughout this cave are made of heavy stone. The secret doors to @UUID[JournalEntry.hotbKShrineOfEvi.JournalEntryPage.8Bn4Zk2sh5g6fxeI]{area K8} blend in with their surroundings but are obvious from inside area K8. As a &amp;Reference[Search] action, a character can make a [[/skill 15 perception]] check to examine the wall for a secret door, noticing it on a successful check.</p><p><strong>Environment.</strong> The cave instills a sense of unease in its visitors.</p><p><strong>Lighting.</strong> Unless otherwise noted, Bright Light from red-flamed wall sconces fills the cave’s areas.</p><h3>Shrine Locations</h3><p>The following locations are keyed to the Scene.</p>"
             },
             "Entrance": {
@@ -5000,7 +5000,7 @@
           }
         },
         "Keep on the Borderlands": {
-          "name": "Keep on the Borderlands",
+          "name": "Forte nas Terras Fronteiriças",
           "pages": {
             "Getting Started": {
               "name": "Getting Started",
@@ -5133,7 +5133,7 @@
           }
         },
         "Wilderness": {
-          "name": "Wilderness",
+          "name": "Terras Selvagens",
           "pages": {
             "Getting Started": {
               "name": "Getting Started",
@@ -5144,7 +5144,7 @@
               "text": "<p>The following tables present additional random encounters the characters might face while exploring the wilderness. The tables are divided by wilderness region.</p><p>To generate a random encounter in a region, roll on the table for that region or choose an encounter you like. Activate the Scene for that region and place your <strong>Player Character Tokens</strong> to run combat encounters where necessary.</p><p><strong>Fens Scene:</strong> @UUID[Scene.hotbFens00000000]{Fens}</p><p>@Embed[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbRandomFensEn rollable]</p><p><strong>Tamarack Stand Scene:</strong> @UUID[Scene.hotbTamarackStan]{Tamarack Stand}</p><p>@Embed[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbRandomTamara rollable]</p><p><strong>Trail Scene:</strong> @UUID[Scene.hotbTrail0000000]{Trail}</p><p>@Embed[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbRandomTrailE rollable]</p><p><strong>Woods Scene:</strong> @UUID[Scene.hotbWoods0000000]{Woods}</p><p>@Embed[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbRandomWoodsE rollable]</p><p>@Embed[JournalEntry.hotbArtHandouts0.JournalEntryPage.vaA9GtuLUuHSfUag caption=false]</p>"
             },
             "Locations": {
-              "name": "Locations",
+              "name": "Locais",
               "text": "<section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/wilderness/terrain-river-road-gray.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.hotbRegion1Trail]{Region 1: Trail}</h3><p>This dirt trail connects the Keep on the Borderlands to the Caves of Chaos and the lands beyond.</p><p><strong>Encounters:</strong> @UUID[JournalEntry.hotbRegion1Trail.JournalEntryPage.ESnQMPj2hE6tQtL4]{Trail Encounters}</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/wilderness/terrain-forest-gray.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.hotbRegion2Woods]{Region 2: Woods}</h3><p>North of the keep sprawls a vast forest, home to hardy oaks, meaty mushrooms, and stores of primal magic. Wherever one goes in the woods, mystery and adventure abound.</p><p><strong>Encounters:</strong> @UUID[JournalEntry.hotbRegion2Woods.JournalEntryPage.IkYTgtjZ2gEJpoCK]{Woods Encounters}</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/commodities/flowers/lily-water-pink.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.hotbRegion3Fens0]{Region 3: Fens}</h3><p>This sodden wetland is home to dangerous wildlife, canny foes, and squelching mud.</p><p><strong>Encounters:</strong> @UUID[JournalEntry.hotbRegion3Fens0.JournalEntryPage.XO0M4SU2czKj5Jmc]{Fens Encounters}</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/wilderness/tree-spruce.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.hotbRegion4Tamar]{Region 4: Tamarack Stand}</h3><p>This hilly region’s sparse trees have short, bristly needles. Forest fires and giant animals are more common in this stretch of the wilds.</p><p><strong>Encounters: </strong>@UUID[JournalEntry.hotbRegion4Tamar.JournalEntryPage.DNnCx2YUrXU4210d]{Tamarack Stand Encounters}</p></article></section>"
             },
             "Exploring the Wilderness": {
@@ -5162,10 +5162,10 @@
           }
         },
         "Region 1: Trail": {
-          "name": "Region 1: Trail",
+          "name": "Região 1: Trilha",
           "pages": {
             "Region 1: Trail": {
-              "name": "Region 1: Trail",
+              "name": "Região 1: Trilha",
               "text": "<div class=\"space-between top\"><section class=\"social-example\"><p>This dirt trail connects the Keep on the Borderlands to the Caves of Chaos and the lands beyond.</p><section class=\"highlighted\"><h2>Trail Features</h2></section><p>The trail has the following features:</p><p><strong>Lighting.</strong> The trail is illuminated with Bright Light.</p><p><strong>Terrain.</strong> The 10-foot-wide trail is well kept and mostly flat. Spaces off the trail, however, are &amp;Reference[Difficult Terrain].</p><h2>Getting Started</h2><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>You travel along a well-kept trail east of the Keep on the Borderlands. Gnarled tree roots and big rocks mark the edges of the ten-foot-wide path.</p></section><p>The characters continue down the trail. Along the way, they face one or more encounters (detailed in the following section). The length of the characters’ journey is up to you.</p></section><section class=\"social-callouts\"><aside class=\"callout-border\"><p><em><strong>DM Tips</strong></em> This tutorial is designed for first-time Dungeon Masters. Boxes like this one explain how to use the text and give examples of how encounters in this region might play out.</p></aside><aside class=\"callout-border\"><p><em><strong>Features.</strong></em> This section presents special features about the region. Use these to enhance your descriptions or handle situations where rules like lighting or terrain are relevant.</p><p>The rules glossary in the Play Guide defines any capitalized rules such as Bright Light.</p><p><span class=\"footnote\">1</span></p></aside><aside class=\"callout-border\"><p><em><strong>Boxed Text.</strong></em> Text that appears in a box like the one to the left is meant to be read aloud or paraphrased for the players when their characters first arrive at a location or under a specific circumstance, as described in the text.</p><p>Boxed text is included for the region in general and for each encounter in it. Read the region's boxed text aloud before choosing the encounter, then read the boxed text aloud for that encounter to begin it.</p><p><span class=\"footnote\">2</span></p></aside></section></div>"
             },
             "Trail Encounters": {
@@ -5177,11 +5177,11 @@
               "text": "<div class=\"space-between top\"><section class=\"social-example\"><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>NPC:</strong> @UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.ZXoHwEtCrVkwhziO]{Haldryck}</p></section><section class=\"narrative\"><p>You spot a regal elk on the trail beside a dense thicket. Startled by your approach, the elk lopes into the thorny thicket. “Blast!” cries a husky voice from somewhere in the brambles.</p></section><p>A character can safely navigate the thicket to the source of the noise by succeeding on one of the following ability checks. Consider these examples:</p><p><strong>[[/skill 12 survival]].</strong> The character follows the narrow game trail used by the elk.</p><p><strong>[[/skill 12 nature]].</strong> The character knows how to avoid the brambles’ thorns.</p><p>On a failed check, a character scrambles through but takes [[/damage 1d4 Piercing]] damage from the thorns.</p><p><em><strong>Hidden Glen.</strong></em> A hidden glen lies on the other side of the game trail. Dozens of elk graze here in peace. Hiding in the bushes is <strong>@UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.ZXoHwEtCrVkwhziO]{Haldryck}</strong>, a Friendly innkeeper who likes to hunt. (Haldryck also appears in <strong>@UUID[JournalEntry.hotbSourceKeepOn]{Keep on the Borderlands}</strong>.)</p><p>Haldryck asks the characters to keep his hunting spot a secret. If they agree, he gives the characters [[/award 5GP]] and encourages them to spend it at his inn when next they visit the keep.</p></section><section class=\"social-callouts\"><aside class=\"callout-border\"><p><em><strong>Social Interaction.</strong></em> Player characters can meet many different people throughout the keep. As DM, you assume the roles of these nonplayer characters, whom you can embody through either active or descriptive roleplaying (detailed below). Players also use one or both of these approaches to roleplay their characters.</p><p><strong>Active Roleplaying.</strong> In active roleplaying, you speak with a character’s voice and might echo their body language, like an actor taking on a role. You still need to describe things that can’t reasonably be acted out.</p><p>An active approach to roleplaying Haldryck in the “Game Trail” encounter might involve you pretending to hide behind imaginary foliage and speaking in hushed tones.</p><p><strong>Descriptive Roleplaying.</strong> In descriptive roleplaying, you draw on your mental image of the character, saying what the character does and how they do it.</p><p>In the “Bandit Ambush” encounter, a descriptive approach to roleplaying Pral, a smarmy bandit captain, might involve you describing his flashy smile or confident swagger. You might tell the players that he holds out his hand expectantly for the characters’ gold.</p></aside></section></div>"
             },
             "Looted Wagon": {
-              "name": "Looted Wagon",
+              "name": "Carroça Saqueada",
               "text": "<div class=\"space-between top\"><section class=\"social-example\"><p><strong>Scene:</strong> @UUID[Scene.hotbLootedWagon0]{Looted Wagon}</p><section class=\"narrative\"><p>A wagon stands on the trail ahead. The driver and horses are nowhere to be seen.</p></section><p>The wagon was looted by bandits, who stole the horses and scared away the driver. Led by a local menace named @UUID[Actor.hotbPral00000000]{Pral}, these bandits frequently accost travelers along the trail (as happens in the @UUID[JournalEntry.hotbRegion1Trail.JournalEntryPage.2YGkYz1dwJadJEBY]{Bandit Ambush} encounter described later in this adventure).</p><p>A character who inspects the wagon can make one of the following ability checks to learn more about it. Consider these examples:</p><section class=\"highlighted\"><p><strong>[[/skill 13 investigation]].</strong> The character deduces the wagon was ambushed by bandits.</p><p><strong>[[/skill 13 survival]].</strong> The character discovers a striking bootprint left by @UUID[Actor.hotbPral00000000]{Pral}. The heel is mongrammed with the letter <em>P</em>.</p><p><strong>[[/skill 13 perception]].</strong> The character finds treasure the bandits missed (see below).</p><p><span class=\"footnote\">4</span></p></section><section class=\"highlighted\"><p><em><strong>Treasure.</strong></em> The wagon holds supplies intended for the keep: animal feed, bales of hay, and sacks of freshly milled flour. Stashed in one of the sacks is a purse that contains [[/award 12GP]].</p><p><span class=\"footnote\">5</span></p></section></section><section class=\"social-callouts\"><aside class=\"callout-border\"><p><em><strong>Ability Checks.</strong></em> When the outcome of an action is uncertain, the game uses a d20 roll to determine success or failure. This is called a D20 Test. An ability check is one type of D20 Test. Here’s how to run the ability check in the “Looted Wagon” encounter:</p><p><strong>1: Describe the Scene.</strong> Read the boxed text to paint a mental picture of the scene.</p><p><strong>2: Ask the Players, “What Do You Do?”</strong> If the players aren’t sure how to respond, suggest ways they could glean more information, like looking for tracks.</p><p><strong>3: Narrate the Results.</strong> The Difficulty Class (DC) for each listed ability check is 13. This number represents the difficulty of the task. If the total of the d20 and its modifiers equals or exceeds 13, the check succeeds. On a 12 or lower, it fails. The encounter’s description tells you what happens on a successful check. In this encounter, nothing happens on a failed check, but the character can try again.</p><p><strong>Example.</strong> The Cleric searches the wagon and makes a Wisdom (Perception) check. The player rolls a d20 and adds their character’s Perception modifier (+5) for a total of 17. The check succeeds, and the Cleric finds the treasure.</p><p><span class=\"footnote\">4</span></p></aside><aside class=\"callout-border\"><p><em><strong>Treasure.</strong></em> Treasure entries detail loot in an area, such as Gold Pieces (GP). Whenever a player character finds gold, give that player <strong>Gold Pieces</strong> equal to the listed value. The <strong>Award</strong> buttons throughout the Journals can be used to award gold to individual players and the party. Encourage players to split their treasure as evenly as possible.</p><p><span class=\"footnote\">5</span></p></aside></section></div>"
             },
             "Bandit Ambush": {
-              "name": "Bandit Ambush",
+              "name": "Emboscada de Bandidos",
               "text": "<div class=\"space-between top\"><section class=\"social-example\"><section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong>@UUID[Scene.hotbBanditAmbush]{Bandit Ambush}<br><strong>Creatures: </strong><span class=\"CharOverride-2\">3</span> @UUID[Actor.mmBandit00000000]{Bandits} and @UUID[Actor.hotbPral00000000]{Pral}</p></section><section class=\"narrative\"><p>A handsome man in a green-and-gold tunic and fancy boots saunters out of the bushes. “Hello,” he says casually as he blocks your path. “I’m Pral. Perhaps you’ve heard of me. Who am I kidding? Of course you have!”</p><p>Pral draws a sword. “Your money and your equipment, please. This is a robbery.”</p></section><p><strong>Pral</strong> leads a local gang of bandits. Three <strong>Bandits </strong>hide in the nearby bushes. Pral and the bandits are Hostile to the characters.</p><p>If the characters don’t relinquish their gold or talk their way out of the situation, Pral gives the signal for the bandits to spring out (see the “Fighting the Bandits” section).</p><p><em><strong>Adjusting the Difficulty.</strong></em> To make the encounter easier, you can reduce the number of <strong>Bandits</strong>, or you can add another bandit to increase the difficulty.</p><p><em><strong>Avoiding a Fight.</strong></em> As an &amp;Reference[Influence] action, a character can try to defuse the situation and make one of the following ability checks. Consider these examples:</p><p><strong>[[/skill 13 deception]].</strong> The character lies to Pral to gain safe passage, perhaps by pretending to be a fellow bandit.</p><p><strong>[[/skill 13 persuasion]].</strong> The character convinces Pral that violence isn’t necessary.</p><p><strong>[[/skill 13 intimidation]].</strong> The character pressures Pral into reconsidering the ambush.</p><p>On a successful check, Pral lets the characters pass unharmed. On a failed check, Pral signals the bandits to emerge (see the following section).</p><p><em><strong>Fighting the Bandits.</strong></em> In the case of combat, read the following to begin:</p><section class=\"narrative\"><p>Pral <em>tsks</em> in disapproval. He snaps his fingers, prompting more bandits to spring from the bushes with weapons drawn. In an instant, you’re surrounded—roll Initiative!</p></section><section class=\"highlighted\"><p>Activate the <strong>@UUID[Scene.hotbBanditAmbush]{Bandit Ambush}</strong> Scene for the players to see. Place the <strong>Player Character Tokens</strong> near the Suggested Start Area.</p><p><span class=\"footnote\">8</span></p></section><p>Pral and his bandits are brigands, not murderers. A character reduced to 0 Hit Points by Pral or his cohorts has the &amp;Reference[Unconscious apply=false] condition but is Stable. If all the characters are defeated by Pral’s band, they wake up 1 hour later on the trail with 1 Hit Point—and 10 fewer Gold Pieces or no Gold Pieces if they have fewer than 10 GP—each, along with a mocking note penned by Pral. At your discretion, Pral might reappear to the characters the next time they explore this region to rob them again.</p><section class=\"highlighted\"><p><em><strong>Treasure.</strong></em> Stashed in the bushes are the recent ill-gotten gains stolen by Pral’s band. If the characters defeat Pral and his band, they find a sack that contains [[/award 20GP]] and one magic item; draw a card from the <strong>@UUID[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbMagicItems00]{Magic Item Table} </strong>to determine the item.</p><p><span class=\"footnote\">9</span></p></section></section><section class=\"social-callouts\"><aside class=\"callout-border\"><p><em><strong>Advantage/Disadvantage.</strong></em> Sometimes a &amp;Reference[D20 Test] is modified by special situations called &amp;Reference[Advantage] and &amp;Reference[Disadvantage], which reflect positive and negative circumstances, respectively. See the <strong>Play Guide</strong> for more on Advantage and Disadvantage.</p><p>In the “Bandit Ambush” encounter, Pral is Hostile, so characters have Disadvantage on checks to influence him and thus avoid a fight.</p><p><strong>Roll Two D20s.</strong> When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage.</p><p><strong>Example.</strong> A Rogue tries to smooth things over with Pral by pretending to be a bandit. The Rogue makes a Charisma (Deception) check with Disadvantage.</p><p>The player rolls two d20s and adds their character’s Deception modifier (+4) to both results to get two totals: 16 and 9. They use the lower roll, which falls short of the DC of 13, so the check fails—Pral and his bandits start combat! If this check had instead been made with Advantage, it would have succeeded.</p></aside><aside class=\"callout-border\"><p><em><strong>Encounter Maps.</strong></em> The Scenes for the four wilderness regions are designed to accommodate multiple encounters and they are pre-configured with placed Tokens and Tiles.</p><p>You can use these Scenes, along with the Monsters in this module, to create wilderness encounters of your own.</p><p><span class=\"footnote\">8</span></p></aside><aside class=\"callout-border\"><p><em><strong>Magic Items.</strong></em> Some treasure entries contain magic items, objects imbued with arcane might. Whenever a player character finds a magic item, draw a <strong>Magic Item</strong> from the <strong>@UUID[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbMagicItems00]{Magic Item Table}</strong> and hand it to the player.</p><p><span class=\"footnote\">9</span></p></aside><aside class=\"callout-border\"><p><em><strong>Combat.</strong></em> Here’s how a combat encounter with Pral and his bandits ought to play out: </p><p><strong>1: Describe the Scene.</strong> Read the boxed text aloud. Then say, “Roll Initiative!” to signal the start of combat. Pral gets his own Initiative roll. Roll once separately for the bandits, who all act on the same turn.</p><p><strong>2: Place Tokens.</strong> Place the <strong>Player Character Tokens</strong> on the Scene.</p><p><strong>3: Players React.</strong> In combat, the characters and the bandits act on their turns.</p><p>Use the <strong>Combat Tracker</strong> and the <strong>Play Guide</strong> to run this encounter.</p></aside></section></div>"
             },
             "Talkative Traveler": {
@@ -5191,7 +5191,7 @@
           }
         },
         "Region 2: Woods": {
-          "name": "Region 2: Woods",
+          "name": "Região 2: Bosque",
           "pages": {
             "Region: 2 Woods": {
               "name": "Region: 2 Woods",
@@ -5202,7 +5202,7 @@
               "text": "<section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>NPC:</strong> @UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.JbKIizsMMDQs7wuN]{Xanthe}</p></section><section class=\"narrative\"><p>After a couple hours of hiking, you happen on a humble hut made from sheets of sturdy bark and blankets of moss. Sweet-smelling smoke wafts from its chimney. The hut’s wooden door is shut.</p></section><p>A hermit named <strong>@UUID[Actor.hotbXanthe000000]{Xanthe} </strong>lives here. Banished months ago from the keep, Xanthe is initially Hostile toward the characters, who she believes have come to harass her.</p><p>A character who tries to convince Xanthe that they bear no ill will can make a [[/skill per 12]] check. A successful check improves Xanthe’s attitude to Indifferent, and the hermit invites the party into her hut, where she shares her story and the rumors in her @UUID[JournalEntry.hotbNpcs00000000.JournalEntryPage.JbKIizsMMDQs7wuN]{journal}. On a failed check, Xanthe slams the door in their faces.</p>"
             },
             "Occult Ritual": {
-              "name": "Occult Ritual",
+              "name": "Ritual Oculto",
               "text": "<section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong>@UUID[Scene.hotbOccultRitual]{Occult Ritual}</p><p><strong>Equipment: </strong><span class=\"CharOverride-2\">4</span> @UUID[Compendium.dnd-heroes-borderlands.items.Item.hotbCultistsRobe]{Cultist’s Robes}</p><p><strong>Creatures: </strong><span class=\"CharOverride-2\">4</span> @UUID[Actor.mmCultist0000000]{Cultists}</p></section><section class=\"narrative\"><p>Eventually, you come across an eerie statue in a forest clearing. Strange runes are etched into the stone idol. Four human figures in occult robes gather around the statue, chanting ominously.</p></section><p>Four <strong>Cultists </strong>conduct a ritual around this ancient statue. They belong to the Cult of Chaos, a faction that delights in death and disarray. They are Hostile toward those not garbed in their cult’s attire but don’t immediately notice the characters.</p><p>Activate the <strong>@UUID[Scene.hotbOccultRitual]{Occult Ritual}</strong> Scene for the players to see and place the <strong>Player Character Tokens </strong>near the Suggested Start Area.</p><p>The cultists continue intoning until their ritual is complete or interrupted. If disturbed, they fight.</p><p><em><strong>Adjusting the Difficulty.</strong></em> To make this encounter easier, reduce the number of <strong>Cultists</strong>. Conversely, you can make this encounter more challenging by adding one or more <strong>@UUID[Actor.mmZombie00000000]{Zombies}</strong>, which aid the cultists as undead thralls.</p><p><em><strong>Fooling the Cultists.</strong></em> The cultists are Indifferent toward any character wearing a cultist’s robe, which they might have obtained in the <strong>@UUID[JournalEntry.hotbCavesOfChaos]{Caves of Chaos}</strong>. If a character approaches in this disguise, the cultists solemnly motion for the character to join the ritual, but they begin combat if the character refuses.</p><p><em><strong>Completing the Ritual.</strong></em> If the characters join the ritual—or observe it without drawing attention—the statue’s runes begin to glow with an eerie red light. After 10 minutes, the sky darkens, and the statue suddenly splits in two with a loud crack. Moments later, a wicked, disembodied laugh echoes throughout the forest. The cultists then disband.</p><p><span class=\"CharOverride-3\"><em><strong>Treasure.</strong></em></span> The characters can take robes from the defeated cultists. For each robe they take, give the players a <strong>@UUID[Compendium.dnd-heroes-borderlands.items.Item.hotbCultistsRobe]{Cultist’s Robe}</strong>.</p>"
             },
             "Sacred Spring": {
@@ -5214,16 +5214,16 @@
               "text": "<p>Each time the characters explore this region, roll once on the Woods Encounters table to determine what the characters encounter.</p><p>@Embed[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbWoodsEncount rollable]</p>"
             },
             "Sparring Sprites": {
-              "name": "Sparring Sprites",
+              "name": "Fadas em Combate",
               "text": "<section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong>@UUID[Scene.hotbSparringSpri]{Sparring Sprites}</p><p><strong>Creatures: </strong><span class=\"CharOverride-2\">4</span> @UUID[Actor.mmSprite00000000]{Sprite Skirmishers}</p></section><section class=\"narrative\"><p>Farther into the woods, four diminutive, winged warriors flit between oversized toadstools and mossy logs, firing needlelike arrows from tiny bows. One of them calls out to you.</p><p>“Well met, giant travelers! We are training for battle,” he reports. “Care to spar with us?”</p></section><p>Four <strong>Sprite Skirmishers </strong>spar vigorously in this clearing. The sprites are Indifferent toward the characters but interested in testing their mettle against the party.</p><p>Activate the <strong>@UUID[Scene.hotbSparringSpri]{Sparring Sprites}</strong> Scene for the players to see and place the <strong>Player Character Tokens </strong>near the Suggested Start Area.</p><p><em><strong>Sparring with the Sprites. </strong></em>If the characters agree to spar with the pugnacious fey, the bout proceeds as a nonlethal combat encounter. The sprites bow gracefully, then ready their weapons. Roll Initiative.</p><p>The sprites fight valiantly but with restraint. A player character reduced to 0 Hit Points by a sprite has the &amp;Reference[Unconscious apply=false] condition and is Stable. The sprites expect similar treatment by the characters.</p><p>If all the sprites are defeated, they quickly rouse themselves and commend the characters on their tactical prowess. If all the characters are defeated instead, the sprites wait for the characters to wake up—1 hour later and with 1 Hit Point each—to thank them for helping the sprites train.</p><p><em><strong>Treasure. </strong></em>In exchange for the characters’ spirited participation, the sprites reward the party with one magic item; draw a card from the <strong>@UUID[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbMagicItems00]{Magic Item Table} </strong>to determine the item.</p>"
             }
           }
         },
         "Region 3: Fens": {
-          "name": "Region 3: Fens",
+          "name": "Região 3: Pântano",
           "pages": {
             "Region 3: Fens": {
-              "name": "Region 3: Fens",
+              "name": "Região 3: Pântano",
               "text": "<p>This sodden wetland is home to dangerous wildlife, canny foes, and squelching mud.</p><h2>Fens Features</h2><p>The fens have the following features:</p><p><strong>Lighting. </strong>The fens are in Bright Light.</p><p><strong>Reeds.</strong> Tall, slender reeds grow throughout the soggy wetland. Areas with reeds are &amp;Reference[Lightly Obscured] and &amp;Reference[Difficult Terrain].</p><p><strong>Standing Water.</strong> Shallow, soupy pools of murk pervade the fens. The water is &amp;Reference[Difficult Terrain].</p><h2>Getting Started</h2><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>Mosquitoes buzz about the stands of cattails and gnarled trees in these squashy, stagnant fens. Croaking frogs, chirping cicadas, and squawking birds create an incessant din.</p></section>"
             },
             "Fens Encounters": {
@@ -5231,7 +5231,7 @@
               "text": "<p>Each time the characters explore this region, roll once on the Fens Encounters table to determine what the characters encounter.</p><p>@Embed[Compendium.dnd-heroes-borderlands.tables.RollTable.hotbFensEncounte rollable]</p>"
             },
             "Flock of Stirges": {
-              "name": "Flock of Stirges",
+              "name": "Bando de Estirges",
               "text": "<section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong><span class=\"CharOverride-2\">@UUID[Scene.hotbFlockOfStirg]{Flock of Stirges}<br></span><strong>Creatures: </strong><span class=\"CharOverride-2\">3 @UUID[Actor.mmStirge00000000]{Stirges}</span></p></section><section class=\"narrative\"><p>Your journey halts at a narrow creek bed stained with blood. Near the shore, a giant river rat lies dead in the mud. The carcass is shriveled as if drained of its bodily fluids.<br>Suddenly, a flock of horrid creatures erupts from the reeds. Each has barbed, leathery wings and a long, sharp proboscis. Roll initiative!</p></section><p>Three <strong>Stirges </strong>descend on the characters. These bloodthirsty creatures can’t be reasoned with; the Hostile stirges fight to the death.</p><p>Activate the <strong>@UUID[Scene.hotbFlockOfStirg]{Flock of Stirges}</strong> Scene for the players to see and place the <strong>Player Character Tokens </strong>near the Suggested Start Area.</p><p><em><strong>Adjusting the Difficulty.</strong></em> To make this encounter easier, you can reduce the number of <strong>Stirges</strong>, or you can increase the difficulty by adding one or more <strong>@UUID[Actor.mmGnollWarrior00]{Gnoll Warriors}</strong> drawn here by the scent of blood.</p>"
             },
             "Sword Ferns": {
@@ -5239,7 +5239,7 @@
               "text": "<section class=\"narrative\"><p>As you trudge through the mud, you tumble into a ravine of razor-sharp ferns. To continue, you must navigate this treacherous gully.</p></section><p>A character who examines the ferns can make a [[/skill 12 nat]] check, identifying the plants as sword ferns—bladelike ferns endemic to jungles and wetlands—on a successful check.</p><p>To forge a path through the ferns, each character must succeed on one of the following checks:</p><p><strong>[[/skill 15 athletics]].</strong> The character hacks a path through the ferns with a weapon or stick.</p><p><strong>[[/skill 15 survival]].</strong> The character finds a safe trail through the ferns used by wild animals.</p><p>On a failed check, the character takes [[/damage 1d6 slashing]] damage from the ferns on their way through the gully.</p>"
             },
             "Lizardfolk Swamp": {
-              "name": "Lizardfolk Swamp",
+              "name": "Pântano dos Homens-Lagarto",
               "text": "<section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong><span class=\"CharOverride-2\">@UUID[Scene.hotbLizardfolkSw]{Lizardfolk Swamp}<br></span><strong>Creatures: </strong><span class=\"CharOverride-2\">2 @UUID[Actor.hotbLizardfolkWa]{Lizardfolk Wardens}</span></p></section><section class=\"narrative\"><p>Deeper into the fens, mounds of mud rise above the fetid water and reeds. You spot a glint of gold amid the mud.</p></section><p>The fen’s territorial lizardfolk denizens use these mounds to conceal their treasure. Two <strong>@UUID[Actor.hotbLizardfolkWa]{Lizardfolk Wardens} </strong>hide among the reeds, watching over the mounds. The lizardfolk have the &amp;Reference[Invisible apply=false] condition and are Hostile toward the characters.</p><p>Activate the <strong>@UUID[Scene.hotbLizardfolkSw]{Lizardfolk Swamp}</strong> Scene for the players to see and place the <strong>Player Character Tokens </strong>near the Suggested Start Area. The Wardens have the Invisible status which must be turned off whenever the players should be able to see them.</p><p>After 1 minute, the lizardfolk appear and tersely command the characters to leave at once. If the characters refuse, the lizardfolk fight.</p><p><em><strong>Detecting the Lizardfolk.</strong></em> As a &amp;Reference[Search] action, a character can scan the mud mounds for signs of danger, detecting the lizardfolk with a successful [[/skill prc 15]] check.</p><p><em><strong>Fighting the Lizardfolk.</strong></em> If a character approaches the mound or disturbs the treasure (see below), the lizardfolk leap out and start combat. Characters who failed to detect the lizardfolk before the ambush have Disadvantage on their Initiative rolls. The lizardfolk fight fiercely in defense of their possessions.</p><p><em><strong>Treasure.</strong></em> Hidden in the mounds are [[/award 20GP]] and one @UUID[Compendium.dnd-heroes-borderlands.items.Item.hotbGem000000000]{gemstone}.</p>"
             },
             "Spy’s Campsite": {
@@ -5249,10 +5249,10 @@
           }
         },
         "Region 4: Tamarack Stand": {
-          "name": "Region 4: Tamarack Stand",
+          "name": "Região 4: Bosque de Tamaracos",
           "pages": {
             "Region 4: Tamarack Stand": {
-              "name": "Region 4: Tamarack Stand",
+              "name": "Região 4: Bosque de Tamaracos",
               "text": "<p>This hilly region’s sparse trees have short, bristly needles. Forest fires and giant animals are more common in this stretch of the wilds.</p><h2>Tamarack Stand Features</h2><p>The tamarack stand has the following feature:</p><p><strong>Lighting. </strong>Bright Light illuminates the region.</p><h2>Getting Started</h2><p>To begin, read the following boxed text aloud:</p><section class=\"narrative\"><p>Conifers rise from this highland’s soft, peaty soil. Squirrels skitter about the fallen pinecones and pine needles that blanket the ground.</p></section>"
             },
             "Tamarack Stand Encounters": {
@@ -5264,7 +5264,7 @@
               "text": "<section class=\"narrative\"><p>Your expedition stops at the bottom of a steep gorge—a dead end. As you reorient yourselves, smoke begins to fill the air, and a sudden forest fire spreads through the dry canyon.</p></section><p>The conflagration roars in the party’s direction, engulfing everything in its path.</p><p>To escape the fire unscathed, each character must succeed on one of the following ability checks:</p><p><strong>[[/skill 15 athletics]]. </strong>The character scales the gorge to safety.</p><p><strong>[[/skill 15 acrobatics]]. </strong>The character leaps across the branches, avoiding the flames below.</p><p><strong>[[/skill 15 survival]]. </strong>The character cuts through a thicket of trees with fire-resistant sap.</p><p>On a failed check, a character takes [[/damage 2d6 fire]] damage on their way to safety.</p>"
             },
             "Hobgoblin Patrol": {
-              "name": "Hobgoblin Patrol",
+              "name": "Patrulha Hobgoblin",
               "text": "<section class=\"need-to-play\"><h4>What You Need to Play</h4><p><strong>Scene: </strong><span class=\"CharOverride-2\">@UUID[Scene.hotbHobgoblinPat]{Hobgoblin Patrol}</span></p><p><strong>Creatures: </strong><span class=\"CharOverride-2\">3 @UUID[Actor.mmHobgoblinWarri]{Hobgoblin Warriors}</span></p></section><section class=\"narrative\"><p>Ahead of you, three humanoid warriors in battered armor argue in harsh tones as they march through the forest. They haven’t noticed you yet.</p></section><p>Three <strong>Hobgoblin Warriors </strong>were recently separated from their squadron after a bitter defeat. The Hostile hobgoblins are ornery and assault the characters on sight.</p><p>Activate the Scene for the players to see and place the <strong>Player Character Tokens </strong>near the Suggested Start Area.</p><p><em><strong>Adjusting the Difficulty.</strong></em> To make this encounter easier, you can reduce the number of <strong>Hobgoblin Warriors</strong>. Conversely, add one more <strong>Hobgoblin Warrior</strong> to increase the difficulty.</p><p><em><strong>Eavesdropping on the Hobgoblins.</strong></em> To listen in on the hobgoblins’ argument, a character must come within 30 feet of the patrol and make a [[skill 15 ste]] check. On a successful check, the character hears the hobgoblins debating whether they should ally with the bugbears in the Caves of Chaos or hire the ogre mercenary that dwells there (both are detailed in the <strong>@UUID[JournalEntry.hotbCavesOfChaos]{Caves of Chaos}</strong>). On a failed check, the hobgoblins spot the eavesdropping character and start combat.</p><p><em><strong>Treasure. </strong></em>Each hobgoblin carries a leather pouch that contains [[/award 4GP]].</p>"
             },
             "Giant Spiders’ Nest": {
@@ -5278,7 +5278,7 @@
           }
         },
         "Changelog": {
-          "name": "Changelog",
+          "name": "Registro de Alterações",
           "pages": {
             "1.0.0": {
               "name": "1.0.0",
@@ -5291,7 +5291,7 @@
           }
         },
         "Credits": {
-          "name": "Credits",
+          "name": "Créditos",
           "pages": {
             "License": {
               "name": "License",
